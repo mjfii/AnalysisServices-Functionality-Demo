@@ -1,0 +1,2735 @@
+﻿<Cube xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="cube1" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>Adventure Works</ID>
+  <Name>Financial</Name>
+  <CreatedTimestamp>0001-01-01T08:00:00Z</CreatedTimestamp>
+  <LastSchemaUpdate>0001-01-01T08:00:00Z</LastSchemaUpdate>
+  <Annotations>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:UseDiagramDefaultLayout</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowRelationshipNames</Name>
+      <Value>false</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingTop</Name>
+      <Value>-22732</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowFriendlyNames</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingLeft</Name>
+      <Value>-33249</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortLeft</Name>
+      <Value>-47627</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
+      <Value>
+        <dds xmlns="">
+          <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="150" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-47627" scrolltop="-45677" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="30" x="20664" y="17013" backcolor="15334399" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="0" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
+            <font>
+              <ddsxmlobjectstreamwrapper binary="01000000900144420100065461686f6d61" />
+            </font>
+            <mouseicon>
+              <ddsxmlobjectstreamwrapper binary="6c74000000000000" />
+            </mouseicon>
+          </diagram>
+          <layoutmanager>
+            <ddsxmlobj />
+          </layoutmanager>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.3" tooltip="Date" left="-4033" top="-17892" logicalid="80" controlid="6" masterid="0" hint1="0" hint2="0" width="12208" height="2440" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="00080000b02f000088090000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_DimTime" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.3" tooltip="Account" left="-18641" top="-22732" logicalid="83" controlid="9" masterid="0" hint1="0" hint2="0" width="12208" height="2440" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="00080000b02f000088090000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_DimAccount" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.3" tooltip="Department" left="-33249" top="-17892" logicalid="84" controlid="10" masterid="0" hint1="0" hint2="0" width="12208" height="2440" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="00080000b02f000088090000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_DimDepartmentGroup" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.3" tooltip="Scenario" left="-4033" top="-13052" logicalid="86" controlid="12" masterid="0" hint1="0" hint2="0" width="12208" height="2440" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="00080000b02f000088090000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_DimScenario" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.3" tooltip="Finance Facts" left="-18641" top="-17892" logicalid="87" controlid="13" masterid="0" hint1="0" hint2="0" width="12208" height="2440" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="00080000b02f000088090000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_FactFinance" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.3" tooltip="Organization" left="-18641" top="-13052" logicalid="94" controlid="20" masterid="0" hint1="0" hint2="0" width="12208" height="2440" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="00080000b02f000088090000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_DimOrganization" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+          <ddscontrol controlprogid="MSDDS.Polyline" left="-19941" top="-14352" logicalid="95" controlid="21" masterid="0" hint1="0" hint2="0" width="2754" height="2370" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobj>
+                <polyline endtypedst="6" endtypesrc="3" usercolor="0" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+              </ddsxmlobj>
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dataSet.Relations[FK_DimOrganization_DimOrganization]" vartype="8" />
+                <property name="Virtual" value="0" vartype="11" />
+                <property name="VisibleAP" value="0" vartype="3" />
+              </ddsxmlobj>
+            </layoutobject>
+            <connector lineroutestyle="MSDDS.Rectilinear" sourceid="20" destid="20" sourceattachpoint="44" destattachpoint="2" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+              <point x="-18641" y="-12382" />
+              <point x="-19641" y="-12382" />
+              <point x="-19641" y="-14052" />
+              <point x="-17487" y="-14052" />
+              <point x="-17487" y="-13052" />
+            </connector>
+          </ddscontrol>
+          <ddscontrol controlprogid="MSDDS.Polyline" left="-14036" top="-15752" logicalid="96" controlid="22" masterid="0" hint1="0" hint2="0" width="799" height="3200" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobj>
+                <polyline endtypedst="6" endtypesrc="3" usercolor="0" linestyle="0" linerender="2" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+              </ddsxmlobj>
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dataSet.Relations[FK_FactFinance_DimOrganization]" vartype="8" />
+                <property name="Virtual" value="0" vartype="11" />
+                <property name="VisibleAP" value="0" vartype="3" />
+              </ddsxmlobj>
+            </layoutobject>
+            <connector lineroutestyle="MSDDS.Rectilinear" sourceid="20" destid="13" sourceattachpoint="16" destattachpoint="17" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+              <point x="-13637" y="-13052" />
+              <point x="-13637" y="-15452" />
+            </connector>
+          </ddscontrol>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.3" tooltip="Destination Currency" left="-33249" top="-13052" logicalid="105" controlid="31" masterid="0" hint1="0" hint2="0" width="12208" height="2440" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="00080000b02f000088090000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="DimDestinationCurrency" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+          <ddscontrol controlprogid="MSDDS.Polyline" left="-21341" top="-12231" logicalid="107" controlid="33" masterid="0" hint1="0" hint2="0" width="3000" height="799" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobj>
+                <polyline endtypedst="6" endtypesrc="3" usercolor="0" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+              </ddsxmlobj>
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dataSet.Relations[DimOrganization-DimDestinationCurrency]" vartype="8" />
+                <property name="Virtual" value="0" vartype="11" />
+                <property name="VisibleAP" value="0" vartype="3" />
+              </ddsxmlobj>
+            </layoutobject>
+            <connector lineroutestyle="MSDDS.Rectilinear" sourceid="31" destid="20" sourceattachpoint="47" destattachpoint="46" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+              <point x="-21041" y="-11832" />
+              <point x="-18641" y="-11832" />
+            </connector>
+          </ddscontrol>
+          <ddscontrol controlprogid="MSDDS.Polyline" left="-21341" top="-17071" logicalid="138" controlid="64" masterid="0" hint1="0" hint2="0" width="3000" height="799" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobj>
+                <polyline endtypedst="6" endtypesrc="3" usercolor="0" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+              </ddsxmlobj>
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dataSet.Relations[FK_FactFinance_DimDepartmentGroup]" vartype="8" />
+                <property name="Virtual" value="0" vartype="11" />
+                <property name="VisibleAP" value="0" vartype="3" />
+              </ddsxmlobj>
+            </layoutobject>
+            <connector lineroutestyle="MSDDS.Rectilinear" sourceid="10" destid="13" sourceattachpoint="47" destattachpoint="46" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+              <point x="-21041" y="-16672" />
+              <point x="-18641" y="-16672" />
+            </connector>
+          </ddscontrol>
+          <ddscontrol controlprogid="MSDDS.Polyline" left="-12287" top="-15752" logicalid="139" controlid="65" masterid="0" hint1="0" hint2="0" width="14758" height="3200" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobj>
+                <polyline endtypedst="6" endtypesrc="3" usercolor="0" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+              </ddsxmlobj>
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dataSet.Relations[FK_FactFinance_DimScenario]" vartype="8" />
+                <property name="Virtual" value="0" vartype="11" />
+                <property name="VisibleAP" value="0" vartype="3" />
+              </ddsxmlobj>
+            </layoutobject>
+            <connector lineroutestyle="MSDDS.Rectilinear" sourceid="12" destid="13" sourceattachpoint="20" destattachpoint="23" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+              <point x="2071" y="-13052" />
+              <point x="2071" y="-14252" />
+              <point x="-11987" y="-14252" />
+              <point x="-11987" y="-15452" />
+            </connector>
+          </ddscontrol>
+          <ddscontrol controlprogid="MSDDS.Polyline" left="-6733" top="-17071" logicalid="140" controlid="66" masterid="0" hint1="0" hint2="0" width="3000" height="799" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobj>
+                <polyline endtypedst="6" endtypesrc="3" usercolor="0" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+              </ddsxmlobj>
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dataSet.Relations[FK_FactFinance_DimDate]" vartype="8" />
+                <property name="Virtual" value="0" vartype="11" />
+                <property name="VisibleAP" value="0" vartype="3" />
+              </ddsxmlobj>
+            </layoutobject>
+            <connector lineroutestyle="MSDDS.Rectilinear" sourceid="6" destid="13" sourceattachpoint="46" destattachpoint="47" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+              <point x="-4033" y="-16672" />
+              <point x="-6433" y="-16672" />
+            </connector>
+          </ddscontrol>
+          <ddscontrol controlprogid="MSDDS.Polyline" left="-12936" top="-20791" logicalid="141" controlid="67" masterid="0" hint1="0" hint2="0" width="799" height="3199" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobj>
+                <polyline endtypedst="6" endtypesrc="3" usercolor="0" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+              </ddsxmlobj>
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dataSet.Relations[FK_FactFinance_DimAccount]" vartype="8" />
+                <property name="Virtual" value="0" vartype="11" />
+                <property name="VisibleAP" value="0" vartype="3" />
+              </ddsxmlobj>
+            </layoutobject>
+            <connector lineroutestyle="MSDDS.Rectilinear" sourceid="9" destid="13" sourceattachpoint="21" destattachpoint="20" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+              <point x="-12537" y="-20292" />
+              <point x="-12537" y="-17892" />
+            </connector>
+          </ddscontrol>
+          <ddscontrol controlprogid="MSDDS.Polyline" left="-34549" top="-19192" logicalid="142" controlid="68" masterid="0" hint1="0" hint2="0" width="2754" height="2370" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobj>
+                <polyline endtypedst="6" endtypesrc="3" usercolor="0" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+              </ddsxmlobj>
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dataSet.Relations[FK_DimDepartmentGroup_DimDepartmentGroup]" vartype="8" />
+                <property name="Virtual" value="0" vartype="11" />
+                <property name="VisibleAP" value="0" vartype="3" />
+              </ddsxmlobj>
+            </layoutobject>
+            <connector lineroutestyle="MSDDS.Rectilinear" sourceid="10" destid="10" sourceattachpoint="44" destattachpoint="2" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+              <point x="-33249" y="-17222" />
+              <point x="-34249" y="-17222" />
+              <point x="-34249" y="-18892" />
+              <point x="-32095" y="-18892" />
+              <point x="-32095" y="-17892" />
+            </connector>
+          </ddscontrol>
+          <ddscontrol controlprogid="MSDDS.Polyline" left="-19941" top="-24032" logicalid="143" controlid="69" masterid="0" hint1="0" hint2="0" width="2754" height="2370" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobj>
+                <polyline endtypedst="6" endtypesrc="3" usercolor="0" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+              </ddsxmlobj>
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dataSet.Relations[FK_DimAccount_DimAccount]" vartype="8" />
+                <property name="Virtual" value="0" vartype="11" />
+                <property name="VisibleAP" value="0" vartype="3" />
+              </ddsxmlobj>
+            </layoutobject>
+            <connector lineroutestyle="MSDDS.Rectilinear" sourceid="9" destid="9" sourceattachpoint="44" destattachpoint="2" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+              <point x="-18641" y="-22062" />
+              <point x="-19641" y="-22062" />
+              <point x="-19641" y="-23732" />
+              <point x="-17487" y="-23732" />
+              <point x="-17487" y="-22732" />
+            </connector>
+          </ddscontrol>
+        </dds>
+      </Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortTop</Name>
+      <Value>-45677</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramZoom</Name>
+      <Value>30</Value>
+    </Annotation>
+  </Annotations>
+  <LastProcessed>0001-01-01T08:00:00Z</LastProcessed>
+  <State>Unprocessed</State>
+  <Translations>
+    <Translation dwd:design-time-name="translation1">
+      <Language>3082</Language>
+      <Caption>Adventure Works</Caption>
+    </Translation>
+    <Translation dwd:design-time-name="translation36">
+      <Language>1036</Language>
+      <Caption>Adventure Works</Caption>
+    </Translation>
+  </Translations>
+  <Dimensions>
+    <Dimension dwd:design-time-name="cubeDimension1">
+      <ID>Order Date Key - Dim Time</ID>
+      <Name>Date</Name>
+      <Translations>
+        <Translation dwd:design-time-name="translation17">
+          <Language>3082</Language>
+          <Caption>Fecha</Caption>
+        </Translation>
+        <Translation dwd:design-time-name="translation52">
+          <Language>1036</Language>
+          <Caption>Date</Caption>
+        </Translation>
+      </Translations>
+      <DimensionID>Dim Time</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="cubeAttribute1">
+          <AttributeID>Fiscal Year</AttributeID>
+          <AggregationUsage>None</AggregationUsage>
+        </Attribute>
+        <Attribute dwd:design-time-name="cubeAttribute2">
+          <AttributeID>TimeKey</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="cubeAttribute3">
+          <AttributeID>CalendarQuarterDesc</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="cubeAttribute4">
+          <AttributeID>FiscalQuarterDesc</AttributeID>
+          <AggregationUsage>None</AggregationUsage>
+        </Attribute>
+        <Attribute dwd:design-time-name="cubeAttribute6">
+          <AttributeID>CalendarSemesterDesc</AttributeID>
+          <AggregationUsage>None</AggregationUsage>
+        </Attribute>
+        <Attribute dwd:design-time-name="cubeAttribute7">
+          <AttributeID>FiscalSemesterDesc</AttributeID>
+          <AggregationUsage>None</AggregationUsage>
+        </Attribute>
+        <Attribute dwd:design-time-name="cubeAttribute9">
+          <AttributeID>DayNameOfWeek</AttributeID>
+          <AggregationUsage>None</AggregationUsage>
+        </Attribute>
+        <Attribute dwd:design-time-name="cubeAttribute10">
+          <AttributeID>DayNumberOfMonth</AttributeID>
+          <AggregationUsage>None</AggregationUsage>
+        </Attribute>
+        <Attribute dwd:design-time-name="cubeAttribute11">
+          <AttributeID>DayNumberOfYear</AttributeID>
+          <AggregationUsage>None</AggregationUsage>
+        </Attribute>
+        <Attribute dwd:design-time-name="cubeAttribute13">
+          <AttributeID>MonthName</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="cubeAttribute15">
+          <AttributeID>CalendarYear</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="eca8cba9-3c85-434f-ad55-4adedea7ed24">
+          <AttributeID>FiscalSemesterOfYearDesc</AttributeID>
+          <AggregationUsage>None</AggregationUsage>
+        </Attribute>
+        <Attribute dwd:design-time-name="2a50f079-d042-4c48-84a8-2b5564184046">
+          <AttributeID>CalendarSemesterOfYearDesc</AttributeID>
+          <AggregationUsage>None</AggregationUsage>
+        </Attribute>
+        <Attribute dwd:design-time-name="57a28d71-fc32-4428-8405-c185e7da4521">
+          <AttributeID>FiscalQuarterOfYearDesc</AttributeID>
+          <AggregationUsage>None</AggregationUsage>
+        </Attribute>
+        <Attribute dwd:design-time-name="919333db-9219-4fed-ae5f-0ba083e53818">
+          <AttributeID>CalendarQuarterOfYear</AttributeID>
+          <AggregationUsage>None</AggregationUsage>
+        </Attribute>
+        <Attribute dwd:design-time-name="5ef6de65-9637-4c25-8f2b-47b4f7f1156a">
+          <AttributeID>EnglishMonthName</AttributeID>
+        </Attribute>
+      </Attributes>
+      <Hierarchies>
+        <Hierarchy dwd:design-time-name="cubeHierarchy1">
+          <HierarchyID>Fiscal Year -  Fiscal Quarter</HierarchyID>
+        </Hierarchy>
+        <Hierarchy dwd:design-time-name="cubeHierarchy2">
+          <HierarchyID>Hierarchy</HierarchyID>
+        </Hierarchy>
+      </Hierarchies>
+    </Dimension>
+    <Dimension dwd:design-time-name="b6d41f9e-ad65-4051-aaa9-47f38bf53d18">
+      <ID>Destination Currency</ID>
+      <Name>Destination Currency</Name>
+      <Translations>
+        <Translation dwd:design-time-name="50aeb30d-6140-494c-9b35-a90933cc3431">
+          <Language>3082</Language>
+          <Caption>Divisa de Destino</Caption>
+        </Translation>
+        <Translation dwd:design-time-name="3c2cd934-9050-4f87-a187-02ac081b972c">
+          <Language>1036</Language>
+          <Caption>Devise de Conversion</Caption>
+        </Translation>
+      </Translations>
+      <DimensionID>Dim Destination Currency</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="1e6de6c7-58c6-4dcd-8ab4-bfd029ade196">
+          <AttributeID>Dim Destination Currency</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="b0f31f86-284f-4da2-8e27-8f58de160676">
+          <AttributeID>Currency Alternate Key</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="58c77b3b-43ca-4ee1-881a-2bfb0f4e520a">
+          <AttributeID>LCID</AttributeID>
+          <AttributeHierarchyEnabled>false</AttributeHierarchyEnabled>
+        </Attribute>
+      </Attributes>
+    </Dimension>
+    <Dimension dwd:design-time-name="cubeDimension12">
+      <ID>Dim Organization</ID>
+      <Name>Organization</Name>
+      <Translations>
+        <Translation dwd:design-time-name="translation31">
+          <Language>3082</Language>
+          <Caption>Organización</Caption>
+        </Translation>
+        <Translation dwd:design-time-name="translation66">
+          <Language>1036</Language>
+          <Caption>Organisation</Caption>
+        </Translation>
+      </Translations>
+      <DimensionID>Dim Organization</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="cubeAttribute145">
+          <AttributeID>Parent Organization Key</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="cubeAttribute146">
+          <AttributeID>Organization Name</AttributeID>
+          <AggregationUsage>Full</AggregationUsage>
+        </Attribute>
+        <Attribute dwd:design-time-name="7e4ba42f-3264-4f00-a0f8-fae79928e842">
+          <AttributeID>Currency Alternate Key</AttributeID>
+        </Attribute>
+      </Attributes>
+    </Dimension>
+    <Dimension dwd:design-time-name="cubeDimension11">
+      <ID>Dim Department Group</ID>
+      <Name>Department</Name>
+      <Translations>
+        <Translation dwd:design-time-name="translation30">
+          <Language>3082</Language>
+          <Caption>Departamento</Caption>
+        </Translation>
+        <Translation dwd:design-time-name="translation65">
+          <Language>1036</Language>
+          <Caption>Département</Caption>
+        </Translation>
+      </Translations>
+      <DimensionID>Dim Department Group</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="cubeAttribute143">
+          <AttributeID>Parent Department Group Key</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="cubeAttribute144">
+          <AttributeID>Department Group Name</AttributeID>
+        </Attribute>
+      </Attributes>
+    </Dimension>
+    <Dimension dwd:design-time-name="cubeDimension10">
+      <ID>Dim Account</ID>
+      <Name>Account</Name>
+      <Translations>
+        <Translation dwd:design-time-name="translation29">
+          <Language>3082</Language>
+          <Caption>Cuenta</Caption>
+        </Translation>
+        <Translation dwd:design-time-name="translation64">
+          <Language>1036</Language>
+          <Caption>Compte</Caption>
+        </Translation>
+      </Translations>
+      <DimensionID>Dim Account</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="cubeAttribute138">
+          <AttributeID>Parent Account Key</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="cubeAttribute139">
+          <AttributeID>Account Description</AttributeID>
+          <AggregationUsage>Full</AggregationUsage>
+        </Attribute>
+        <Attribute dwd:design-time-name="cubeAttribute140">
+          <AttributeID>Account Type</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="6f93a686-1be5-48d1-bac3-2e7619e1bb0e">
+          <AttributeID>AccountKey</AttributeID>
+        </Attribute>
+      </Attributes>
+    </Dimension>
+    <Dimension dwd:design-time-name="cubeDimension13">
+      <ID>Dim Scenario</ID>
+      <Name>Scenario</Name>
+      <Translations>
+        <Translation dwd:design-time-name="translation32">
+          <Language>3082</Language>
+          <Caption>Escenario</Caption>
+        </Translation>
+        <Translation dwd:design-time-name="translation67">
+          <Language>1036</Language>
+          <Caption>Scénario</Caption>
+        </Translation>
+      </Translations>
+      <DimensionID>Dim Scenario</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="cubeAttribute148">
+          <AttributeID>Scenario Name</AttributeID>
+        </Attribute>
+      </Attributes>
+    </Dimension>
+  </Dimensions>
+  <CubePermissions>
+    <CubePermission dwd:design-time-name="0f4b8f99-4f52-4a42-896a-6c95a4a747e3">
+      <ID>CubePermission</ID>
+      <Name>CubePermission</Name>
+      <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+      <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+      <RoleID>Role</RoleID>
+      <ReadDefinition>Basic</ReadDefinition>
+      <ReadSourceData>Allowed</ReadSourceData>
+    </CubePermission>
+  </CubePermissions>
+  <DefaultMeasure>[Measures].[Amount]</DefaultMeasure>
+  <MeasureGroups>
+    <MeasureGroup dwd:design-time-name="measureGroup3">
+      <ID>Fact Finance</ID>
+      <Name>Financial Reporting</Name>
+      <CreatedTimestamp>0001-01-01T08:00:00Z</CreatedTimestamp>
+      <LastSchemaUpdate>0001-01-01T08:00:00Z</LastSchemaUpdate>
+      <LastProcessed>0001-01-01T08:00:00Z</LastProcessed>
+      <State>Unprocessed</State>
+      <Translations>
+        <Translation dwd:design-time-name="060f26cf-e5d1-430e-b2da-12714bc1711a">
+          <Language>1036</Language>
+          <Caption>Reporting Financier</Caption>
+        </Translation>
+        <Translation dwd:design-time-name="29c8d76c-7415-4322-872f-b73c546b5719">
+          <Language>3082</Language>
+          <Caption>Reporte Financiero</Caption>
+        </Translation>
+      </Translations>
+      <Type>FinancialReporting</Type>
+      <Measures>
+        <Measure dwd:design-time-name="measure16">
+          <ID>Amount</ID>
+          <Name>Amount</Name>
+          <AggregateFunction>ByAccount</AggregateFunction>
+          <Source dwd:design-time-name="dataItem16">
+            <DataType>Double</DataType>
+            <Collation>Latin1_General_CI_AS</Collation>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="columnBinding16">
+              <TableID>dbo_FactFinance</TableID>
+              <ColumnID>Amount</ColumnID>
+            </Source>
+          </Source>
+          <FormatString>Currency</FormatString>
+          <Translations>
+            <Translation dwd:design-time-name="translation15">
+              <Language>3082</Language>
+              <Caption>Suma</Caption>
+              <DisplayFolder></DisplayFolder>
+            </Translation>
+            <Translation dwd:design-time-name="translation50">
+              <Language>1036</Language>
+              <Caption>Montant</Caption>
+              <DisplayFolder></DisplayFolder>
+            </Translation>
+          </Translations>
+        </Measure>
+      </Measures>
+      <StorageMode>Molap</StorageMode>
+      <IgnoreUnrelatedDimensions>false</IgnoreUnrelatedDimensions>
+      <EstimatedRows>39409</EstimatedRows>
+      <ProcessingMode>Regular</ProcessingMode>
+      <Dimensions>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="regularMeasureGroupDimension14">
+          <CubeDimensionID>Dim Scenario</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="measureGroupAttribute10">
+              <AttributeID>Scenario Name</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="dataItem1">
+                  <DataType>Integer</DataType>
+                  <DataSize>-1</DataSize>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="columnBinding1">
+                    <TableID>dbo_FactFinance</TableID>
+                    <ColumnID>ScenarioKey</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="regularMeasureGroupDimension13">
+          <CubeDimensionID>Dim Organization</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="measureGroupAttribute19">
+              <AttributeID>Organization Name</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="dataItem2">
+                  <DataType>Integer</DataType>
+                  <DataSize>-1</DataSize>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="columnBinding2">
+                    <TableID>dbo_FactFinance</TableID>
+                    <ColumnID>OrganizationKey</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="regularMeasureGroupDimension12">
+          <CubeDimensionID>Dim Department Group</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="measureGroupAttribute20">
+              <AttributeID>Department Group Name</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="dataItem14">
+                  <DataType>Integer</DataType>
+                  <DataSize>-1</DataSize>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="columnBinding14">
+                    <TableID>dbo_FactFinance</TableID>
+                    <ColumnID>DepartmentGroupKey</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="regularMeasureGroupDimension11">
+          <CubeDimensionID>Dim Account</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="measureGroupAttribute21">
+              <AttributeID>Account Description</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="dataItem37">
+                  <DataType>Integer</DataType>
+                  <DataSize>-1</DataSize>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="columnBinding37">
+                    <TableID>dbo_FactFinance</TableID>
+                    <ColumnID>AccountKey</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+        <Dimension xsi:type="ReferenceMeasureGroupDimension" dwd:design-time-name="7333e06d-7024-4013-820e-02c0ba89de27">
+          <CubeDimensionID>Destination Currency</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="8d08a863-7677-4614-882c-7beb5d833098">
+              <AttributeID>Currency Alternate Key</AttributeID>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+          <IntermediateCubeDimensionID>Dim Organization</IntermediateCubeDimensionID>
+          <IntermediateGranularityAttributeID>Currency Alternate Key</IntermediateGranularityAttributeID>
+          <Materialization>Regular</Materialization>
+          <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+        </Dimension>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="3c06da3b-1cd2-4a1a-a82f-470c4cf1dad2">
+          <CubeDimensionID>Order Date Key - Dim Time</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="f2f5fc04-4c59-4390-a56c-8900c375c15f">
+              <AttributeID>TimeKey</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="44f896b0-c94f-40e8-bf37-7268bb25a128">
+                  <DataType>Integer</DataType>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="c21e04a0-cf94-4c5e-b626-22ec9b9d0980">
+                    <TableID>dbo_FactFinance</TableID>
+                    <ColumnID>DateKey</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+      </Dimensions>
+      <Partitions />
+    </MeasureGroup>
+  </MeasureGroups>
+  <Source dwd:design-time-name="dataSourceViewBinding1">
+    <DataSourceViewID>Adventure Works DW</DataSourceViewID>
+  </Source>
+  <MdxScripts>
+    <MdxScript dwd:design-time-name="mdxScript1">
+      <ID>MdxScript</ID>
+      <Name>MdxScript</Name>
+      <CreatedTimestamp>0001-01-01T08:00:00Z</CreatedTimestamp>
+      <LastSchemaUpdate>0001-01-01T08:00:00Z</LastSchemaUpdate>
+      <Commands>
+        <Command>
+          <Text>/*-- Aggregate leaf data -----------------------------------------------*/
+Calculate;                
+
+
+/*-- Set default member for the Destination Currency cube dimension ----*/
+Alter Cube 
+  CurrentCube 
+    Update Dimension [Destination Currency].[Destination Currency], 
+      Default_Member = [Destination Currency].[Destination Currency].[US Dollar];         
+
+
+
+/*-- Set language property for the Destination Currency cube dimension --*/
+Scope
+(
+   [Destination Currency].[Destination Currency Code].Members,
+   [Destination Currency].[Destination Currency].[Destination Currency].Members
+
+);       
+
+   Language(This)=[Destination Currency].[Destination Currency].Properties("Locale");       
+
+End Scope;
+
+/*-----------------------------------------------------------------------------
+ | Financial Reporting Calculations |
+-----------------------------------------------------------------------------*/
+
+
+/*-- Assignment of format string for non-currency accounts -------------*/
+
+Scope 
+(
+   [Measures].[Amount],
+   { 
+     [Account].[Accounts].[Account Level 02].&amp;[96],   -- Headcount
+     [Account].[Accounts].[Account Level 02].&amp;[97],   -- Units
+     [Account].[Accounts].[Account Level 02].&amp;[99]    -- Square Footage
+   } 
+);         
+
+    Format_String ( This ) = "#,#";         
+
+End Scope;         
+
+
+
+
+Create Set CurrentCube.[Summary P&amp;L]
+ As {
+      [Account].[Accounts].[Account Level 01].&amp;[47], -- Net Income
+      [Account].[Accounts].[Account Level 02].&amp;[48], -- Operating Profit
+      [Account].[Accounts].[Account Level 03].&amp;[49], -- Gross Margin
+      [Account].[Accounts].[Account Level 04].&amp;[50], -- Net Sales
+      [Account].[Accounts].[Account Level 05].&amp;[54], -- Discounts
+      [Account].[Accounts].[Account Level 05].&amp;[51], -- Gross Sales
+      [Account].[Accounts].[Account Level 05].&amp;[53], -- Returns
+      [Account].[Accounts].[Account Level 04].&amp;[55], -- Total Cost/Sales
+      [Account].[Accounts].[Account Level 03].&amp;[58], -- Operating Expense
+      [Account].[Accounts].[Account Level 02].&amp;[88], -- Other I/E
+      [Account].[Accounts].[Account Level 03].&amp;[93], -- Currency G/L
+      [Account].[Accounts].[Account Level 03].&amp;[91], -- Asset Sales G/L
+      [Account].[Accounts].[Account Level 03].&amp;[90], -- Interest Expense
+      [Account].[Accounts].[Account Level 03].&amp;[89], -- Interest Income
+      [Account].[Accounts].[Account Level 03].&amp;[92], -- Other Income
+      [Account].[Accounts].[Account Level 02].&amp;[94]  -- Taxes
+    } 
+,
+Display_Folder = 'Sets';            
+
+
+/*-- Variance and Variance % Calculations ------------------------------*/
+
+Create Member CurrentCube.[Scenario].[Scenario].[Budget Variance]
+
+ As Case
+        When IsEmpty
+             (
+                ( 
+                  [Measures].[Amount],
+                  [Scenario].[Scenario].[Budget] 
+                )
+             ) 
+
+        Then Null
+
+        When [Account].[Accounts].CurrentMember.Properties("Account Type") = "Expenditures"
+             Or
+             [Account].[Accounts].CurrentMember.Properties("Account Type") = "Liabilities"
+
+        Then ( [Measures].[Amount],[Scenario].[Scenario].[Budget] ) 
+             -
+             ( [Measures].[Amount],[Scenario].[Scenario].[Actual] )
+
+        Else ( [Measures].[Amount],[Scenario].[Scenario].[Actual] ) 
+             -
+             ( [Measures].[Amount],[Scenario].[Scenario].[Budget] )
+    End,
+ 
+Format_String = "Currency", 
+Non_Empty_Behavior = ( [Measures].[Amount], [Scenario].[Scenario].[Budget] );       
+
+// Assignment of format string for empty cells
+
+If 
+    IsEmpty
+    (
+       ( 
+         [Measures].[Amount],
+         [Scenario].[Scenario].[Budget] 
+       )
+    ) 
+Then
+    Format_String 
+    ( 
+       [Scenario].[Scenario].[Budget Variance] 
+    ) = 
+    "#;;;Not Budgeted"
+End If;        
+      
+
+Create Member CurrentCube.[Scenario].[Scenario].[Budget Variance %]
+
+ As Case
+        When IsEmpty
+             (
+                ( 
+                  [Measures].[Amount],
+                  [Scenario].[Scenario].[Budget] 
+                )
+             ) 
+
+        Then Null 
+
+        When [Account].[Accounts].CurrentMember.Properties("Account Type") = "Expenditures"
+             Or
+             [Account].[Accounts].CurrentMember.Properties("Account Type") = "Liabilities"
+
+        Then ( 
+               ( [Measures].[Amount],[Scenario].[Scenario].[Budget] ) 
+               -
+               ( [Measures].[Amount],[Scenario].[Scenario].[Actual] ) 
+             )
+             / 
+             ( [Measures].[Amount],[Scenario].[Scenario].[Budget] )
+
+        Else ( 
+               ( [Measures].[Amount],[Scenario].[Scenario].[Actual] ) 
+               -
+               ( [Measures].[Amount],[Scenario].[Scenario].[Budget] ) 
+             )
+             / 
+             ( [Measures].[Amount],[Scenario].[Scenario].[Budget] ) 
+    End,
+
+Format_String = "Percent",
+
+/*-- Variance is color coded based on maximum descendant value ---------*/
+
+Back_Color = 
+    Case
+        When IsEmpty
+            (
+              ( 
+                [Measures].[Amount],
+                [Scenario].[Scenario].[Budget] 
+              )
+            ) 
+
+        Then Null 
+
+        When Max
+             (
+                Descendants
+                ( 
+                   [Account].[Accounts].CurrentMember, , 
+                   Self_And_After
+                ),
+                VBA!Abs     -- VBA
+                (
+                   [Scenario].[Scenario].CurrentMember 
+                )
+             ) 
+             &lt;= .05  
+
+        Then 9035969        -- Green 
+
+        When Max
+             (
+                Descendants
+                ( 
+                   [Account].[Accounts].CurrentMember, ,
+                   Self_And_After
+                ),
+                VBA!Abs     -- VBA
+                (
+                   [Scenario].[Scenario].CurrentMember 
+                )
+             ) 
+             &lt;= .10
+
+        Then 4577517        -- Yellow
+
+        Else 6384849        -- Red
+    End,
+ 
+Non_Empty_Behavior = ( [Measures].[Amount], [Scenario].[Scenario].[Budget] );          
+
+
+// Assignment of format string for empty cells
+
+If 
+    IsEmpty
+    (
+       ( 
+         [Measures].[Amount],
+         [Scenario].[Scenario].[Budget] 
+       )
+    ) 
+Then
+    Format_String 
+    ( 
+       [Scenario].[Scenario].[Budget Variance %] 
+    ) = 
+    "#;;;Not Budgeted"
+End If;        
+
+
+// Assignment of constant for Statistical Accounts account member.
+// This will allow parent member to be visible by default.
+
+( [Account].[Accounts].&amp;[95], [Measures].[Amount] ) = "NA"; </Text>
+        </Command>
+      </Commands>
+      <CalculationProperties>
+        <CalculationProperty dwd:design-time-name="ea6e5e00-bdff-46b5-890f-4c2ff7d3b4aa">
+          <CalculationReference>[Measures].[Discount Percentage]</CalculationReference>
+          <CalculationType>Member</CalculationType>
+          <Translations>
+            <Translation dwd:design-time-name="4ee44a40-e34f-4327-bd0a-d88e5c61bc24">
+              <Language>3082</Language>
+              <Caption>Porcentaje de Descuento</Caption>
+            </Translation>
+            <Translation dwd:design-time-name="fb0c5215-517f-4f25-91ac-66b00d6c0523">
+              <Language>1036</Language>
+              <Caption>Pourcentage de Remise</Caption>
+            </Translation>
+          </Translations>
+        </CalculationProperty>
+        <CalculationProperty dwd:design-time-name="0f194113-4902-48fb-89db-5d2aaabeaa2a">
+          <CalculationReference>[Measures].[Internet Ratio to All Products]</CalculationReference>
+          <CalculationType>Member</CalculationType>
+          <Translations>
+            <Translation dwd:design-time-name="88b48652-da3d-46fc-ae3d-c57350942b5a">
+              <Language>3082</Language>
+              <Caption>Rata de Internet a Todos los Productos</Caption>
+            </Translation>
+            <Translation dwd:design-time-name="6c2ee0ab-691f-4bc3-8362-9baf39d37062">
+              <Language>1036</Language>
+              <Caption>Pourcentage de Vente par Produit (Total) (Internet)</Caption>
+            </Translation>
+          </Translations>
+        </CalculationProperty>
+        <CalculationProperty dwd:design-time-name="a072aafe-0010-4afe-9a8e-565129cae860">
+          <CalculationReference>[Measures].[Internet Ratio to Parent Product]</CalculationReference>
+          <CalculationType>Member</CalculationType>
+          <Translations>
+            <Translation dwd:design-time-name="c988da2a-eabd-4d3e-8f74-3ac08d85f209">
+              <Language>3082</Language>
+              <Caption>Cociente del Internet al Producto Madre</Caption>
+            </Translation>
+            <Translation dwd:design-time-name="e057f5cd-5ab2-4687-b433-01be30a5b8a8">
+              <Language>1036</Language>
+              <Caption>Pourcentage de Vente par Produit (Par Rapport au Parent) (Internet)</Caption>
+            </Translation>
+          </Translations>
+        </CalculationProperty>
+        <CalculationProperty dwd:design-time-name="ef4b1e8b-40db-498e-aa78-cceeb3f085b3">
+          <CalculationReference>[Measures].[Reseller Ratio to All Products]</CalculationReference>
+          <CalculationType>Member</CalculationType>
+          <Translations>
+            <Translation dwd:design-time-name="07b34b5d-9a37-4f61-9a92-ab8266ae5adb">
+              <Language>3082</Language>
+              <Caption>Cociente del Revendedor a Todos los Productos</Caption>
+            </Translation>
+            <Translation dwd:design-time-name="78160792-9dd9-4ca7-bf03-bbdbd61aec5c">
+              <Language>1036</Language>
+              <Caption>Pourcentage de Vente par Produit (Total) (Revendeur)</Caption>
+            </Translation>
+          </Translations>
+        </CalculationProperty>
+        <CalculationProperty dwd:design-time-name="827d42a7-a9ce-4fa4-9c0e-c3073b7f77a8">
+          <CalculationReference>[Measures].[Reseller Ratio to Parent Product]</CalculationReference>
+          <CalculationType>Member</CalculationType>
+          <Translations>
+            <Translation dwd:design-time-name="eb772b4c-1b27-4b45-8e09-364a192e7ed0">
+              <Language>3082</Language>
+              <Caption>Cociente del Revendedor a los Productos del Padre</Caption>
+            </Translation>
+            <Translation dwd:design-time-name="3a97fbb8-c9ed-4bf2-a50c-62b8e6e52088">
+              <Language>1036</Language>
+              <Caption>Pourcentage de Vente par Produit (Par Rapport au Parent) (Revendeur)</Caption>
+            </Translation>
+          </Translations>
+        </CalculationProperty>
+        <CalculationProperty dwd:design-time-name="e4a800b2-4a5e-47e0-8683-40573ddc2ba4">
+          <CalculationReference>[Measures].[Ratio to All Products]</CalculationReference>
+          <CalculationType>Member</CalculationType>
+          <Translations>
+            <Translation dwd:design-time-name="48880359-5ad1-4013-962e-f3afe4f6b4ea">
+              <Language>3082</Language>
+              <Caption>Relación a Todos los Productos</Caption>
+            </Translation>
+            <Translation dwd:design-time-name="f75c7472-63fe-44d0-842d-89f80b44fadc">
+              <Language>1036</Language>
+              <Caption>Pourcentage de Vente par Produit (Total)</Caption>
+            </Translation>
+          </Translations>
+        </CalculationProperty>
+        <CalculationProperty dwd:design-time-name="a49e1d2d-1a63-4bc0-b328-63ecbaef2e16">
+          <CalculationReference>[Measures].[Ratio to Parent Product]</CalculationReference>
+          <CalculationType>Member</CalculationType>
+          <Translations>
+            <Translation dwd:design-time-name="ab742d43-67d5-4baa-90fc-df3d2e95b24a">
+              <Language>3082</Language>
+              <Caption>Relación al Producto Madre</Caption>
+            </Translation>
+            <Translation dwd:design-time-name="d9fa00b9-47d3-405f-b69a-94f17ccbfb92">
+              <Language>1036</Language>
+              <Caption>Pourcentage de Vente par Produit (Par Rapport au Parent)</Caption>
+            </Translation>
+          </Translations>
+        </CalculationProperty>
+        <CalculationProperty dwd:design-time-name="732aff56-f522-4fad-b309-11fefb5d0378">
+          <CalculationReference>[Measures].[Expense to Revenue Ratio]</CalculationReference>
+          <CalculationType>Member</CalculationType>
+          <Translations>
+            <Translation dwd:design-time-name="617bdb84-577d-4e05-bc94-7e7649c394f4">
+              <Language>3082</Language>
+              <Caption>Relacion Gasto a Ingreso</Caption>
+            </Translation>
+            <Translation dwd:design-time-name="613935b1-1b4c-4f52-8a06-de51295fbce8">
+              <Language>1036</Language>
+              <Caption>Ratio Coûts sur Revenu</Caption>
+            </Translation>
+          </Translations>
+        </CalculationProperty>
+        <CalculationProperty dwd:design-time-name="beaf28bf-4128-4d58-9417-ce63751672b7">
+          <CalculationReference>[Measures].[Growth in Customer Base]</CalculationReference>
+          <CalculationType>Member</CalculationType>
+          <Translations>
+            <Translation dwd:design-time-name="04132939-d573-4c3f-b469-07d15db21a8a">
+              <Language>3082</Language>
+              <Caption>Crecimiento Cartera de Clientes</Caption>
+            </Translation>
+            <Translation dwd:design-time-name="710955c1-8957-4165-bf4b-afc0e98d6b4e">
+              <Language>1036</Language>
+              <Caption>Croissance du Nombre de Clients</Caption>
+            </Translation>
+          </Translations>
+        </CalculationProperty>
+        <CalculationProperty dwd:design-time-name="74100e2a-2aac-4ae8-adc6-f34caa7eac02">
+          <CalculationReference>[Scenario].[Scenario].[Budget Variance]</CalculationReference>
+          <CalculationType>Member</CalculationType>
+          <Translations>
+            <Translation dwd:design-time-name="cf6683fe-94a2-4f48-bb04-e8058503b662">
+              <Language>3082</Language>
+              <Caption>Varianza del Presupuesto</Caption>
+            </Translation>
+            <Translation dwd:design-time-name="2185fb36-9361-46b8-9958-a7b1f0fa1c8d">
+              <Language>1036</Language>
+              <Caption>Ecart au Budget</Caption>
+            </Translation>
+          </Translations>
+        </CalculationProperty>
+        <CalculationProperty dwd:design-time-name="b11023a9-11fa-4ad7-bc72-7161df084041">
+          <CalculationReference>[Scenario].[Scenario].[Budget Variance %]</CalculationReference>
+          <CalculationType>Member</CalculationType>
+          <Translations>
+            <Translation dwd:design-time-name="65ed13ad-8ee3-4763-8b3f-47e5185517e9">
+              <Language>3082</Language>
+              <Caption>Porcentaje de Varianza del Presupuesto</Caption>
+            </Translation>
+            <Translation dwd:design-time-name="0f493deb-7203-4169-a0bd-454f540b3aca">
+              <Language>1036</Language>
+              <Caption>Pourcentage d'Ecart au Budget</Caption>
+            </Translation>
+          </Translations>
+        </CalculationProperty>
+        <CalculationProperty dwd:design-time-name="9a8bf860-7659-4400-b04d-707b156089b8">
+          <CalculationReference>Summary P&amp;L</CalculationReference>
+          <CalculationType>Set</CalculationType>
+          <Translations>
+            <Translation dwd:design-time-name="4d56d9e2-187e-4f56-8f46-2121d5237038">
+              <Language>3082</Language>
+              <Caption>Resumen del Estado de Pérdidas y Ganancias</Caption>
+              <DisplayFolder>Sistemas</DisplayFolder>
+            </Translation>
+            <Translation dwd:design-time-name="5c348c93-355f-413b-8164-879cf8ba55ef">
+              <Language>1036</Language>
+              <Caption>Compte de Résultat</Caption>
+              <DisplayFolder>Ensembles</DisplayFolder>
+            </Translation>
+          </Translations>
+        </CalculationProperty>
+        <CalculationProperty dwd:design-time-name="f75f6c85-767e-4371-a188-271cd2d7a581">
+          <CalculationReference>Long Lead Products</CalculationReference>
+          <CalculationType>Set</CalculationType>
+          <Translations>
+            <Translation dwd:design-time-name="e11a823b-f70c-4597-9e50-65a7d7fde419">
+              <Language>3082</Language>
+              <Caption>Productos Largos del Plomo</Caption>
+              <DisplayFolder>Sistemas</DisplayFolder>
+            </Translation>
+            <Translation dwd:design-time-name="8917d25a-3f37-4774-83da-27a3303f1a69">
+              <Language>1036</Language>
+              <Caption>Produits Leader</Caption>
+              <DisplayFolder>Ensembles</DisplayFolder>
+            </Translation>
+          </Translations>
+        </CalculationProperty>
+        <CalculationProperty dwd:design-time-name="8cf1fc0b-b11a-4585-b9c7-81fd5285e736">
+          <CalculationReference>Core Product Group</CalculationReference>
+          <CalculationType>Set</CalculationType>
+          <Translations>
+            <Translation dwd:design-time-name="0c009e7a-0150-45e1-aac0-0472e11b9613">
+              <Language>3082</Language>
+              <Caption>Grupo de Producto Primordiales</Caption>
+              <DisplayFolder>Sistemas</DisplayFolder>
+            </Translation>
+            <Translation dwd:design-time-name="0d5d432b-3f2b-4a00-9806-7bc2602b2ff4">
+              <Language>1036</Language>
+              <Caption>Gamme de Produits Principaux</Caption>
+              <DisplayFolder>Ensembles</DisplayFolder>
+            </Translation>
+          </Translations>
+        </CalculationProperty>
+        <CalculationProperty dwd:design-time-name="489cf17c-9292-4fe2-970c-c7305ad90a3b">
+          <CalculationReference>Large Resellers</CalculationReference>
+          <CalculationType>Set</CalculationType>
+          <Translations>
+            <Translation dwd:design-time-name="a95d00a6-5232-48b6-b54f-b9ee70e00bfa">
+              <Language>3082</Language>
+              <Caption>Revendedores Grandes</Caption>
+              <DisplayFolder>Sistemas</DisplayFolder>
+            </Translation>
+            <Translation dwd:design-time-name="998f71f0-02dc-4334-829f-7d187a193541">
+              <Language>1036</Language>
+              <Caption>Grands Revendeurs</Caption>
+              <DisplayFolder>Ensembles</DisplayFolder>
+            </Translation>
+          </Translations>
+          <Description></Description>
+        </CalculationProperty>
+        <CalculationProperty dwd:design-time-name="d6e25882-7f5f-4bde-8549-0ca3c794d239">
+          <CalculationReference>High Discount Promotions</CalculationReference>
+          <CalculationType>Set</CalculationType>
+          <Translations>
+            <Translation dwd:design-time-name="b2844eb2-e1ee-406f-b7d8-c353f8269020">
+              <Language>3082</Language>
+              <Caption>Promociones de Alto Descuento</Caption>
+              <DisplayFolder>Sistemas</DisplayFolder>
+            </Translation>
+            <Translation dwd:design-time-name="ceed3054-bac6-480f-86f9-71fc745a464a">
+              <Language>1036</Language>
+              <Caption>Promotions Exceptionnelles</Caption>
+              <DisplayFolder>Ensembles</DisplayFolder>
+            </Translation>
+          </Translations>
+          <Description></Description>
+        </CalculationProperty>
+        <CalculationProperty dwd:design-time-name="3ad3e7e7-0235-4f5a-a928-23a0cbb509b4">
+          <CalculationReference>[Measures].[Reseller Average Sales Amount]</CalculationReference>
+          <CalculationType>Member</CalculationType>
+          <Translations>
+            <Translation dwd:design-time-name="e01a071b-139b-4326-af62-a21253017dad">
+              <Language>1036</Language>
+              <Caption>Montant Moyen des Ventes (Revendeur)</Caption>
+            </Translation>
+            <Translation dwd:design-time-name="c69d4235-63af-4d9b-92df-bdc10df50178">
+              <Language>3082</Language>
+              <Caption>Cantidad Media de las Ventas Del Revendedor</Caption>
+            </Translation>
+          </Translations>
+        </CalculationProperty>
+        <CalculationProperty dwd:design-time-name="97806699-c5f6-4099-b527-74d8b5fb3cf0">
+          <CalculationReference>[Measures].[Reseller Average Unit Price]</CalculationReference>
+          <CalculationType>Member</CalculationType>
+          <Translations>
+            <Translation dwd:design-time-name="ef89eedc-b3e3-4915-a546-b651248ce2aa">
+              <Language>3082</Language>
+              <Caption>Precio Unitario Promedio del Revendedor</Caption>
+            </Translation>
+            <Translation dwd:design-time-name="2f2c4a05-9c63-4ddc-b948-cc7c4460765a">
+              <Language>1036</Language>
+              <Caption>Prix Unitaire Moyen (Revendeur)</Caption>
+            </Translation>
+          </Translations>
+        </CalculationProperty>
+        <CalculationProperty dwd:design-time-name="a1891eaf-9181-4e6e-a786-09045ecab921">
+          <CalculationReference>[Measures].[Internet Average Unit Price]</CalculationReference>
+          <CalculationType>Member</CalculationType>
+          <Translations>
+            <Translation dwd:design-time-name="c8cfccb6-a7e0-4082-a30f-3b8eef0757d2">
+              <Language>1036</Language>
+              <Caption>Prix Unitaire Moyen (Internet)</Caption>
+            </Translation>
+            <Translation dwd:design-time-name="f22fa57a-fa0a-4d03-8f64-9e287554ff96">
+              <Language>3082</Language>
+              <Caption>Precio Unitario Promedio por Internet</Caption>
+            </Translation>
+          </Translations>
+        </CalculationProperty>
+        <CalculationProperty dwd:design-time-name="92ee49c6-7e86-490b-8e0b-e1ce27c3769a">
+          <CalculationReference>[Measures].[Internet Average Sales Amount]</CalculationReference>
+          <CalculationType>Member</CalculationType>
+          <Translations>
+            <Translation dwd:design-time-name="4ff40b53-7a15-4b19-9228-ad36c9c67886">
+              <Language>3082</Language>
+              <Caption>Cantidad Promedio de Ventas por Internet</Caption>
+            </Translation>
+            <Translation dwd:design-time-name="5b38b6e2-ecf7-4050-92a9-b0fa0e54eab3">
+              <Language>1036</Language>
+              <Caption>Montant Moyen des Ventes (Internet)</Caption>
+            </Translation>
+          </Translations>
+        </CalculationProperty>
+        <CalculationProperty dwd:design-time-name="5fe71491-1158-4f80-aec4-3d7462f3eae6">
+          <CalculationReference>[Measures].[Internet Gross Profit]</CalculationReference>
+          <CalculationType>Member</CalculationType>
+          <Translations>
+            <Translation dwd:design-time-name="c1597729-b761-43af-ac88-41b974020919">
+              <Language>3082</Language>
+              <Caption>Utilidad Bruta por Internet</Caption>
+            </Translation>
+            <Translation dwd:design-time-name="43da4047-69b6-4a42-b8f5-759685af8141">
+              <Language>1036</Language>
+              <Caption>Bénéfice Brut (Internet)</Caption>
+            </Translation>
+          </Translations>
+        </CalculationProperty>
+        <CalculationProperty dwd:design-time-name="796b4866-8508-4260-b990-d2b45ad7293e">
+          <CalculationReference>[Measures].[Internet Gross Profit Margin]</CalculationReference>
+          <CalculationType>Member</CalculationType>
+          <Translations>
+            <Translation dwd:design-time-name="b6a34c31-5105-404a-bb58-499e61b62dfb">
+              <Language>3082</Language>
+              <Caption>Margen de Utilidad Bruta por Internet</Caption>
+            </Translation>
+            <Translation dwd:design-time-name="1cd72b7d-54e9-4a6e-a9fd-a70d8649d145">
+              <Language>1036</Language>
+              <Caption>Marge Brute (Internet)</Caption>
+            </Translation>
+          </Translations>
+        </CalculationProperty>
+        <CalculationProperty dwd:design-time-name="09983ed9-057e-4f5f-9704-65764c3c868a">
+          <CalculationReference>[Measures].[Reseller Gross Profit]</CalculationReference>
+          <CalculationType>Member</CalculationType>
+          <Translations>
+            <Translation dwd:design-time-name="11af5987-a343-4f3c-84da-6859248963a3">
+              <Language>1036</Language>
+              <Caption>Bénéfice Brut (Revendeur)</Caption>
+            </Translation>
+            <Translation dwd:design-time-name="996e44ad-ac30-42eb-a164-1f171765f1a4">
+              <Language>3082</Language>
+              <Caption>Utilidad Bruta del Revendedor</Caption>
+            </Translation>
+          </Translations>
+        </CalculationProperty>
+        <CalculationProperty dwd:design-time-name="8956f469-deb1-4546-941a-5cbe598edba7">
+          <CalculationReference>[Measures].[Reseller Gross Profit Margin]</CalculationReference>
+          <CalculationType>Member</CalculationType>
+          <Translations>
+            <Translation dwd:design-time-name="9987a5eb-a7e8-4374-9dcd-c420651267ea">
+              <Language>1036</Language>
+              <Caption>Marge Brute (Revendeur)</Caption>
+            </Translation>
+            <Translation dwd:design-time-name="f9313a24-2782-41a2-bc95-7af63a8bd852">
+              <Language>3082</Language>
+              <Caption>Margen de Utilidad Bruta del Revendedor</Caption>
+            </Translation>
+          </Translations>
+        </CalculationProperty>
+        <CalculationProperty dwd:design-time-name="2511a030-2115-408f-b3e1-03bbdf36146e">
+          <CalculationReference>[Measures].[Gross Profit]</CalculationReference>
+          <CalculationType>Member</CalculationType>
+          <Translations>
+            <Translation dwd:design-time-name="612d9914-3298-48bd-b3f6-06b472e49a57">
+              <Language>3082</Language>
+              <Caption>Utilidad Bruta</Caption>
+            </Translation>
+            <Translation dwd:design-time-name="a7bb5dc5-a474-420c-ace5-1800dd9ea41b">
+              <Language>1036</Language>
+              <Caption>Bénéfice Brut</Caption>
+            </Translation>
+          </Translations>
+        </CalculationProperty>
+        <CalculationProperty dwd:design-time-name="5556dab5-dbe0-494c-bb72-ea9d618d67ef">
+          <CalculationReference>[Measures].[Gross Profit Margin]</CalculationReference>
+          <CalculationType>Member</CalculationType>
+          <Translations>
+            <Translation dwd:design-time-name="575d4cab-dc92-4c73-9dcc-75d734d28446">
+              <Language>3082</Language>
+              <Caption>Margen de la Utilidad Bruta</Caption>
+            </Translation>
+            <Translation dwd:design-time-name="692b3e44-5bb1-4126-9f94-a22c558533bc">
+              <Language>1036</Language>
+              <Caption>Marge Brute</Caption>
+            </Translation>
+          </Translations>
+        </CalculationProperty>
+        <CalculationProperty dwd:design-time-name="2c1519fb-0d1c-4718-873c-ee7788c8ad16">
+          <CalculationReference>[Measures].[Average Unit Price]</CalculationReference>
+          <CalculationType>Member</CalculationType>
+          <Translations>
+            <Translation dwd:design-time-name="7841d804-74b6-439c-b55d-b587e0e3899f">
+              <Language>1036</Language>
+              <Caption>Prix Unitaire Moyen</Caption>
+            </Translation>
+            <Translation dwd:design-time-name="c621ea52-6332-4ca8-8f93-14fc3dcadb0d">
+              <Language>3082</Language>
+              <Caption>Precio Unitario Medio</Caption>
+            </Translation>
+          </Translations>
+        </CalculationProperty>
+        <CalculationProperty dwd:design-time-name="8e8cb785-5da9-4746-aeae-6c8fc2813339">
+          <CalculationReference>[Measures].[Average Sales Amount]</CalculationReference>
+          <CalculationType>Member</CalculationType>
+          <Translations>
+            <Translation dwd:design-time-name="06ae39bd-97b8-4d1f-96fe-24faa54c0951">
+              <Language>3082</Language>
+              <Caption>Suma Promedio de Ventas</Caption>
+            </Translation>
+            <Translation dwd:design-time-name="7e56dab6-c45d-42cc-9bce-303efec29e4f">
+              <Language>1036</Language>
+              <Caption>Montant Moyen des Ventes</Caption>
+            </Translation>
+          </Translations>
+        </CalculationProperty>
+        <CalculationProperty dwd:design-time-name="e691967b-7ee0-4d3b-9807-87ed3c3bfab7">
+          <CalculationReference>New Product Models FY 2006</CalculationReference>
+          <CalculationType>Set</CalculationType>
+          <Translations>
+            <Translation dwd:design-time-name="ba505c9d-2161-4e21-8d66-0cd0cdf77c07">
+              <Language>3082</Language>
+              <Caption>Modelos del Producto Nuevo AF 2006</Caption>
+              <DisplayFolder>Sistemas</DisplayFolder>
+            </Translation>
+            <Translation dwd:design-time-name="d43593c6-af13-4d86-9ff8-93db647ed3d2">
+              <Language>1036</Language>
+              <Caption>Modèles des Nouveaux Produits Année Fiscale 2006</Caption>
+              <DisplayFolder>Ensembles</DisplayFolder>
+            </Translation>
+          </Translations>
+          <Description></Description>
+        </CalculationProperty>
+        <CalculationProperty dwd:design-time-name="48ea55f9-f0ba-4c47-889f-becf35c5dd3e">
+          <CalculationReference>New Product Models FY 2007</CalculationReference>
+          <CalculationType>Set</CalculationType>
+          <Translations>
+            <Translation dwd:design-time-name="1a24da82-cc7b-4afd-961f-89aca03d64cd">
+              <Language>3082</Language>
+              <Caption>Modelos del Producto Nuevo AF 2007</Caption>
+              <DisplayFolder>Sistemas</DisplayFolder>
+            </Translation>
+            <Translation dwd:design-time-name="5af2561f-6fa9-4f4f-a960-b9f1c84582e9">
+              <Language>1036</Language>
+              <Caption>Modèles des Nouveaux Produits Année Fiscale 2007</Caption>
+              <DisplayFolder>Ensembles</DisplayFolder>
+            </Translation>
+          </Translations>
+        </CalculationProperty>
+        <CalculationProperty dwd:design-time-name="ae612179-5025-426f-9822-d4dbffe9ae1e">
+          <CalculationReference>New Product Models FY 2008</CalculationReference>
+          <CalculationType>Set</CalculationType>
+          <Translations>
+            <Translation dwd:design-time-name="e79e4976-7b66-4b4a-aacd-4f71f675aca6">
+              <Language>3082</Language>
+              <Caption>Modelos del Producto Nuevo AF 2008</Caption>
+              <DisplayFolder>Sistemas</DisplayFolder>
+            </Translation>
+            <Translation dwd:design-time-name="cb781098-ac79-426a-9c6c-d4c4ecff3629">
+              <Language>1036</Language>
+              <Caption>Modèles des Nouveaux Produits Année Fiscale 2008</Caption>
+              <DisplayFolder>Ensembles</DisplayFolder>
+            </Translation>
+          </Translations>
+        </CalculationProperty>
+        <CalculationProperty dwd:design-time-name="68722f6f-f4e2-48db-a837-15451232b539">
+          <CalculationReference>Top 25 Selling Products</CalculationReference>
+          <CalculationType>Set</CalculationType>
+          <Translations>
+            <Translation dwd:design-time-name="a5b8d285-8914-4961-9d24-4643895ddeaf">
+              <Language>3082</Language>
+              <Caption>50 Mejores Productos</Caption>
+              <DisplayFolder>Sistemas</DisplayFolder>
+            </Translation>
+            <Translation dwd:design-time-name="3b40cda4-0e22-44b5-8da1-8e501c10d718">
+              <Language>1036</Language>
+              <Caption>50 Meilleurs Produits</Caption>
+              <DisplayFolder>Ensembles</DisplayFolder>
+            </Translation>
+          </Translations>
+        </CalculationProperty>
+        <CalculationProperty dwd:design-time-name="3ecb761f-fbf4-41a7-aca8-a0cc7f7cb3aa">
+          <CalculationReference>Top 50 Customers</CalculationReference>
+          <CalculationType>Set</CalculationType>
+          <Translations>
+            <Translation dwd:design-time-name="1cfe7812-7c5a-4860-a151-0e41ef7460f4">
+              <Language>3082</Language>
+              <Caption>50 Mejores Clientes</Caption>
+              <DisplayFolder>Sistemas</DisplayFolder>
+            </Translation>
+            <Translation dwd:design-time-name="271e8d17-8e1d-4eda-9761-94ab1d33cdb8">
+              <Language>1036</Language>
+              <Caption>50 Meilleurs Clients</Caption>
+              <DisplayFolder>Ensembles</DisplayFolder>
+            </Translation>
+          </Translations>
+        </CalculationProperty>
+        <CalculationProperty dwd:design-time-name="2a6b46a0-db1b-40d8-b590-2c2bfbc296d7">
+          <CalculationReference>Negative Margin Products</CalculationReference>
+          <CalculationType>Set</CalculationType>
+          <Translations>
+            <Translation dwd:design-time-name="1181d249-0549-4d35-995a-3df0307f9ea3">
+              <Language>3082</Language>
+              <Caption>Productos Margen Negativo</Caption>
+              <DisplayFolder>Sistemas</DisplayFolder>
+            </Translation>
+            <Translation dwd:design-time-name="70d0929e-e750-4cb7-bc77-aaef1df99a87">
+              <Language>1036</Language>
+              <Caption>Produits Marge Négative</Caption>
+              <DisplayFolder>Ensembles</DisplayFolder>
+            </Translation>
+          </Translations>
+        </CalculationProperty>
+      </CalculationProperties>
+    </MdxScript>
+  </MdxScripts>
+  <Kpis>
+    <Kpi dwd:design-time-name="26b233d3-a709-42e8-8df7-1259a87d0e3d">
+      <ID>KPI 12</ID>
+      <Name>Net Income</Name>
+      <Description>Total earnings less operating expenses, taxes, interest, depreciation and other expenses.</Description>
+      <Translations>
+        <Translation dwd:design-time-name="2879fba1-4a3c-40f0-a116-914d93923ee4">
+          <Language>3082</Language>
+          <Caption>Renta Neta</Caption>
+          <Description>Ganancias totales menos gastos de explotación, impuestos, interés, depreciación y otros costos.</Description>
+          <DisplayFolder>\Perspectiva Financiera\Mantenga la Eficacia Operacional</DisplayFolder>
+        </Translation>
+        <Translation dwd:design-time-name="50a179f2-a5fa-4387-93bf-0b34fa6625a2">
+          <Language>1036</Language>
+          <Caption>Revenu Net</Caption>
+          <Description>Revenus totaux moins d'exploitation, impôts, intérêts, dépréciation et autres dépenses.</Description>
+          <DisplayFolder>\Perspective Financière\Maintenir la Marge Globale</DisplayFolder>
+        </Translation>
+      </Translations>
+      <DisplayFolder>\Financial Perspective\Maintain Overall Margins</DisplayFolder>
+      <AssociatedMeasureGroupID>Fact Finance</AssociatedMeasureGroupID>
+      <Value>// Account 47 = Net Income | Scenario 1 = Actual
+( [Account].[Accounts].&amp;[47], [Scenario].[Scenario].&amp;[1], [Measures].[Amount] )
+</Value>
+      <Goal>// Account 47 = Net Income | Scenario 2 = Budget
+( [Account].[Accounts].&amp;[47], [Scenario].[Scenario].&amp;[2], [Measures].[Amount] )</Goal>
+      <Status>Case
+    When KpiValue( "Net Income" ) / KpiGoal( "Net Income" ) &gt;= .95
+    Then 1
+    When KpiValue( "Net Income" ) / KpiGoal( "Net Income" ) &lt;  .95
+         And 
+         KpiValue( "Net Income" ) / KpiGoal( "Net Income" ) &gt;= .85
+    Then 0
+    Else -1
+End</Status>
+      <Trend>Case
+    When IsEmpty
+         (
+           ParallelPeriod
+           (
+             [Date].[Fiscal].[Fiscal Year],
+             1,
+             [Date].[Fiscal].CurrentMember
+           )
+         )
+    Then 0  
+    When VBA!Abs
+         (
+          ( 
+            KpiValue( "Net Income" ) 
+            - 
+            (
+              KpiValue( "Net Income" ),
+              ParallelPeriod
+              ( 
+                [Date].[Fiscal].[Fiscal Year],
+                1,
+                [Date].[Fiscal].CurrentMember
+              )
+            )
+          ) 
+          /
+          (
+            KpiValue( "Net Income" ),
+            ParallelPeriod
+            ( 
+              [Date].[Fiscal].[Fiscal Year],
+              1,
+              [Date].[Fiscal].CurrentMember
+            )
+          )  
+         ) &lt;=.03
+    Then 0
+    When ( 
+           KpiValue( "Net Income" ) 
+           - 
+           (
+             KpiValue( "Net Income" ),
+             ParallelPeriod
+             ( 
+               [Date].[Fiscal].[Fiscal Year],
+               1,
+               [Date].[Fiscal].CurrentMember
+             )
+           ) 
+         )
+         /
+         (
+           KpiValue( "Net Income" ),
+           ParallelPeriod
+           ( 
+             [Date].[Fiscal].[Fiscal Year],
+             1,
+             [Date].[Fiscal].CurrentMember
+           )
+         ) &gt;.03
+    Then 1
+    Else -1
+End</Trend>
+      <TrendGraphic>Status Arrow - Ascending</TrendGraphic>
+      <StatusGraphic>Road Signs</StatusGraphic>
+    </Kpi>
+    <Kpi dwd:design-time-name="kpi7">
+      <ID>KPI 6</ID>
+      <Name>Operating Profit</Name>
+      <Description>The difference between revenue and total operating expenses.</Description>
+      <Translations>
+        <Translation dwd:design-time-name="7061b393-4465-45c5-8ad2-7f741460cb8e">
+          <Language>1036</Language>
+          <Caption>Bénéfice d'Exploitation</Caption>
+          <Description>La différence entre le revenu et les dépenses d'exploitation totales.</Description>
+          <DisplayFolder>\Perspective Financière\Maintenir la Marge Globale</DisplayFolder>
+        </Translation>
+        <Translation dwd:design-time-name="5470b189-4bd8-4039-8c66-8f9965656666">
+          <Language>3082</Language>
+          <Caption>Utilidad Operacional</Caption>
+          <Description>La diferencia entre el rédito y los gastos de explotación totales.</Description>
+          <DisplayFolder>\Perspectiva Financiera\Aumente el Ingreso</DisplayFolder>
+        </Translation>
+      </Translations>
+      <DisplayFolder>\Financial Perspective\Maintain Overall Margins</DisplayFolder>
+      <AssociatedMeasureGroupID>Fact Finance</AssociatedMeasureGroupID>
+      <Value>// Account 48 = Operating Profit | Scenario 1 = Actual
+( [Account].[Accounts].&amp;[48], [Scenario].[Scenario].&amp;[1], [Measures].[Amount] )</Value>
+      <Goal>// Account 48 = Operating Profit | Scenario 2 = Budget
+( [Account].[Accounts].&amp;[48], [Scenario].[Scenario].&amp;[2], [Measures].[Amount] )</Goal>
+      <Status>Case
+    When KpiValue( "Operating Profit" ) / KpiGoal( "Operating Profit" ) &gt;= .95
+    Then 1
+    When KpiValue( "Operating Profit" ) / KpiGoal( "Operating Profit" ) &lt;  .95
+         And 
+         KpiValue( "Operating Profit" ) / KpiGoal( "Operating Profit" ) &gt;= .85
+    Then 0
+    Else -1
+End</Status>
+      <Trend>Case
+    When IsEmpty
+         (
+           ParallelPeriod
+           (
+             [Date].[Fiscal].[Fiscal Year],
+             1,
+             [Date].[Fiscal].CurrentMember
+           )
+         )
+    Then 0  
+    When VBA!Abs
+         (
+          ( 
+            KpiValue( "Operating Profit" ) 
+            - 
+            (
+              KpiValue( "Operating Profit" ),
+              ParallelPeriod
+              ( 
+                [Date].[Fiscal].[Fiscal Year],
+                1,
+                [Date].[Fiscal].CurrentMember
+              )
+            )
+          ) 
+          /
+          (
+            KpiValue( "Operating Profit" ),
+            ParallelPeriod
+            ( 
+              [Date].[Fiscal].[Fiscal Year],
+              1,
+              [Date].[Fiscal].CurrentMember
+            )
+          )  
+         ) &lt;=.03
+    Then 0
+    When ( 
+           KpiValue( "Operating Profit" ) 
+           - 
+           (
+             KpiValue( "Operating Profit" ),
+             ParallelPeriod
+             ( 
+               [Date].[Fiscal].[Fiscal Year],
+               1,
+               [Date].[Fiscal].CurrentMember
+             )
+           ) 
+         )
+         /
+         (
+           KpiValue( "Operating Profit" ),
+           ParallelPeriod
+           ( 
+             [Date].[Fiscal].[Fiscal Year],
+             1,
+             [Date].[Fiscal].CurrentMember
+           )
+         ) &gt;.03
+    Then 1
+    Else -1
+End
+</Trend>
+      <TrendGraphic>Status Arrow - Ascending</TrendGraphic>
+      <StatusGraphic>Traffic Light</StatusGraphic>
+      <ParentKpiID>KPI 12</ParentKpiID>
+    </Kpi>
+    <Kpi dwd:design-time-name="kpi9">
+      <ID>KPI 8</ID>
+      <Name>Operating Expenses</Name>
+      <Description>Business expenses not directly associated with the manufacture of a product or provision of a service.</Description>
+      <Translations>
+        <Translation dwd:design-time-name="ad59df76-9a1d-4e4f-81dd-c53ec7d27f82">
+          <Language>1036</Language>
+          <Caption>Dépenses d'Exploitation</Caption>
+          <Description>Dépenses d'affaires non directement liées à la fabrication d'un produit ou d'une fourniture d'un service.</Description>
+          <DisplayFolder>\Perspective Financière\Maintenir la Marge Globale</DisplayFolder>
+        </Translation>
+        <Translation dwd:design-time-name="3eb4956c-3c4e-491a-b5d4-d6ffe33a855d">
+          <Language>3082</Language>
+          <Caption>Gastos de Operación</Caption>
+          <Description>Costos de negocio asociados no no directamente a la fabricación de un producto o de una disposición de un servicio.</Description>
+          <DisplayFolder>\Perspectiva Financiera\Aumento de Ingreso</DisplayFolder>
+        </Translation>
+      </Translations>
+      <DisplayFolder>\Financial Perspective\Maintain Overall Margins</DisplayFolder>
+      <AssociatedMeasureGroupID>Fact Finance</AssociatedMeasureGroupID>
+      <Value>// Account 58 = Operating Profit | Scenario 1 = Actual
+( [Account].[Accounts].&amp;[58], [Scenario].[Scenario].&amp;[1], [Measures].[Amount] )</Value>
+      <Goal>// Account 58 = Operating Profit | Scenario 2 = Budget
+( [Account].[Accounts].&amp;[58], [Scenario].[Scenario].&amp;[2], [Measures].[Amount] )</Goal>
+      <Status>Case
+    When KpiValue( "Operating Expenses" ) / KpiGoal( "Operating Expenses" ) &gt;= .95
+    Then 1
+    When KpiValue( "Operating Expenses" ) / KpiGoal( "Operating Expenses" ) &lt;  .95
+         And 
+         KpiValue( "Operating Expenses" ) / KpiGoal( "Operating Expenses" ) &gt;= .85
+    Then 0
+    Else -1
+End</Status>
+      <Trend>Case
+    When IsEmpty
+         (
+           ParallelPeriod
+           (
+             [Date].[Fiscal].[Fiscal Year],
+             1,
+             [Date].[Fiscal].CurrentMember
+           )
+         )
+    Then 0  
+    When VBA!Abs
+         (
+          ( 
+            KpiValue( "Operating Expenses" ) 
+            - 
+            (
+              KpiValue( "Operating Expenses" ),
+              ParallelPeriod
+              ( 
+                [Date].[Fiscal].[Fiscal Year],
+                1,
+                [Date].[Fiscal].CurrentMember
+              )
+            )
+          ) 
+          /
+          (
+            KpiValue( "Operating Expenses" ),
+            ParallelPeriod
+            ( 
+              [Date].[Fiscal].[Fiscal Year],
+              1,
+              [Date].[Fiscal].CurrentMember
+            )
+          )  
+         ) &lt;=.03
+    Then 0
+    When ( 
+           KpiValue( "Operating Expenses" ) 
+           - 
+           (
+             KpiValue( "Operating Expenses" ),
+             ParallelPeriod
+             ( 
+               [Date].[Fiscal].[Fiscal Year],
+               1,
+               [Date].[Fiscal].CurrentMember
+             )
+           ) 
+         )
+         /
+         (
+           KpiValue( "Operating Expenses" ),
+           ParallelPeriod
+           ( 
+             [Date].[Fiscal].[Fiscal Year],
+             1,
+             [Date].[Fiscal].CurrentMember
+           )
+         ) &gt;.03
+    Then 1
+    Else -1
+End</Trend>
+      <TrendGraphic>Status Arrow - Descending</TrendGraphic>
+      <StatusGraphic>Traffic Light</StatusGraphic>
+      <ParentKpiID>KPI 6</ParentKpiID>
+    </Kpi>
+    <Kpi dwd:design-time-name="d99c7e92-7a1d-4e55-af39-b1837b902a51">
+      <ID>Return On Assets</ID>
+      <Name>Return on Assets</Name>
+      <Description>Net income divided by assets. This is an indicator of the profitability and efficiency of a business, and its ability to leverage its assets to generate income.</Description>
+      <Translations>
+        <Translation dwd:design-time-name="7e4f04dd-e4cf-44f2-ac09-e3b015d734ef">
+          <Language>3082</Language>
+          <Caption>Vuelta en Activos</Caption>
+          <Description>Renta neta dividida por los activos.  Ésta es un indicador de lo beneficioso y de la eficacia de un negocio, y su capacidad a la palancada sus activos de generar renta.</Description>
+          <DisplayFolder>\Perspectiva Financiera\Aumento de Ingreso</DisplayFolder>
+        </Translation>
+        <Translation dwd:design-time-name="8a478e9b-229a-4f10-bca0-fd90550ace40">
+          <Language>1036</Language>
+          <Caption>Retour sur Investissement</Caption>
+          <Description>Le revenu net divisé par les capitaux.  C'est un indicateur de rentabilité et d'efficacité ainsi que sa capacité d'utiliser ses capitaux pour produire du revenu.</Description>
+          <DisplayFolder>\Perspective Financière\Augmenter le Revenu</DisplayFolder>
+        </Translation>
+      </Translations>
+      <DisplayFolder>\Financial Perspective\Grow Revenue</DisplayFolder>
+      <AssociatedMeasureGroupID>Fact Finance</AssociatedMeasureGroupID>
+      <Value>// Account 47 = Net Income | Scenario 1 = Actual | Account 2 = Assets
+( [Account].[Accounts].&amp;[47], [Scenario].[Scenario].&amp;[1], [Measures].[Amount] ) 
+/
+( [Account].[Accounts].&amp;[2],  [Scenario].[Scenario].&amp;[1], [Measures].[Amount] )
+</Value>
+      <Goal>// Account 47 = Net Income | Scenario 2 = Budget | Account 2 = Assets
+Case
+    When IsEmpty
+         (
+           ( [Account].[Accounts].&amp;[2],  
+             [Scenario].[Scenario].&amp;[2], [Measures].[Amount] )
+         )
+    Then "Not Budgeted"
+    Else ( [Account].[Accounts].&amp;[47], [Scenario].[Scenario].&amp;[2], 
+           [Measures].[Amount] ) 
+         /
+         ( [Account].[Accounts].&amp;[2],  [Scenario].[Scenario].&amp;[2], 
+           [Measures].[Amount] ) 
+End
+</Goal>
+      <Status>Case
+    When IsEmpty
+         (
+           ( [Account].[Accounts].&amp;[2],  
+             [Scenario].[Scenario].&amp;[2], [Measures].[Amount] )
+         )
+    Then 0
+    When KpiValue( "Return on Assets" ) / KpiGoal( "Return on Assets" ) &gt;= .95
+    Then 1
+    When KpiValue( "Return on Assets" ) / KpiGoal( "Return on Assets" ) &lt;  .95
+         And 
+         KpiValue( "Return on Assets" ) / KpiGoal( "Return on Assets" ) &gt;= .85
+    Then 0
+    Else -1
+End</Status>
+      <Trend>Case
+    When IsEmpty
+         (
+           ParallelPeriod
+           (
+             [Date].[Fiscal].[Fiscal Year],
+             1,
+             [Date].[Fiscal].CurrentMember
+           )
+         )
+    Then 0  
+    When VBA!Abs
+         (
+          ( 
+            KpiValue( "Return on Assets" ) 
+            - 
+            (
+              KpiValue( "Return on Assets" ),
+              ParallelPeriod
+              ( 
+                [Date].[Fiscal].[Fiscal Year],
+                1,
+                [Date].[Fiscal].CurrentMember
+              )
+            )
+          ) 
+          /
+          (
+            KpiValue( "Return on Assets" ),
+            ParallelPeriod
+            ( 
+              [Date].[Fiscal].[Fiscal Year],
+              1,
+              [Date].[Fiscal].CurrentMember
+            )
+          )  
+         ) &lt;=.03
+    Then 0
+    When ( 
+           KpiValue( "Return on Assets" ) 
+           - 
+           (
+             KpiValue( "Return on Assets" ),
+             ParallelPeriod
+             ( 
+               [Date].[Fiscal].[Fiscal Year],
+               1,
+               [Date].[Fiscal].CurrentMember
+             )
+           ) 
+         )
+         /
+         (
+           KpiValue( "Return on Assets" ),
+           ParallelPeriod
+           ( 
+             [Date].[Fiscal].[Fiscal Year],
+             1,
+             [Date].[Fiscal].CurrentMember
+           )
+         ) &gt;.03
+    Then 1
+    Else -1
+End</Trend>
+      <TrendGraphic>Standard Arrow</TrendGraphic>
+      <StatusGraphic>Cylinder</StatusGraphic>
+    </Kpi>
+    <Kpi dwd:design-time-name="kpi8">
+      <ID>KPI 7</ID>
+      <Name>Financial Gross Margin</Name>
+      <Description>The percentage of every dollar earned that can be used to pay general and administrative expenses.</Description>
+      <Translations>
+        <Translation dwd:design-time-name="92172a79-45ba-4d66-937c-1960b32222c2">
+          <Language>3082</Language>
+          <Caption>Margen Bruto Financiero</Caption>
+          <Description>El porcentaje de cada dólar ganó que se puede utilizar para pagar costos generales y administrativos.</Description>
+          <DisplayFolder>\Perspectiva Financiera\Aumento de Ingreso</DisplayFolder>
+        </Translation>
+        <Translation dwd:design-time-name="3975524a-0c80-46ef-a161-5857ef850664">
+          <Language>1036</Language>
+          <Caption>Marge Brute Financière</Caption>
+          <Description>Le pourcentage de chaque dollar gagné qui peut être employé pour payer des frais généraux généraux et administratifs.</Description>
+          <DisplayFolder>\Perspective Financière\Maintenir la Marge Globale</DisplayFolder>
+        </Translation>
+      </Translations>
+      <DisplayFolder>\Financial Perspective\Maintain Overall Margins</DisplayFolder>
+      <AssociatedMeasureGroupID>Fact Finance</AssociatedMeasureGroupID>
+      <Value>// Account 49 = Gross Margin | Scenario 1 = Actual
+( [Account].[Accounts].&amp;[49], [Scenario].[Scenario].&amp;[1], [Measures].[Amount] )</Value>
+      <Goal>// Account 49 = Gross Margin | Scenario 2 = Budget
+( [Account].[Accounts].&amp;[49], [Scenario].[Scenario].&amp;[2], [Measures].[Amount] )</Goal>
+      <Status>Case
+    When KpiValue( "Financial Gross Margin" ) / 
+         KpiGoal ( "Financial Gross Margin" ) &gt;= .95
+    Then 1
+    When KpiValue( "Financial Gross Margin" ) / 
+         KpiGoal ( "Financial Gross Margin" ) &lt;  .95
+         And 
+         KpiValue( "Financial Gross Margin" ) / 
+         KpiGoal ( "Financial Gross Margin" ) &gt;= .85
+    Then 0
+    Else -1
+End</Status>
+      <Trend>Case
+    When IsEmpty
+         (
+           ParallelPeriod
+           (
+             [Date].[Fiscal].[Fiscal Year],
+             1,
+             [Date].[Fiscal].CurrentMember
+           )
+         )
+    Then 0  
+    When VBA!Abs
+         (
+          ( 
+            KpiValue( "Financial Gross Margin" ) 
+            - 
+            (
+              KpiValue( "Financial Gross Margin" ),
+              ParallelPeriod
+              ( 
+                [Date].[Fiscal].[Fiscal Year],
+                1,
+                [Date].[Fiscal].CurrentMember
+              )
+            )
+          ) 
+          /
+          (
+            KpiValue( "Financial Gross Margin" ),
+            ParallelPeriod
+            ( 
+              [Date].[Fiscal].[Fiscal Year],
+              1,
+              [Date].[Fiscal].CurrentMember
+            )
+          )  
+         ) &lt;=.03
+    Then 0
+    When ( 
+           KpiValue( "Financial Gross Margin" ) 
+           - 
+           (
+             KpiValue( "Financial Gross Margin" ),
+             ParallelPeriod
+             ( 
+               [Date].[Fiscal].[Fiscal Year],
+               1,
+               [Date].[Fiscal].CurrentMember
+             )
+           ) 
+         )
+         /
+         (
+           KpiValue( "Financial Gross Margin" ),
+           ParallelPeriod
+           ( 
+             [Date].[Fiscal].[Fiscal Year],
+             1,
+             [Date].[Fiscal].CurrentMember
+           )
+         ) &gt;.03
+    Then 1
+    Else -1
+End</Trend>
+      <TrendGraphic>Status Arrow - Ascending</TrendGraphic>
+      <StatusGraphic>Traffic Light</StatusGraphic>
+      <ParentKpiID>KPI 6</ParentKpiID>
+    </Kpi>
+    <Kpi dwd:design-time-name="d15c1ad7-f978-474d-bc0b-2fc726d6b14f">
+      <ID>KPI 4</ID>
+      <Name>Financial Variance</Name>
+      <Description>The difference between actual and budgeted values for a given account.</Description>
+      <Translations>
+        <Translation dwd:design-time-name="b115b253-d2b2-465f-af97-45a901f7b85c">
+          <Language>3082</Language>
+          <Caption>Variación Financiera</Caption>
+          <Description>La diferencia entre los valores reales y presupuestados para una cuenta dada.</Description>
+          <DisplayFolder>\Perspectiva Financiera\Aumento de Ingreso</DisplayFolder>
+        </Translation>
+        <Translation dwd:design-time-name="2ed8468b-220c-4346-a4f8-0765bc302e06">
+          <Language>1036</Language>
+          <Caption>Ecart au Budget</Caption>
+          <Description>La différence entre le réel et le budget.</Description>
+          <DisplayFolder>\Perspective Financière\Augmenter le Revenu</DisplayFolder>
+        </Translation>
+      </Translations>
+      <DisplayFolder>\Financial Perspective\Grow Revenue</DisplayFolder>
+      <AssociatedMeasureGroupID>Fact Finance</AssociatedMeasureGroupID>
+      <Value>( [Scenario].[Scenario].[Scenario].[Budget Variance %], [Measures].[Amount] )</Value>
+      <Goal>// Variance should be as close to zero as possible.
+0</Goal>
+      <Status>Case
+    When VBA!Abs
+         ( 
+           KpiValue( "Financial Variance" )
+         ) &lt;= .05
+    Then 1
+    When VBA!Abs
+         ( 
+           KpiValue( "Financial Variance" )
+         ) &gt;  .05
+         And
+         VBA!Abs
+         ( 
+           KpiValue( "Financial Variance" )
+         ) &lt;= .10
+    Then 0
+    Else -1
+End
+           </Status>
+      <Trend>Case
+    When IsEmpty
+         (
+           ParallelPeriod
+           (
+             [Date].[Fiscal].[Fiscal Year],
+             1,
+             [Date].[Fiscal].CurrentMember
+           )
+         )
+    Then 0  
+    When VBA!Abs
+         (
+          ( 
+            KpiValue( "Financial Variance" ) 
+            - 
+            (
+              KpiValue( "Financial Variance" ),
+              ParallelPeriod
+              ( 
+                [Date].[Fiscal].[Fiscal Year],
+                1,
+                [Date].[Fiscal].CurrentMember
+              )
+            )
+          ) 
+          /
+          (
+            KpiValue( "Financial Variance" ),
+            ParallelPeriod
+            ( 
+              [Date].[Fiscal].[Fiscal Year],
+              1,
+              [Date].[Fiscal].CurrentMember
+            )
+          )  
+         ) &lt;=.02
+    Then 0
+    When ( 
+           KpiValue( "Financial Variance" ) 
+           - 
+           (
+             KpiValue( "Financial Variance" ),
+             ParallelPeriod
+             ( 
+               [Date].[Fiscal].[Fiscal Year],
+               1,
+               [Date].[Fiscal].CurrentMember
+             )
+           ) 
+         )
+         /
+         (
+           KpiValue( "Financial Variance" ),
+           ParallelPeriod
+           ( 
+             [Date].[Fiscal].[Fiscal Year],
+             1,
+             [Date].[Fiscal].CurrentMember
+           )
+         ) &gt;.02
+    Then 1
+    Else -1
+End</Trend>
+      <TrendGraphic>Status Arrow - Descending</TrendGraphic>
+      <StatusGraphic>Thermometer</StatusGraphic>
+    </Kpi>
+  </Kpis>
+  <Actions>
+    <Action xsi:type="DrillThroughAction" dwd:design-time-name="cbe8b5d8-0d6c-4191-84df-a496ed72ef6f">
+      <ID>Drillthrough Action</ID>
+      <Name>Reseller Details</Name>
+      <Caption>Drillthrough...</Caption>
+      <Translations>
+        <Translation dwd:design-time-name="308fefc5-7a12-4e95-af82-208219fafaed">
+          <Language>1036</Language>
+          <Caption>Détails (Revendeur)</Caption>
+        </Translation>
+        <Translation dwd:design-time-name="a89518f3-9cf9-468e-ab1e-e9c299d271f5">
+          <Language>3082</Language>
+          <Caption>Detalles del Revendedor</Caption>
+        </Translation>
+      </Translations>
+      <TargetType>Cells</TargetType>
+      <Target>MeasureGroupMeasures("Reseller Sales")</Target>
+      <Type>DrillThrough</Type>
+      <Default>true</Default>
+      <Columns>
+        <Column xsi:type="MeasureBinding" dwd:design-time-name="093cee01-08f4-4399-a002-c95a9ec1ad73">
+          <MeasureID>Sales Amount 1</MeasureID>
+        </Column>
+        <Column xsi:type="MeasureBinding" dwd:design-time-name="1d82768d-991d-4a8f-95f0-9214be542462">
+          <MeasureID>Order Quantity 1</MeasureID>
+        </Column>
+        <Column xsi:type="MeasureBinding" dwd:design-time-name="d029c0c2-ab7f-4432-8623-d974dd24ac81">
+          <MeasureID>Extended Amount 1</MeasureID>
+        </Column>
+        <Column xsi:type="MeasureBinding" dwd:design-time-name="ea1a2aeb-15fe-4d65-96e0-dd7317465d65">
+          <MeasureID>Tax Amt 1</MeasureID>
+        </Column>
+        <Column xsi:type="MeasureBinding" dwd:design-time-name="00cb723d-5807-4457-87de-e7b61b845787">
+          <MeasureID>Freight 1</MeasureID>
+        </Column>
+        <Column xsi:type="MeasureBinding" dwd:design-time-name="5ca9942e-9f2c-46cd-b672-7aba0e962bac">
+          <MeasureID>Discount Amount 1</MeasureID>
+        </Column>
+        <Column xsi:type="MeasureBinding" dwd:design-time-name="38bfb506-61b8-47fc-a960-7ad64ea7cfd3">
+          <MeasureID>Unit Price 1</MeasureID>
+        </Column>
+        <Column xsi:type="MeasureBinding" dwd:design-time-name="a2ec5687-37fb-4221-bfa0-bedb9c25cc78">
+          <MeasureID>Unit Price Discount Pct 1</MeasureID>
+        </Column>
+        <Column xsi:type="MeasureBinding" dwd:design-time-name="2be33d4c-66e4-42a1-be08-42208edc53c2">
+          <MeasureID>Total Product Cost 1</MeasureID>
+        </Column>
+        <Column xsi:type="MeasureBinding" dwd:design-time-name="a5b43e21-c797-476a-9c65-f6fa55bcfe45">
+          <MeasureID>Product Standard Cost 1</MeasureID>
+        </Column>
+        <Column xsi:type="CubeAttributeBinding" dwd:design-time-name="3e00115a-0ed7-4c1c-9338-3e4ad20eb741">
+          <CubeID>Adventure Works</CubeID>
+          <CubeDimensionID>Dim Reseller</CubeDimensionID>
+          <AttributeID>Reseller Name</AttributeID>
+          <Type>All</Type>
+        </Column>
+        <Column xsi:type="CubeAttributeBinding" dwd:design-time-name="0a253c28-abab-4b0c-9931-cbe82dfe65ad">
+          <CubeID>Adventure Works</CubeID>
+          <CubeDimensionID>Dim Promotion</CubeDimensionID>
+          <AttributeID>Promotion Name</AttributeID>
+          <Type>All</Type>
+        </Column>
+        <Column xsi:type="CubeAttributeBinding" dwd:design-time-name="25355d09-537b-40bf-988d-01b796867645">
+          <CubeID>Adventure Works</CubeID>
+          <CubeDimensionID>Dim Employee</CubeDimensionID>
+          <AttributeID>Full Name</AttributeID>
+          <Type>All</Type>
+        </Column>
+        <Column xsi:type="CubeAttributeBinding" dwd:design-time-name="9db23a5f-8c60-43c0-afce-08285186bae7">
+          <CubeID>Adventure Works</CubeID>
+          <CubeDimensionID>Due Date Key - Dim Time</CubeDimensionID>
+          <AttributeID>TimeKey</AttributeID>
+          <Type>All</Type>
+        </Column>
+        <Column xsi:type="CubeAttributeBinding" dwd:design-time-name="f44ba28b-26cf-4b7c-bc8f-00a63e777b9a">
+          <CubeID>Adventure Works</CubeID>
+          <CubeDimensionID>Dim Sales Territory</CubeDimensionID>
+          <AttributeID>Sales Territory Region</AttributeID>
+          <Type>All</Type>
+        </Column>
+        <Column xsi:type="CubeAttributeBinding" dwd:design-time-name="eb3deb28-cb73-42d9-80bf-976418d59866">
+          <CubeID>Adventure Works</CubeID>
+          <CubeDimensionID>Reseller Sales Order Details</CubeDimensionID>
+          <AttributeID>Carrier Tracking Number</AttributeID>
+          <Type>All</Type>
+        </Column>
+        <Column xsi:type="CubeAttributeBinding" dwd:design-time-name="08f84c77-11a6-4699-880b-2fdd8ae81fd7">
+          <CubeID>Adventure Works</CubeID>
+          <CubeDimensionID>Reseller Sales Order Details</CubeDimensionID>
+          <AttributeID>Customer PO Number</AttributeID>
+          <Type>All</Type>
+        </Column>
+        <Column xsi:type="CubeAttributeBinding" dwd:design-time-name="37efa694-5c4e-4d98-8543-2cf5d3d8a2e5">
+          <CubeID>Adventure Works</CubeID>
+          <CubeDimensionID>Reseller Sales Order Details</CubeDimensionID>
+          <AttributeID>SalesOrderNumber</AttributeID>
+          <Type>All</Type>
+        </Column>
+        <Column xsi:type="CubeAttributeBinding" dwd:design-time-name="d050e15d-1a46-408c-96eb-8cc3da8ad9a0">
+          <CubeID>Adventure Works</CubeID>
+          <CubeDimensionID>Reseller Sales Order Details</CubeDimensionID>
+          <AttributeID>SalesOrderLineNumber</AttributeID>
+          <Type>All</Type>
+        </Column>
+        <Column xsi:type="CubeAttributeBinding" dwd:design-time-name="21bfc8ea-0f3b-42b3-ac7e-b1e8c26fd629">
+          <CubeID>Adventure Works</CubeID>
+          <CubeDimensionID>Dim Product</CubeDimensionID>
+          <AttributeID>Product Name</AttributeID>
+          <Type>All</Type>
+        </Column>
+        <Column xsi:type="CubeAttributeBinding" dwd:design-time-name="ee16d939-29cf-4ace-9174-08a1b7723796">
+          <CubeID>Adventure Works</CubeID>
+          <CubeDimensionID>Ship Date Key - Dim Time</CubeDimensionID>
+          <AttributeID>TimeKey</AttributeID>
+          <Type>All</Type>
+        </Column>
+        <Column xsi:type="CubeAttributeBinding" dwd:design-time-name="3137bc66-3585-4871-a83a-914e6cffb726">
+          <CubeID>Adventure Works</CubeID>
+          <CubeDimensionID>Dim Currency</CubeDimensionID>
+          <AttributeID>Currency Code</AttributeID>
+          <Type>All</Type>
+        </Column>
+        <Column xsi:type="CubeAttributeBinding" dwd:design-time-name="f1ff0dcf-4882-404d-9da7-97ba9be7ab7e">
+          <CubeID>Adventure Works</CubeID>
+          <CubeDimensionID>Order Date Key - Dim Time</CubeDimensionID>
+          <AttributeID>TimeKey</AttributeID>
+          <Type>All</Type>
+        </Column>
+        <Column xsi:type="CubeAttributeBinding" dwd:design-time-name="32af8888-28de-4503-bc0e-c3aaf9226f3b">
+          <CubeID>Adventure Works</CubeID>
+          <CubeDimensionID>Dim Geography</CubeDimensionID>
+          <AttributeID>City</AttributeID>
+          <Type>All</Type>
+        </Column>
+        <Column xsi:type="CubeAttributeBinding" dwd:design-time-name="f8c64367-d3e1-413e-a885-e30bb668cd4a">
+          <CubeID>Adventure Works</CubeID>
+          <CubeDimensionID>Dim Geography</CubeDimensionID>
+          <AttributeID>State Province Name</AttributeID>
+          <Type>All</Type>
+        </Column>
+        <Column xsi:type="CubeAttributeBinding" dwd:design-time-name="97d1866a-ff41-4103-abf5-6564a0ca43d3">
+          <CubeID>Adventure Works</CubeID>
+          <CubeDimensionID>Dim Geography</CubeDimensionID>
+          <AttributeID>Country Region Code</AttributeID>
+          <Type>All</Type>
+        </Column>
+        <Column xsi:type="CubeAttributeBinding" dwd:design-time-name="93261d58-e180-4d89-9294-b51037195ee7">
+          <CubeID>Adventure Works</CubeID>
+          <CubeDimensionID>Destination Currency</CubeDimensionID>
+          <AttributeID>Currency Alternate Key</AttributeID>
+          <Type>All</Type>
+        </Column>
+      </Columns>
+    </Action>
+    <Action xsi:type="DrillThroughAction" dwd:design-time-name="bafe6c47-c199-44fd-b059-dd70d488b684">
+      <ID>Drillthrough Action 1</ID>
+      <Name>Internet Details</Name>
+      <Caption>Drillthrough...</Caption>
+      <Translations>
+        <Translation dwd:design-time-name="ee6e09cb-8211-4eef-9bb2-d82ba63f03dd">
+          <Language>3082</Language>
+          <Caption>Detalles del Internet</Caption>
+        </Translation>
+        <Translation dwd:design-time-name="0408311d-f150-4169-b7da-2f1f6789de43">
+          <Language>1036</Language>
+          <Caption>Détails (Internet)</Caption>
+        </Translation>
+      </Translations>
+      <TargetType>Cells</TargetType>
+      <Target>MeasureGroupMeasures("Internet Sales")</Target>
+      <Type>DrillThrough</Type>
+      <Default>true</Default>
+      <Columns>
+        <Column xsi:type="MeasureBinding" dwd:design-time-name="748f4c0e-2c14-4dc0-a0fb-efa347b9ad04">
+          <MeasureID>Sales Amount 2</MeasureID>
+        </Column>
+        <Column xsi:type="MeasureBinding" dwd:design-time-name="d2eafd41-f9bb-4505-952e-f6fdbe6f0aea">
+          <MeasureID>Extended Amount 2</MeasureID>
+        </Column>
+        <Column xsi:type="MeasureBinding" dwd:design-time-name="06b5d03b-e782-4957-ac8c-0b5628fe368e">
+          <MeasureID>Tax Amt 2</MeasureID>
+        </Column>
+        <Column xsi:type="MeasureBinding" dwd:design-time-name="ef26fff5-4eef-4928-a07f-945135cc77a4">
+          <MeasureID>Freight 2</MeasureID>
+        </Column>
+        <Column xsi:type="MeasureBinding" dwd:design-time-name="0e73e699-14d2-487e-a736-05b938bf4997">
+          <MeasureID>Unit Price 2</MeasureID>
+        </Column>
+        <Column xsi:type="MeasureBinding" dwd:design-time-name="46d7b827-d5b1-43df-88d7-4caf72138b00">
+          <MeasureID>Total Product Cost 2</MeasureID>
+        </Column>
+        <Column xsi:type="MeasureBinding" dwd:design-time-name="a8430963-8c59-4a33-a64c-2c98aa06a2ed">
+          <MeasureID>Product Standard Cost 2</MeasureID>
+        </Column>
+        <Column xsi:type="CubeAttributeBinding" dwd:design-time-name="0a86cf88-d72f-4311-9c31-30ca8c56bbcf">
+          <CubeID>Adventure Works</CubeID>
+          <CubeDimensionID>Dim Customer</CubeDimensionID>
+          <AttributeID>Full Name</AttributeID>
+          <Type>All</Type>
+        </Column>
+        <Column xsi:type="CubeAttributeBinding" dwd:design-time-name="f655c479-3e9f-4aec-b16e-cdaaa4179d90">
+          <CubeID>Adventure Works</CubeID>
+          <CubeDimensionID>Order Date Key - Dim Time</CubeDimensionID>
+          <AttributeID>TimeKey</AttributeID>
+          <Type>All</Type>
+        </Column>
+        <Column xsi:type="CubeAttributeBinding" dwd:design-time-name="0b6830c1-1c64-4853-9600-788874f6f31e">
+          <CubeID>Adventure Works</CubeID>
+          <CubeDimensionID>Dim Currency</CubeDimensionID>
+          <AttributeID>Currency Code</AttributeID>
+          <Type>All</Type>
+        </Column>
+        <Column xsi:type="CubeAttributeBinding" dwd:design-time-name="a8a5e97b-f86e-4b73-a19d-3ef8613cd34e">
+          <CubeID>Adventure Works</CubeID>
+          <CubeDimensionID>Dim Product</CubeDimensionID>
+          <AttributeID>Product Name</AttributeID>
+          <Type>All</Type>
+        </Column>
+        <Column xsi:type="CubeAttributeBinding" dwd:design-time-name="da2c10de-5710-470b-ae9b-43fbad5c69a1">
+          <CubeID>Adventure Works</CubeID>
+          <CubeDimensionID>Sales Reason</CubeDimensionID>
+          <AttributeID>Dim Sales Reason</AttributeID>
+          <Type>All</Type>
+        </Column>
+        <Column xsi:type="CubeAttributeBinding" dwd:design-time-name="41bd2a2a-e98f-4252-921b-730493d8d258">
+          <CubeID>Adventure Works</CubeID>
+          <CubeDimensionID>Ship Date Key - Dim Time</CubeDimensionID>
+          <AttributeID>TimeKey</AttributeID>
+          <Type>All</Type>
+        </Column>
+        <Column xsi:type="CubeAttributeBinding" dwd:design-time-name="e3124f4b-1c99-4370-8bf7-893ed42027cc">
+          <CubeID>Adventure Works</CubeID>
+          <CubeDimensionID>Dim Sales Territory</CubeDimensionID>
+          <AttributeID>Sales Territory Region</AttributeID>
+          <Type>All</Type>
+        </Column>
+        <Column xsi:type="CubeAttributeBinding" dwd:design-time-name="30993e12-24e4-4426-8a1d-866763f26153">
+          <CubeID>Adventure Works</CubeID>
+          <CubeDimensionID>Dim Sales Territory</CubeDimensionID>
+          <AttributeID>Sales Territory Country</AttributeID>
+          <Type>All</Type>
+        </Column>
+        <Column xsi:type="CubeAttributeBinding" dwd:design-time-name="a9d6e2bf-cebc-4078-b00e-c6ee24a4b86a">
+          <CubeID>Adventure Works</CubeID>
+          <CubeDimensionID>Due Date Key - Dim Time</CubeDimensionID>
+          <AttributeID>TimeKey</AttributeID>
+          <Type>All</Type>
+        </Column>
+        <Column xsi:type="CubeAttributeBinding" dwd:design-time-name="2a811e40-cf89-49dd-bd2b-3aadba51e6bb">
+          <CubeID>Adventure Works</CubeID>
+          <CubeDimensionID>Dim Promotion</CubeDimensionID>
+          <AttributeID>Promotion Name</AttributeID>
+          <Type>All</Type>
+        </Column>
+        <Column xsi:type="CubeAttributeBinding" dwd:design-time-name="5f3827d1-8b78-4be6-b484-6629d1ddf7cc">
+          <CubeID>Adventure Works</CubeID>
+          <CubeDimensionID>Internet Sales Order Details</CubeDimensionID>
+          <AttributeID>Fact Internet Sales</AttributeID>
+          <Type>All</Type>
+        </Column>
+        <Column xsi:type="CubeAttributeBinding" dwd:design-time-name="f626caa0-664e-4795-9514-03def9f9ec6b">
+          <CubeID>Adventure Works</CubeID>
+          <CubeDimensionID>Internet Sales Order Details</CubeDimensionID>
+          <AttributeID>SalesOrderNumber</AttributeID>
+          <Type>All</Type>
+        </Column>
+        <Column xsi:type="CubeAttributeBinding" dwd:design-time-name="b071f2fa-0ad0-4727-a9b3-e70693afc7c2">
+          <CubeID>Adventure Works</CubeID>
+          <CubeDimensionID>Internet Sales Order Details</CubeDimensionID>
+          <AttributeID>SalesOrderLineNumber</AttributeID>
+          <Type>All</Type>
+        </Column>
+      </Columns>
+    </Action>
+    <Action xsi:type="DrillThroughAction" dwd:design-time-name="4726668d-698b-4415-b92a-bc95a326547b">
+      <ID>Drillthrough Action 2</ID>
+      <Name>Finance Details</Name>
+      <Caption>SM Energy Drillthrough...</Caption>
+      <Translations>
+        <Translation dwd:design-time-name="d68f9697-3ea3-413e-9050-e1d921ae8259">
+          <Language>3082</Language>
+          <Caption>Detalles de Financiación</Caption>
+        </Translation>
+        <Translation dwd:design-time-name="9e544d6c-bf92-4fec-acec-7a755321d541">
+          <Language>1036</Language>
+          <Caption>Détails (Finance)</Caption>
+        </Translation>
+      </Translations>
+      <TargetType>Cells</TargetType>
+      <Target>MeasureGroupMeasures("Financial Reporting")</Target>
+      <Type>DrillThrough</Type>
+      <Columns>
+        <Column xsi:type="MeasureBinding" dwd:design-time-name="47f4302a-3d9a-4df0-863c-7d8593aef2fd">
+          <MeasureID>Amount</MeasureID>
+        </Column>
+        <Column xsi:type="CubeAttributeBinding" dwd:design-time-name="7d9da250-0f0e-41e2-902f-d519c30632ea">
+          <CubeID>Adventure Works</CubeID>
+          <CubeDimensionID>Order Date Key - Dim Time</CubeDimensionID>
+          <AttributeID>Fiscal Year</AttributeID>
+          <Type>All</Type>
+        </Column>
+        <Column xsi:type="CubeAttributeBinding" dwd:design-time-name="0a29afe4-5654-4250-9bb9-9d35c09e2fcd">
+          <CubeID>Adventure Works</CubeID>
+          <CubeDimensionID>Order Date Key - Dim Time</CubeDimensionID>
+          <AttributeID>TimeKey</AttributeID>
+          <Type>All</Type>
+        </Column>
+        <Column xsi:type="CubeAttributeBinding" dwd:design-time-name="674f5321-1020-409c-9eb1-6a1eea85b7ae">
+          <CubeID>Adventure Works</CubeID>
+          <CubeDimensionID>Order Date Key - Dim Time</CubeDimensionID>
+          <AttributeID>CalendarYear</AttributeID>
+          <Type>All</Type>
+        </Column>
+        <Column xsi:type="CubeAttributeBinding" dwd:design-time-name="2a1a06d9-8cce-45a8-9e7f-830f706299ba">
+          <CubeID>Adventure Works</CubeID>
+          <CubeDimensionID>Dim Account</CubeDimensionID>
+          <AttributeID>Parent Account Key</AttributeID>
+          <Type>All</Type>
+        </Column>
+        <Column xsi:type="CubeAttributeBinding" dwd:design-time-name="55502b3f-5781-4067-87d1-e1183cabd0d8">
+          <CubeID>Adventure Works</CubeID>
+          <CubeDimensionID>Dim Organization</CubeDimensionID>
+          <AttributeID>Parent Organization Key</AttributeID>
+          <Type>All</Type>
+        </Column>
+        <Column xsi:type="CubeAttributeBinding" dwd:design-time-name="b1e3d0e9-5c19-4142-95ac-f35ec044c66a">
+          <CubeID>Adventure Works</CubeID>
+          <CubeDimensionID>Dim Scenario</CubeDimensionID>
+          <AttributeID>Scenario Name</AttributeID>
+          <Type>All</Type>
+        </Column>
+        <Column xsi:type="CubeAttributeBinding" dwd:design-time-name="0c6f6d96-2e43-430c-ae86-a97ece210fe2">
+          <CubeID>Adventure Works</CubeID>
+          <CubeDimensionID>Dim Department Group</CubeDimensionID>
+          <AttributeID>Parent Department Group Key</AttributeID>
+          <Type>All</Type>
+        </Column>
+        <Column xsi:type="CubeAttributeBinding" dwd:design-time-name="f4a5a701-fd91-4c60-813c-2ad4a0a2ff5e">
+          <CubeID>Adventure Works</CubeID>
+          <CubeDimensionID>Destination Currency</CubeDimensionID>
+          <AttributeID>Currency Alternate Key</AttributeID>
+          <Type>All</Type>
+        </Column>
+      </Columns>
+    </Action>
+    <Action xsi:type="DrillThroughAction" dwd:design-time-name="12fdb5e2-18f2-4c2c-b1b3-9c63dacd27d3">
+      <ID>Drillthrough Action 4</ID>
+      <Name>Sales Summary Details</Name>
+      <Caption>Drillthrough...</Caption>
+      <Translations>
+        <Translation dwd:design-time-name="d206d37d-2229-459f-b258-16bdba3667a9">
+          <Language>3082</Language>
+          <Caption>Detalles del Resumen de Ventas</Caption>
+        </Translation>
+        <Translation dwd:design-time-name="638d38fa-66fa-444c-a731-d56efe5f94d2">
+          <Language>1036</Language>
+          <Caption>Détails des Ventes Totales</Caption>
+        </Translation>
+      </Translations>
+      <TargetType>Cells</TargetType>
+      <Target>MeasureGroupMeasures("Sales Summary")</Target>
+      <Type>DrillThrough</Type>
+      <Default>true</Default>
+      <Columns>
+        <Column xsi:type="MeasureBinding" dwd:design-time-name="89525e85-c949-426a-8979-cd8c58cb77c7">
+          <MeasureID>Order Quantity</MeasureID>
+        </Column>
+        <Column xsi:type="MeasureBinding" dwd:design-time-name="976c17d9-f40e-44c6-9baa-1a72221c791a">
+          <MeasureID>Unit Price</MeasureID>
+        </Column>
+        <Column xsi:type="MeasureBinding" dwd:design-time-name="a0d84b54-df7f-481d-91f7-af8fb574f702">
+          <MeasureID>Extended Amount</MeasureID>
+        </Column>
+        <Column xsi:type="MeasureBinding" dwd:design-time-name="da1d1b95-b6f9-43f2-8762-8e672dd849d3">
+          <MeasureID>Product Standard Cost</MeasureID>
+        </Column>
+        <Column xsi:type="MeasureBinding" dwd:design-time-name="355552bd-2146-453f-a5bf-95844207f968">
+          <MeasureID>Total Product Cost</MeasureID>
+        </Column>
+        <Column xsi:type="MeasureBinding" dwd:design-time-name="84430de3-acdc-40a6-b5a1-79ecff51e207">
+          <MeasureID>Sales Amount</MeasureID>
+        </Column>
+        <Column xsi:type="MeasureBinding" dwd:design-time-name="26d6d966-e5bd-425a-a674-2ffcddf6b9b4">
+          <MeasureID>Tax Amt</MeasureID>
+        </Column>
+        <Column xsi:type="MeasureBinding" dwd:design-time-name="f8ef9ae2-483c-4027-b2e9-b1a4d5ffaa10">
+          <MeasureID>Freight</MeasureID>
+        </Column>
+        <Column xsi:type="CubeAttributeBinding" dwd:design-time-name="c432561d-21e2-46f2-b6fa-10f5c48883de">
+          <CubeID>Adventure Works</CubeID>
+          <CubeDimensionID>Sales Summary Order Details</CubeDimensionID>
+          <AttributeID>Carrier Tracking Number</AttributeID>
+          <Type>All</Type>
+        </Column>
+        <Column xsi:type="CubeAttributeBinding" dwd:design-time-name="1efde9f6-743d-490f-86d9-6bbda252551e">
+          <CubeID>Adventure Works</CubeID>
+          <CubeDimensionID>Sales Summary Order Details</CubeDimensionID>
+          <AttributeID>Customer PO Number</AttributeID>
+          <Type>All</Type>
+        </Column>
+        <Column xsi:type="CubeAttributeBinding" dwd:design-time-name="7c49c24e-7dff-43cf-af78-bb1ef32e92f7">
+          <CubeID>Adventure Works</CubeID>
+          <CubeDimensionID>Sales Summary Order Details</CubeDimensionID>
+          <AttributeID>Sales Order Number</AttributeID>
+          <Type>All</Type>
+        </Column>
+        <Column xsi:type="CubeAttributeBinding" dwd:design-time-name="e2e64ed8-de1f-444c-a095-bcdb9ab0de40">
+          <CubeID>Adventure Works</CubeID>
+          <CubeDimensionID>Sales Summary Order Details</CubeDimensionID>
+          <AttributeID>Sales Order Line Number</AttributeID>
+          <Type>All</Type>
+        </Column>
+        <Column xsi:type="CubeAttributeBinding" dwd:design-time-name="d114d88f-2888-4a5f-8717-9f5abdfc31b9">
+          <CubeID>Adventure Works</CubeID>
+          <CubeDimensionID>Dim Promotion</CubeDimensionID>
+          <AttributeID>Promotion Name</AttributeID>
+          <Type>All</Type>
+        </Column>
+        <Column xsi:type="CubeAttributeBinding" dwd:design-time-name="83a073d4-4c9e-45ad-8847-5a5712db44cd">
+          <CubeID>Adventure Works</CubeID>
+          <CubeDimensionID>Dim Product</CubeDimensionID>
+          <AttributeID>Product Name</AttributeID>
+          <Type>All</Type>
+        </Column>
+        <Column xsi:type="CubeAttributeBinding" dwd:design-time-name="9555293e-7052-4436-ac0b-5edd5e4cc7c9">
+          <CubeID>Adventure Works</CubeID>
+          <CubeDimensionID>Order Date Key - Dim Time</CubeDimensionID>
+          <AttributeID>TimeKey</AttributeID>
+          <Type>All</Type>
+        </Column>
+        <Column xsi:type="CubeAttributeBinding" dwd:design-time-name="18772fb8-24c7-4945-847e-edb61012e875">
+          <CubeID>Adventure Works</CubeID>
+          <CubeDimensionID>Ship Date Key - Dim Time</CubeDimensionID>
+          <AttributeID>TimeKey</AttributeID>
+          <Type>All</Type>
+        </Column>
+        <Column xsi:type="CubeAttributeBinding" dwd:design-time-name="921112b8-b77f-485d-84cc-959f7b45f794">
+          <CubeID>Adventure Works</CubeID>
+          <CubeDimensionID>Due Date Key - Dim Time</CubeDimensionID>
+          <AttributeID>TimeKey</AttributeID>
+          <Type>All</Type>
+        </Column>
+        <Column xsi:type="CubeAttributeBinding" dwd:design-time-name="db4c8302-690e-4f0a-9877-82075c1690b3">
+          <CubeID>Adventure Works</CubeID>
+          <CubeDimensionID>Dim Sales Territory</CubeDimensionID>
+          <AttributeID>Sales Territory Region</AttributeID>
+          <Type>All</Type>
+        </Column>
+        <Column xsi:type="CubeAttributeBinding" dwd:design-time-name="e57e6bf3-ea5f-443e-9a56-de9d772ba0c2">
+          <CubeID>Adventure Works</CubeID>
+          <CubeDimensionID>Dim Currency</CubeDimensionID>
+          <AttributeID>Currency Code</AttributeID>
+          <Type>All</Type>
+        </Column>
+        <Column xsi:type="CubeAttributeBinding" dwd:design-time-name="fb5d8c84-820d-4431-b698-2c112b5fccdb">
+          <CubeID>Adventure Works</CubeID>
+          <CubeDimensionID>Sales Channel</CubeDimensionID>
+          <AttributeID>Fact Sales Summary</AttributeID>
+          <Type>All</Type>
+        </Column>
+        <Column xsi:type="CubeAttributeBinding" dwd:design-time-name="f6a5ff82-78cd-4241-96de-f0e0ff32edf9">
+          <CubeID>Adventure Works</CubeID>
+          <CubeDimensionID>Destination Currency</CubeDimensionID>
+          <AttributeID>Currency Alternate Key</AttributeID>
+          <Type>All</Type>
+        </Column>
+      </Columns>
+    </Action>
+    <Action xsi:type="StandardAction" dwd:design-time-name="6758d6bb-a522-40de-9f52-0d5ff06b0bfa">
+      <ID>Action</ID>
+      <Name>City Map</Name>
+      <Description>This action will display the map for a given city.</Description>
+      <Caption>"View Map for " + 
+[Geography].[City].CurrentMember.Member_Caption + "..."</Caption>
+      <CaptionIsMdx>true</CaptionIsMdx>
+      <Translations>
+        <Translation dwd:design-time-name="bc63c989-2830-452e-aa17-dc634ac4acba">
+          <Language>3082</Language>
+          <Caption>"Mapa de la Ciudad " + [Geography].[City].CurrentMember.Member_Caption + "..."</Caption>
+          <Description>Esta acción exhibirá el mapa para una ciudad dada.</Description>
+        </Translation>
+        <Translation dwd:design-time-name="ee273146-7d9b-4f1c-8736-a9c26b4a1514">
+          <Language>1036</Language>
+          <Caption>"Carte de la Ville " + [Geography].[City].CurrentMember.Member_Caption + "..."</Caption>
+          <Description>Cette action montrera la carte pour une ville donnée.</Description>
+        </Translation>
+      </Translations>
+      <TargetType>AttributeMembers</TargetType>
+      <Target>[Geography].[City]</Target>
+      <Condition></Condition>
+      <Type>Url</Type>
+      <Expression>// URL for linking to MSN Maps
+"http://maps.msn.com/home.aspx?plce1=" +
+
+// Retreive the name of the current city
+[Geography].[City].CurrentMember.Name + "," + 
+
+// Append state-province name
+[Geography].[State-Province].CurrentMember.Name + "," +
+
+// Append country name
+[Geography].[Country].CurrentMember.Name +
+
+// Append region paramter 
+"&amp;regn1=" +
+
+// Determine correct region paramter value
+Case
+    When [Geography].[Country].CurrentMember Is
+         [Geography].[Country].&amp;[Australia]
+    Then "3"
+    When [Geography].[Country].CurrentMember Is
+         [Geography].[Country].&amp;[Canada] 
+         Or
+         [Geography].[Country].CurrentMember Is
+         [Geography].[Country].&amp;[United States]
+    Then "0"
+    Else "1"
+End 
+
+// The "plce1" parameter represents a named location.
+// The "regn1" parameter indicates the region in which 
+// the named location is located.
+
+// 0 = North America
+// 1 = Europe
+// 2 = World Atlas
+// 3 = Australia
+// 4 = Brazil</Expression>
+    </Action>
+    <Action xsi:type="ReportAction" dwd:design-time-name="6e7c55fe-8aa8-44ed-a58e-0988e601d8dc">
+      <ID>Report Action</ID>
+      <Name>Sales Reason Comparisons</Name>
+      <Description>This action will launch a report comparing sales reasons for a given product category.</Description>
+      <Caption>"Sales Reason Comparisons for " + 
+[Product].[Category].CurrentMember.Member_Caption + "..."</Caption>
+      <CaptionIsMdx>true</CaptionIsMdx>
+      <Translations>
+        <Translation dwd:design-time-name="d9d858e6-4dd0-4f8c-83e3-a2ba4e49a2f8">
+          <Language>1036</Language>
+          <Caption>"Comparaison des Raisons de Ventes " + [Product].[Category].CurrentMember.Member_Caption + "..."</Caption>
+          <Description>Cette action lancera un rapport comparant les ventes pour une catégorie de produit donnée.</Description>
+        </Translation>
+        <Translation dwd:design-time-name="b2370f6f-8103-4668-bf06-c48127a9052f">
+          <Language>3082</Language>
+          <Caption>"Comparaciones de las Razones de las Ventas " + [Product].[Category].CurrentMember.Member_Caption + "..."</Caption>
+          <Description>Esta acción lanzará un informe que compara las razones de las ventas de una categoría dada del producto.</Description>
+        </Translation>
+      </Translations>
+      <TargetType>AttributeMembers</TargetType>
+      <Target>[Product].[Category]</Target>
+      <Condition>// This action requires that both Reporting Services and the Reporting Services
+// sample reports be installed on the local machine.</Condition>
+      <Type>Report</Type>
+      <ReportServer>Localhost</ReportServer>
+      <Path>ReportServer?/AdventureWorks Sample Reports/Sales Reason Comparisons</Path>
+      <ReportParameters>
+        <ReportParameter>
+          <Name>ProductCategory</Name>
+          <Value>UrlEscapeFragment( [Product].[Category].CurrentMember.UniqueName )</Value>
+        </ReportParameter>
+      </ReportParameters>
+      <ReportFormatParameters>
+        <ReportFormatParameter>
+          <Name>rs:Command</Name>
+          <Value>Render</Value>
+        </ReportFormatParameter>
+        <ReportFormatParameter>
+          <Name>rs:Renderer</Name>
+          <Value>HTML5</Value>
+        </ReportFormatParameter>
+      </ReportFormatParameters>
+    </Action>
+    <Action xsi:type="StandardAction" dwd:design-time-name="e231f9ec-b422-4afc-af27-2b39e21ee082">
+      <ID>Action 1</ID>
+      <Name>Intrepid Potash - Business Objects Report</Name>
+      <Caption></Caption>
+      <TargetType>Cells</TargetType>
+      <Target></Target>
+      <Type>Url</Type>
+      <Expression>"http://mickf-lt/ReportServer/Pages/ReportViewer.aspx?%2fAdventureWorks+2008R2%2fSales_by_Region_2008R2&amp;rs:Command=Render"</Expression>
+    </Action>
+    <Action xsi:type="StandardAction" dwd:design-time-name="e2ac18e6-fa9f-4cc2-b2fb-4fcec6320f44">
+      <ID>Action 2</ID>
+      <Name>Intrepid Potash - Scorecard in the World Wide Google Webs</Name>
+      <TargetType>Cells</TargetType>
+      <Target></Target>
+      <Type>Url</Type>
+      <Expression>"http://mickf-lt/ReportServer/Pages/ReportViewer.aspx?%2fAdventureWorks+2008R2%2fEmployee_Sales_Summary_2008R2&amp;rs:Command=Render"</Expression>
+    </Action>
+    <Action xsi:type="DrillThroughAction" dwd:design-time-name="0b7cac85-7c90-4e43-b2ce-56b3ed1ea306">
+      <ID>Drillthrough Action 3</ID>
+      <Name>Intrepid Potash - Finance Summary for Excel</Name>
+      <TargetType>Cells</TargetType>
+      <Target>MeasureGroupMeasures("Financial Reporting")</Target>
+      <Type>DrillThrough</Type>
+      <Columns>
+        <Column xsi:type="CubeAttributeBinding" dwd:design-time-name="a4be33af-87aa-4320-aa62-19586440114f">
+          <CubeID>Adventure Works</CubeID>
+          <CubeDimensionID>Dim Scenario</CubeDimensionID>
+          <AttributeID>Scenario Name</AttributeID>
+          <Type>All</Type>
+        </Column>
+        <Column xsi:type="CubeAttributeBinding" dwd:design-time-name="00adbb9d-62a9-4b7d-b307-ffc9a0e31c4e">
+          <CubeID>Adventure Works</CubeID>
+          <CubeDimensionID>Dim Department Group</CubeDimensionID>
+          <AttributeID>Department Group Name</AttributeID>
+          <Type>All</Type>
+        </Column>
+        <Column xsi:type="CubeAttributeBinding" dwd:design-time-name="c66c8748-23cc-44e6-8c5a-dfe8097eead9">
+          <CubeID>Adventure Works</CubeID>
+          <CubeDimensionID>Dim Organization</CubeDimensionID>
+          <AttributeID>Organization Name</AttributeID>
+          <Type>All</Type>
+        </Column>
+        <Column xsi:type="CubeAttributeBinding" dwd:design-time-name="0e05c90b-72bc-4de1-80d7-c243012985d8">
+          <CubeID>Adventure Works</CubeID>
+          <CubeDimensionID>Dim Organization</CubeDimensionID>
+          <AttributeID>Currency Alternate Key</AttributeID>
+          <Type>All</Type>
+        </Column>
+        <Column xsi:type="MeasureBinding" dwd:design-time-name="49b5b437-2b76-4c0b-98f5-79f65b2d2eef">
+          <MeasureID>Amount</MeasureID>
+        </Column>
+      </Columns>
+    </Action>
+    <Action xsi:type="StandardAction" dwd:design-time-name="016e2d91-acb0-4150-a239-cd5318a874c3">
+      <ID>Action 3</ID>
+      <Name>Action</Name>
+      <Caption>Test Action</Caption>
+      <TargetType>AttributeMembers</TargetType>
+      <Target>[Product].[Product]</Target>
+      <Type>Rowset</Type>
+      <Expression>"call ssas_ext.AddProduct('x','y');"</Expression>
+    </Action>
+  </Actions>
+</Cube>

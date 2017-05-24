@@ -1,0 +1,277 @@
+﻿<Cube xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="2309b6ec-d1f2-459a-a258-299ce346b8f5" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>Planning</ID>
+  <MeasureGroups>
+    <MeasureGroup>
+      <ID>Sales Planning</ID>
+      <Partitions>
+        <Partition dwd:design-time-name="49380133-67b4-4702-9487-342100b08502">
+          <ID>Sales Planning</ID>
+          <Name>Gross Profit Planning</Name>
+          <CreatedTimestamp>0001-01-01T07:00:00Z</CreatedTimestamp>
+          <LastSchemaUpdate>0001-01-01T07:00:00Z</LastSchemaUpdate>
+          <LastProcessed>0001-01-01T07:00:00Z</LastProcessed>
+          <State>Unprocessed</State>
+          <Source xsi:type="DsvTableBinding" dwd:design-time-name="a8255791-99b0-4b06-85cd-d4f3b10e53b2">
+            <DataSourceViewID>planning_view</DataSourceViewID>
+            <TableID>dbo_SalesPlanningDirect</TableID>
+          </Source>
+          <StorageMode>Molap</StorageMode>
+          <CurrentStorageMode>Molap</CurrentStorageMode>
+          <ProcessingMode>Regular</ProcessingMode>
+          <EstimatedRows>100000</EstimatedRows>
+          <AggregationDesignID>Gross Profit Planning Design</AggregationDesignID>
+        </Partition>
+        <Partition dwd:design-time-name="b1fe781c-6b6e-42f0-a009-b888abe46cda">
+          <ID>GrossProfitPlanningWriteback</ID>
+          <Name>GrossProfitPlanningWriteback</Name>
+          <CreatedTimestamp>0001-01-01T07:00:00Z</CreatedTimestamp>
+          <LastSchemaUpdate>0001-01-01T07:00:00Z</LastSchemaUpdate>
+          <LastProcessed>0001-01-01T07:00:00Z</LastProcessed>
+          <State>Unprocessed</State>
+          <Source xsi:type="TableBinding" dwd:design-time-name="62075a32-d609-4d46-853e-2684940b764a">
+            <DataSourceID>planning_source</DataSourceID>
+            <DbTableName>GrossProfitPlanningWriteback</DbTableName>
+          </Source>
+          <StorageMode>Molap</StorageMode>
+          <CurrentStorageMode>Molap</CurrentStorageMode>
+          <ProcessingMode>Regular</ProcessingMode>
+          <Type>Writeback</Type>
+          <AggregationDesignID>Gross Profit Planning Design</AggregationDesignID>
+        </Partition>
+      </Partitions>
+      <AggregationDesigns>
+        <AggregationDesign>
+          <ID>Gross Profit Planning Design</ID>
+          <Name>Gross Profit Planning Design</Name>
+          <CreatedTimestamp>2014-02-21T01:06:21.063333Z</CreatedTimestamp>
+          <LastSchemaUpdate>2014-02-21T01:06:21.063333Z</LastSchemaUpdate>
+          <EstimatedRows>100000</EstimatedRows>
+          <Dimensions>
+            <Dimension>
+              <CubeDimensionID>Period</CubeDimensionID>
+              <Attributes>
+                <Attribute>
+                  <AttributeID>Period Key</AttributeID>
+                  <EstimatedCount>39</EstimatedCount>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>Month Name</AttributeID>
+                  <EstimatedCount>39</EstimatedCount>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>Quarter Name</AttributeID>
+                  <EstimatedCount>14</EstimatedCount>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>Calendar Year</AttributeID>
+                  <EstimatedCount>5</EstimatedCount>
+                </Attribute>
+              </Attributes>
+            </Dimension>
+            <Dimension>
+              <CubeDimensionID>Territory</CubeDimensionID>
+              <Attributes>
+                <Attribute>
+                  <AttributeID>Region</AttributeID>
+                  <EstimatedCount>13</EstimatedCount>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>Country</AttributeID>
+                  <EstimatedCount>7</EstimatedCount>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>Country Group</AttributeID>
+                  <EstimatedCount>3</EstimatedCount>
+                </Attribute>
+              </Attributes>
+            </Dimension>
+            <Dimension>
+              <CubeDimensionID>Product Line</CubeDimensionID>
+              <Attributes>
+                <Attribute>
+                  <AttributeID>Product Line</AttributeID>
+                  <EstimatedCount>7</EstimatedCount>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>Performance Class</AttributeID>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>Standard Cost</AttributeID>
+                </Attribute>
+              </Attributes>
+            </Dimension>
+          </Dimensions>
+          <Aggregations>
+            <Aggregation>
+              <ID>Aggregation 0</ID>
+              <Name>Aggregation 0</Name>
+              <Dimensions>
+                <Dimension>
+                  <CubeDimensionID>Period</CubeDimensionID>
+                  <Attributes>
+                    <Attribute>
+                      <AttributeID>Quarter Name</AttributeID>
+                    </Attribute>
+                  </Attributes>
+                </Dimension>
+                <Dimension>
+                  <CubeDimensionID>Territory</CubeDimensionID>
+                  <Attributes>
+                    <Attribute>
+                      <AttributeID>Region</AttributeID>
+                    </Attribute>
+                  </Attributes>
+                </Dimension>
+                <Dimension>
+                  <CubeDimensionID>Product Line</CubeDimensionID>
+                  <Attributes>
+                    <Attribute>
+                      <AttributeID>Product Line</AttributeID>
+                    </Attribute>
+                  </Attributes>
+                </Dimension>
+              </Dimensions>
+            </Aggregation>
+            <Aggregation>
+              <ID>Aggregation 1</ID>
+              <Name>Aggregation 1</Name>
+              <Dimensions>
+                <Dimension>
+                  <CubeDimensionID>Period</CubeDimensionID>
+                  <Attributes>
+                    <Attribute>
+                      <AttributeID>Period Key</AttributeID>
+                    </Attribute>
+                  </Attributes>
+                </Dimension>
+                <Dimension>
+                  <CubeDimensionID>Territory</CubeDimensionID>
+                  <Attributes>
+                    <Attribute>
+                      <AttributeID>Region</AttributeID>
+                    </Attribute>
+                  </Attributes>
+                </Dimension>
+                <Dimension>
+                  <CubeDimensionID>Product Line</CubeDimensionID>
+                </Dimension>
+              </Dimensions>
+            </Aggregation>
+            <Aggregation>
+              <ID>Aggregation 2</ID>
+              <Name>Aggregation 2</Name>
+              <Dimensions>
+                <Dimension>
+                  <CubeDimensionID>Period</CubeDimensionID>
+                  <Attributes>
+                    <Attribute>
+                      <AttributeID>Period Key</AttributeID>
+                    </Attribute>
+                  </Attributes>
+                </Dimension>
+                <Dimension>
+                  <CubeDimensionID>Territory</CubeDimensionID>
+                </Dimension>
+                <Dimension>
+                  <CubeDimensionID>Product Line</CubeDimensionID>
+                  <Attributes>
+                    <Attribute>
+                      <AttributeID>Product Line</AttributeID>
+                    </Attribute>
+                  </Attributes>
+                </Dimension>
+              </Dimensions>
+            </Aggregation>
+            <Aggregation>
+              <ID>Aggregation 3</ID>
+              <Name>Aggregation 3</Name>
+              <Dimensions>
+                <Dimension>
+                  <CubeDimensionID>Period</CubeDimensionID>
+                </Dimension>
+                <Dimension>
+                  <CubeDimensionID>Territory</CubeDimensionID>
+                </Dimension>
+                <Dimension>
+                  <CubeDimensionID>Product Line</CubeDimensionID>
+                </Dimension>
+              </Dimensions>
+            </Aggregation>
+          </Aggregations>
+        </AggregationDesign>
+      </AggregationDesigns>
+    </MeasureGroup>
+    <MeasureGroup>
+      <ID>Head Count Planning</ID>
+      <Partitions>
+        <Partition dwd:design-time-name="abf874d5-061c-46be-be10-3e8d368c81a3">
+          <ID>Head Count Planning</ID>
+          <Name>Head Count Planning</Name>
+          <CreatedTimestamp>0001-01-01T07:00:00Z</CreatedTimestamp>
+          <LastSchemaUpdate>0001-01-01T07:00:00Z</LastSchemaUpdate>
+          <LastProcessed>0001-01-01T07:00:00Z</LastProcessed>
+          <State>Unprocessed</State>
+          <Source xsi:type="DsvTableBinding" dwd:design-time-name="3395aaab-19cd-44f7-bc16-8920f8de8e49">
+            <DataSourceViewID>planning_view</DataSourceViewID>
+            <TableID>dbo_HeadCountPlanning</TableID>
+          </Source>
+          <StorageMode>Molap</StorageMode>
+          <CurrentStorageMode>Molap</CurrentStorageMode>
+          <ProcessingMode>Regular</ProcessingMode>
+        </Partition>
+        <Partition dwd:design-time-name="899ef5c0-8241-4eac-82c9-997e45183003">
+          <ID>HeadCountPlanningWriteback</ID>
+          <Name>HeadCountPlanningWriteback</Name>
+          <CreatedTimestamp>0001-01-01T07:00:00Z</CreatedTimestamp>
+          <LastSchemaUpdate>0001-01-01T07:00:00Z</LastSchemaUpdate>
+          <LastProcessed>0001-01-01T07:00:00Z</LastProcessed>
+          <State>Unprocessed</State>
+          <Source xsi:type="TableBinding" dwd:design-time-name="a205d530-ad78-463a-ba05-46ba79a5af20">
+            <DataSourceID>planning_source</DataSourceID>
+            <DbTableName>HeadCountPlanningWriteback</DbTableName>
+          </Source>
+          <StorageMode>Molap</StorageMode>
+          <CurrentStorageMode>Molap</CurrentStorageMode>
+          <ProcessingMode>Regular</ProcessingMode>
+          <Type>Writeback</Type>
+        </Partition>
+      </Partitions>
+    </MeasureGroup>
+    <MeasureGroup>
+      <ID>Seasonality Planning</ID>
+      <Partitions>
+        <Partition dwd:design-time-name="55250b47-2f23-4098-b592-70da9be7d1f6">
+          <ID>Seasonality Planning</ID>
+          <Name>Seasonality Planning</Name>
+          <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+          <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+          <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+          <State>Unprocessed</State>
+          <Source xsi:type="DsvTableBinding" dwd:design-time-name="d240a8c3-d4f0-40b4-826a-911c46eb001e">
+            <DataSourceViewID>planning_view</DataSourceViewID>
+            <TableID>dbo_SeasonalityPlanning</TableID>
+          </Source>
+          <StorageMode>Molap</StorageMode>
+          <CurrentStorageMode>Molap</CurrentStorageMode>
+          <ProcessingMode>Regular</ProcessingMode>
+        </Partition>
+        <Partition dwd:design-time-name="587e3f45-6de5-40ea-b328-2b4167a10c0a">
+          <ID>SeasonalityPlanningWriteback</ID>
+          <Name>SeasonalityPlanningWriteback</Name>
+          <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+          <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+          <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+          <State>Unprocessed</State>
+          <Source xsi:type="TableBinding" dwd:design-time-name="51c43685-a004-4141-8d3e-c7e5c24807c3">
+            <DataSourceID>planning_source</DataSourceID>
+            <DbTableName>SeasonalityPlanningWriteback</DbTableName>
+          </Source>
+          <StorageMode>Molap</StorageMode>
+          <CurrentStorageMode>Molap</CurrentStorageMode>
+          <ProcessingMode>Regular</ProcessingMode>
+          <Type>Writeback</Type>
+        </Partition>
+      </Partitions>
+    </MeasureGroup>
+  </MeasureGroups>
+</Cube>

@@ -1,0 +1,102 @@
+﻿<Database xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="database1" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>Corporate Planning</ID>
+  <Name>Corporate Planning</Name>
+  <CreatedTimestamp>0001-01-01T08:00:00Z</CreatedTimestamp>
+  <LastSchemaUpdate>0001-01-01T08:00:00Z</LastSchemaUpdate>
+  <Description>A Unified Dimensional Model that encompasses the Adventure Works data warehouse.</Description>
+  <Annotations>
+    <Annotation>
+      <Name>CA1792B06E6B48BDAD71EFE2A95A0F02</Name>
+      <Value>
+        <Rules xmlns="CA1792B06E6B48BDAD71EFE2A95A0F02">
+          <Rule id="14" />
+        </Rules>
+      </Value>
+    </Annotation>
+    <Annotation>
+      <Name>B77886FF900E4C18A95F79A6BFA488A9</Name>
+      <Value>
+        <Results xmlns="B77886FF900E4C18A95F79A6BFA488A9"></Results>
+      </Value>
+    </Annotation>
+  </Annotations>
+  <LastProcessed>0001-01-01T08:00:00Z</LastProcessed>
+  <State>Unprocessed</State>
+  <LastUpdate>0001-01-01T08:00:00Z</LastUpdate>
+  <Dimensions />
+  <Cubes />
+  <DataSources />
+  <DataSourceViews />
+  <Accounts>
+    <Account dwd:design-time-name="account1">
+      <AccountType>Statistical</AccountType>
+      <AggregationFunction>LastNonEmpty</AggregationFunction>
+      <Aliases>
+        <Alias>Statistical</Alias>
+      </Aliases>
+    </Account>
+    <Account dwd:design-time-name="account2">
+      <AccountType>Liability</AccountType>
+      <AggregationFunction>LastNonEmpty</AggregationFunction>
+      <Aliases>
+        <Alias>Liabilities</Alias>
+      </Aliases>
+    </Account>
+    <Account dwd:design-time-name="account3">
+      <AccountType>Asset</AccountType>
+      <AggregationFunction>LastNonEmpty</AggregationFunction>
+      <Aliases>
+        <Alias>Assets</Alias>
+      </Aliases>
+    </Account>
+    <Account dwd:design-time-name="account4">
+      <AccountType>Balance</AccountType>
+      <AggregationFunction>LastNonEmpty</AggregationFunction>
+      <Aliases>
+        <Alias>Balances</Alias>
+      </Aliases>
+    </Account>
+    <Account dwd:design-time-name="account5">
+      <AccountType>Flow</AccountType>
+      <AggregationFunction>LastNonEmpty</AggregationFunction>
+      <Aliases>
+        <Alias>Flow</Alias>
+      </Aliases>
+    </Account>
+    <Account dwd:design-time-name="account6">
+      <AccountType>Expense</AccountType>
+      <Aliases>
+        <Alias>Expenditures</Alias>
+      </Aliases>
+    </Account>
+    <Account dwd:design-time-name="account7">
+      <AccountType>Income</AccountType>
+      <Aliases>
+        <Alias>Revenue</Alias>
+      </Aliases>
+    </Account>
+  </Accounts>
+  <Roles />
+  <DatabasePermissions>
+    <DatabasePermission dwd:design-time-name="ec3c0035-d0e5-498f-8aa5-0a8932d87533">
+      <ID>DatabasePermission</ID>
+      <Name>DatabasePermission</Name>
+      <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+      <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+      <RoleID>Role</RoleID>
+      <Read>Allowed</Read>
+    </DatabasePermission>
+  </DatabasePermissions>
+  <Translations>
+    <Translation dwd:design-time-name="6833f5b8-5711-46fd-88df-eeec7f8402a3">
+      <Language>3082</Language>
+      <Caption>Adventure Works</Caption>
+      <Description>Un modelo dimensional unificado (UDM) que abarca la Adventure Works el almacén de los datos.</Description>
+    </Translation>
+    <Translation dwd:design-time-name="acf25b09-8091-43c1-b2f4-5f6f52654488">
+      <Language>1036</Language>
+      <Caption>Adventure Works</Caption>
+      <Description>Un modèle dimensionnel unifié qui contient l'entrepot de données complet de Adventure Works.</Description>
+    </Translation>
+  </Translations>
+</Database>

@@ -1,0 +1,350 @@
+﻿<Dimension xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="dimension1" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>Dim Account</ID>
+  <Name>Account</Name>
+  <CreatedTimestamp>0001-01-01T08:00:00Z</CreatedTimestamp>
+  <LastSchemaUpdate>0001-01-01T08:00:00Z</LastSchemaUpdate>
+  <Annotations>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:UseDiagramDefaultLayout</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowRelationshipNames</Name>
+      <Value>false</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingTop</Name>
+      <Value>-7416</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowFriendlyNames</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingLeft</Name>
+      <Value>92</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortLeft</Name>
+      <Value>-1596</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
+      <Value>
+        <dds xmlns="">
+          <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="6" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-1596" scrolltop="-8945" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="100" x="7541" y="11165" backcolor="15334399" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="0" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
+            <font>
+              <ddsxmlobjectstreamwrapper binary="01000000900144420100065461686f6d61" />
+            </font>
+            <mouseicon>
+              <ddsxmlobjectstreamwrapper binary="6c74000000000000" />
+            </mouseicon>
+          </diagram>
+          <layoutmanager>
+            <ddsxmlobj />
+          </layoutmanager>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.3" tooltip="Account" left="92" top="-7416" logicalid="3" controlid="1" masterid="0" hint1="0" hint2="0" width="5327" height="5792" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="00080000cf140000a0160000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_DimAccount" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+          <ddscontrol controlprogid="MSDDS.Polyline" left="-1208" top="-8716" logicalid="5" controlid="3" masterid="0" hint1="0" hint2="0" width="2613" height="2396" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobj>
+                <polyline endtypedst="6" endtypesrc="3" usercolor="0" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+              </ddsxmlobj>
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dataSet.Relations[FK_DimAccount_DimAccount]" vartype="8" />
+                <property name="Virtual" value="0" vartype="11" />
+                <property name="VisibleAP" value="0" vartype="3" />
+              </ddsxmlobj>
+            </layoutobject>
+            <connector lineroutestyle="MSDDS.Rectilinear" sourceid="1" destid="1" sourceattachpoint="20" destattachpoint="2" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+              <point x="92" y="-6720" />
+              <point x="-908" y="-6720" />
+              <point x="-908" y="-8416" />
+              <point x="1105" y="-8416" />
+              <point x="1105" y="-7416" />
+            </connector>
+          </ddscontrol>
+        </dds>
+      </Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortTop</Name>
+      <Value>-8945</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramZoom</Name>
+      <Value>100</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ARDiagramLayout</Name>
+      <Value>
+        <DiagramLayout ZoomPercent="100" ViewPortX="0" ViewPortY="0" xmlns="">
+          <Shapes NodeWidth="134">
+            <Shape Id="Account Description" Expanded="true">
+              <Attributes>
+                <Attribute Id="Account Description" />
+                <Attribute Id="AccountKey" />
+                <Attribute Id="Account Type" />
+                <Attribute Id="Parent Account Key" />
+              </Attributes>
+              <Position x="20" y="20" />
+            </Shape>
+          </Shapes>
+        </DiagramLayout>
+      </Value>
+    </Annotation>
+  </Annotations>
+  <LastProcessed>0001-01-01T08:00:00Z</LastProcessed>
+  <State>Unprocessed</State>
+  <Source xsi:type="DataSourceViewBinding" dwd:design-time-name="dataSourceViewBinding1">
+    <DataSourceViewID>Adventure Works DW</DataSourceViewID>
+  </Source>
+  <Type>Accounts</Type>
+  <ErrorConfiguration dwd:design-time-name="ae0cf322-0709-4172-a123-0f5fc7321139">
+    <KeyDuplicate>ReportAndStop</KeyDuplicate>
+  </ErrorConfiguration>
+  <CurrentStorageMode>Molap</CurrentStorageMode>
+  <DimensionPermissions>
+    <DimensionPermission dwd:design-time-name="538948b2-d6ff-4845-a99e-9bdbe076b529">
+      <ID>DimensionPermission</ID>
+      <Name>DimensionPermission</Name>
+      <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+      <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+      <RoleID>Role</RoleID>
+      <ReadDefinition>Allowed</ReadDefinition>
+      <Read>Allowed</Read>
+    </DimensionPermission>
+  </DimensionPermissions>
+  <Translations>
+    <Translation dwd:design-time-name="translation1">
+      <Language>3082</Language>
+      <Caption>Cuenta</Caption>
+    </Translation>
+    <Translation dwd:design-time-name="translation2">
+      <Language>1036</Language>
+      <Caption>Compte</Caption>
+    </Translation>
+  </Translations>
+  <Attributes>
+    <Attribute dwd:design-time-name="dimensionAttribute9">
+      <ID>Parent Account Key</ID>
+      <Name>Accounts</Name>
+      <Type>Account</Type>
+      <Usage>Parent</Usage>
+      <EstimatedCount>27</EstimatedCount>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="dataItem3">
+          <DataType>Integer</DataType>
+          <DataSize>-1</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="columnBinding3">
+            <TableID>dbo_DimAccount</TableID>
+            <ColumnID>ParentAccountKey</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <Translations>
+        <Translation dwd:design-time-name="attributeTranslation1">
+          <Language>3082</Language>
+          <Caption>Cuentas</Caption>
+        </Translation>
+        <Translation dwd:design-time-name="attributeTranslation7">
+          <Language>1036</Language>
+          <Caption>Comptes</Caption>
+        </Translation>
+      </Translations>
+      <DefaultMember>[Account].[Accounts].[Account Level 01].&amp;[47]</DefaultMember>
+      <NamingTemplate>Account Level *;</NamingTemplate>
+      <NamingTemplateTranslations>
+        <NamingTemplateTranslation dwd:design-time-name="19e415ab-f62a-42be-8b27-efc159aabccf">
+          <Language>1036</Language>
+          <Caption>Niveau de Compte *;</Caption>
+        </NamingTemplateTranslation>
+        <NamingTemplateTranslation dwd:design-time-name="946c0d3f-bea8-41cd-a432-8e8e254d00e1">
+          <Language>3082</Language>
+          <Caption>Cuenta de Nivel *;</Caption>
+        </NamingTemplateTranslation>
+      </NamingTemplateTranslations>
+      <MembersWithData>NonLeafDataHidden</MembersWithData>
+      <CustomRollupColumn dwd:design-time-name="b3066d37-5e04-40c1-9b75-09567fe81133">
+        <DataType>WChar</DataType>
+        <DataSize>300</DataSize>
+        <Source xsi:type="ColumnBinding" dwd:design-time-name="cfc3767f-65d9-43b3-a141-985bdd13a8b3">
+          <TableID>dbo_DimAccount</TableID>
+          <ColumnID>CustomMembers</ColumnID>
+        </Source>
+      </CustomRollupColumn>
+      <UnaryOperatorColumn dwd:design-time-name="dataItem6">
+        <DataType>WChar</DataType>
+        <Source xsi:type="ColumnBinding" dwd:design-time-name="columnBinding6">
+          <TableID>dbo_DimAccount</TableID>
+          <ColumnID>Operator</ColumnID>
+        </Source>
+      </UnaryOperatorColumn>
+      <IsAggregatable>false</IsAggregatable>
+      <GroupingBehavior>DiscourageGrouping</GroupingBehavior>
+      <InstanceSelection>DropDown</InstanceSelection>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="dimensionAttribute1">
+      <ID>Account Description</ID>
+      <Name>Account</Name>
+      <Type>AccountName</Type>
+      <Usage>Key</Usage>
+      <EstimatedCount>99</EstimatedCount>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="dataItem1">
+          <DataType>Integer</DataType>
+          <DataSize>-1</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="columnBinding1">
+            <TableID>dbo_DimAccount</TableID>
+            <ColumnID>AccountKey</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <NameColumn dwd:design-time-name="dataItem2">
+        <DataType>WChar</DataType>
+        <DataSize>50</DataSize>
+        <Source xsi:type="ColumnBinding" dwd:design-time-name="columnBinding2">
+          <TableID>dbo_DimAccount</TableID>
+          <ColumnID>AccountDescription</ColumnID>
+        </Source>
+      </NameColumn>
+      <Translations>
+        <Translation dwd:design-time-name="attributeTranslation2">
+          <Language>3082</Language>
+          <Caption>Cuenta</Caption>
+        </Translation>
+        <Translation dwd:design-time-name="attributeTranslation8">
+          <Language>1036</Language>
+          <Caption>Compte</Caption>
+        </Translation>
+      </Translations>
+      <AttributeRelationships>
+        <AttributeRelationship dwd:design-time-name="fb40900f-a4a4-4c96-989b-1d54ca705654">
+          <AttributeID>Account Type</AttributeID>
+          <RelationshipType>Rigid</RelationshipType>
+          <Name>Account Type</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="64b956f2-2f95-4c21-83e0-362276cb5839">
+          <AttributeID>Parent Account Key</AttributeID>
+          <RelationshipType>Rigid</RelationshipType>
+          <Name>Accounts</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="be79d51e-458c-4abc-be72-4f0f7f28003d">
+          <AttributeID>AccountKey</AttributeID>
+          <RelationshipType>Rigid</RelationshipType>
+          <Cardinality>One</Cardinality>
+          <Name>Account Number</Name>
+        </AttributeRelationship>
+      </AttributeRelationships>
+      <OrderBy>AttributeKey</OrderBy>
+      <OrderByAttributeID>AccountKey</OrderByAttributeID>
+      <AttributeHierarchyVisible>false</AttributeHierarchyVisible>
+      <GroupingBehavior>DiscourageGrouping</GroupingBehavior>
+      <InstanceSelection>DropDown</InstanceSelection>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="dimensionAttribute6">
+      <ID>Account Type</ID>
+      <Name>Account Type</Name>
+      <Type>AccountType</Type>
+      <EstimatedCount>7</EstimatedCount>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="dataItem9">
+          <DataType>WChar</DataType>
+          <DataSize>50</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="columnBinding9">
+            <TableID>dbo_DimAccount</TableID>
+            <ColumnID>AccountType</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <Translations>
+        <Translation dwd:design-time-name="attributeTranslation3">
+          <Language>3082</Language>
+          <Caption>Tipo de Cuenta</Caption>
+        </Translation>
+        <Translation dwd:design-time-name="attributeTranslation9">
+          <Language>1036</Language>
+          <Caption>Type de Compte</Caption>
+        </Translation>
+      </Translations>
+      <InstanceSelection>DropDown</InstanceSelection>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="3ce17aca-c7b5-450b-91bd-3eb54a4e4426">
+      <ID>AccountKey</ID>
+      <Name>Account Number</Name>
+      <Type>AccountNumber</Type>
+      <EstimatedCount>99</EstimatedCount>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="ec72963b-ac43-451d-a631-53bad92df7d3">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="8bee830a-94ad-4030-b10c-773e73bef4e1">
+            <TableID>dbo_DimAccount</TableID>
+            <ColumnID>AccountCodeAlternateKey</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <Translations>
+        <Translation dwd:design-time-name="af2b0f92-7606-4abc-bab2-2080a76944de">
+          <Language>3082</Language>
+          <Caption>Número de Cuenta</Caption>
+        </Translation>
+        <Translation dwd:design-time-name="d1092752-640a-4bdd-9dc6-6d1ae73cc5b9">
+          <Language>1036</Language>
+          <Caption>Numéro de Compte</Caption>
+        </Translation>
+      </Translations>
+      <OrderBy>Key</OrderBy>
+      <GroupingBehavior>DiscourageGrouping</GroupingBehavior>
+      <InstanceSelection>DropDown</InstanceSelection>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+  </Attributes>
+  <AttributeAllMemberName>All Accounts</AttributeAllMemberName>
+  <AttributeAllMemberTranslations>
+    <AttributeAllMemberTranslation dwd:design-time-name="96e69506-cf75-4f36-b65a-39bdb052b027">
+      <Language>1036</Language>
+      <Caption>Tous les Comptes</Caption>
+    </AttributeAllMemberTranslation>
+    <AttributeAllMemberTranslation dwd:design-time-name="0e87af9a-fe14-40a8-aed0-d4a33502ffd4">
+      <Language>3082</Language>
+      <Caption>Todas las Cuentas</Caption>
+    </AttributeAllMemberTranslation>
+  </AttributeAllMemberTranslations>
+  <ProactiveCaching dwd:design-time-name="8f507c21-259c-4074-9b83-da717fe374eb">
+    <SilenceInterval>PT5S</SilenceInterval>
+    <Latency>-PT1S</Latency>
+    <SilenceOverrideInterval>PT5M</SilenceOverrideInterval>
+    <ForceRebuildInterval>-PT1S</ForceRebuildInterval>
+    <Enabled>true</Enabled>
+    <OnlineMode>OnCacheComplete</OnlineMode>
+    <AggregationStorage>MolapOnly</AggregationStorage>
+    <Source xsi:type="ProactiveCachingTablesBinding" dwd:design-time-name="a8367dcf-ca7a-45cd-8834-a545cb5f077d">
+      <NotificationTechnique>Server</NotificationTechnique>
+      <TableNotifications>
+        <TableNotification>
+          <DbTableName>DimAccount</DbTableName>
+          <DbSchemaName>dbo</DbSchemaName>
+        </TableNotification>
+      </TableNotifications>
+    </Source>
+  </ProactiveCaching>
+  <ddl300:ProcessingState>Unprocessed</ddl300:ProcessingState>
+</Dimension>

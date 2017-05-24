@@ -1,0 +1,272 @@
+﻿<Dimension xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="dimension1" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>Dim Organization</ID>
+  <Name>Organization</Name>
+  <CreatedTimestamp>0001-01-01T08:00:00Z</CreatedTimestamp>
+  <LastSchemaUpdate>0001-01-01T08:00:00Z</LastSchemaUpdate>
+  <Annotations>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:UseDiagramDefaultLayout</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowRelationshipNames</Name>
+      <Value>false</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingTop</Name>
+      <Value>-8474</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowFriendlyNames</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingLeft</Name>
+      <Value>-226</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortLeft</Name>
+      <Value>-2099</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
+      <Value>
+        <dds xmlns="">
+          <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="5" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-2099" scrolltop="-9792" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="100" x="9604" y="24580" backcolor="15334399" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="0" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
+            <font>
+              <ddsxmlobjectstreamwrapper binary="01000000900144420100065461686f6d61" />
+            </font>
+            <mouseicon>
+              <ddsxmlobjectstreamwrapper binary="6c74000000000000" />
+            </mouseicon>
+          </diagram>
+          <layoutmanager>
+            <ddsxmlobj />
+          </layoutmanager>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.3" tooltip="Organization" left="-226" top="-8474" logicalid="3" controlid="1" masterid="0" hint1="0" hint2="0" width="4868" height="3395" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="0008000004130000430d0000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_DimOrganization" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+          <ddscontrol controlprogid="MSDDS.Polyline" left="-1526" top="-9774" logicalid="4" controlid="2" masterid="0" hint1="0" hint2="0" width="2384" height="2847" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobj>
+                <polyline endtypedst="6" endtypesrc="3" usercolor="0" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+              </ddsxmlobj>
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dataSet.Relations[FK_DimOrganization_DimOrganization]" vartype="8" />
+                <property name="Virtual" value="0" vartype="11" />
+                <property name="VisibleAP" value="0" vartype="3" />
+              </ddsxmlobj>
+            </layoutobject>
+            <connector lineroutestyle="MSDDS.Rectilinear" sourceid="1" destid="1" sourceattachpoint="20" destattachpoint="2" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+              <point x="-226" y="-7327" />
+              <point x="-1226" y="-7327" />
+              <point x="-1226" y="-9474" />
+              <point x="558" y="-9474" />
+              <point x="558" y="-8474" />
+            </connector>
+          </ddscontrol>
+        </dds>
+      </Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortTop</Name>
+      <Value>-9792</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramZoom</Name>
+      <Value>100</Value>
+    </Annotation>
+  </Annotations>
+  <LastProcessed>0001-01-01T08:00:00Z</LastProcessed>
+  <State>Unprocessed</State>
+  <Source xsi:type="DataSourceViewBinding" dwd:design-time-name="dataSourceViewBinding1">
+    <DataSourceViewID>Adventure Works DW</DataSourceViewID>
+  </Source>
+  <Type>Organization</Type>
+  <ErrorConfiguration dwd:design-time-name="5029f350-c702-48d5-8df9-15f63aa86f47">
+    <KeyDuplicate>ReportAndStop</KeyDuplicate>
+  </ErrorConfiguration>
+  <CurrentStorageMode>Molap</CurrentStorageMode>
+  <DimensionPermissions>
+    <DimensionPermission dwd:design-time-name="9226e87f-4f63-4016-a238-ee0d7c24ca26">
+      <ID>DimensionPermission</ID>
+      <Name>DimensionPermission</Name>
+      <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+      <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+      <RoleID>Role</RoleID>
+      <ReadDefinition>Allowed</ReadDefinition>
+      <Read>Allowed</Read>
+    </DimensionPermission>
+  </DimensionPermissions>
+  <Translations>
+    <Translation dwd:design-time-name="translation1">
+      <Language>3082</Language>
+      <Caption>Organización</Caption>
+    </Translation>
+    <Translation dwd:design-time-name="translation2">
+      <Language>1036</Language>
+      <Caption>Organisation</Caption>
+    </Translation>
+  </Translations>
+  <Attributes>
+    <Attribute dwd:design-time-name="dimensionAttribute5">
+      <ID>Parent Organization Key</ID>
+      <Name>Organizations</Name>
+      <Type>OrgTitle</Type>
+      <Usage>Parent</Usage>
+      <EstimatedCount>5</EstimatedCount>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="dataItem3">
+          <DataType>Integer</DataType>
+          <DataSize>-1</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="columnBinding3">
+            <TableID>dbo_DimOrganization</TableID>
+            <ColumnID>ParentOrganizationKey</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <Translations>
+        <Translation dwd:design-time-name="attributeTranslation1">
+          <Language>3082</Language>
+          <Caption>Organización</Caption>
+        </Translation>
+        <Translation dwd:design-time-name="attributeTranslation5">
+          <Language>1036</Language>
+          <Caption>Organisations</Caption>
+        </Translation>
+      </Translations>
+      <DefaultMember>[Organization].[Organizations].[Organization Level 01].&amp;[1]</DefaultMember>
+      <NamingTemplate>Organization Level *;</NamingTemplate>
+      <NamingTemplateTranslations>
+        <NamingTemplateTranslation dwd:design-time-name="e3c7ab5c-4fe7-4103-abd8-3bcc485ceca8">
+          <Language>3082</Language>
+          <Caption>Organización de Nivel *;</Caption>
+        </NamingTemplateTranslation>
+        <NamingTemplateTranslation dwd:design-time-name="9480a05e-bf80-497e-8e77-ecf69955334e">
+          <Language>1036</Language>
+          <Caption>Niveau d'Organisation *;</Caption>
+        </NamingTemplateTranslation>
+      </NamingTemplateTranslations>
+      <MembersWithData>NonLeafDataHidden</MembersWithData>
+      <UnaryOperatorColumn dwd:design-time-name="dataItem7">
+        <DataType>WChar</DataType>
+        <Source xsi:type="ColumnBinding" dwd:design-time-name="columnBinding7">
+          <TableID>dbo_DimOrganization</TableID>
+          <ColumnID>PercentageOfOwnership</ColumnID>
+        </Source>
+      </UnaryOperatorColumn>
+      <IsAggregatable>false</IsAggregatable>
+      <GroupingBehavior>DiscourageGrouping</GroupingBehavior>
+      <InstanceSelection>DropDown</InstanceSelection>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="dimensionAttribute1">
+      <ID>Organization Name</ID>
+      <Name>Organization</Name>
+      <Usage>Key</Usage>
+      <EstimatedCount>14</EstimatedCount>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="dataItem1">
+          <DataType>Integer</DataType>
+          <DataSize>-1</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="columnBinding1">
+            <TableID>dbo_DimOrganization</TableID>
+            <ColumnID>OrganizationKey</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <NameColumn dwd:design-time-name="dataItem2">
+        <DataType>WChar</DataType>
+        <DataSize>50</DataSize>
+        <Source xsi:type="ColumnBinding" dwd:design-time-name="columnBinding2">
+          <TableID>dbo_DimOrganization</TableID>
+          <ColumnID>OrganizationName</ColumnID>
+        </Source>
+      </NameColumn>
+      <Translations>
+        <Translation dwd:design-time-name="attributeTranslation2">
+          <Language>3082</Language>
+          <Caption>Organización</Caption>
+        </Translation>
+        <Translation dwd:design-time-name="attributeTranslation4">
+          <Language>1036</Language>
+          <Caption>Organisation</Caption>
+        </Translation>
+      </Translations>
+      <AttributeRelationships>
+        <AttributeRelationship dwd:design-time-name="d23475e8-7f34-4622-bfe4-313e1982aa64">
+          <AttributeID>Parent Organization Key</AttributeID>
+          <RelationshipType>Rigid</RelationshipType>
+          <Name>Organizations</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="b3fa7fce-b2e3-4c05-a833-3517b3c80fba">
+          <AttributeID>Currency Alternate Key</AttributeID>
+          <Name>Currency Code</Name>
+        </AttributeRelationship>
+      </AttributeRelationships>
+      <AttributeHierarchyVisible>false</AttributeHierarchyVisible>
+      <GroupingBehavior>DiscourageGrouping</GroupingBehavior>
+      <InstanceSelection>DropDown</InstanceSelection>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="30ec8457-5534-47a1-ab08-0c0773aad050">
+      <ID>Currency Alternate Key</ID>
+      <Name>Currency Code</Name>
+      <EstimatedCount>4</EstimatedCount>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="851639c6-a6b1-4d5a-8185-18b6edb637d0">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="1bf0b761-470c-422d-a990-9b39e05b9840">
+            <TableID>dbo_DimOrganization</TableID>
+            <ColumnID>CurrencyKey</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <NameColumn dwd:design-time-name="bd30dde5-6790-4853-a002-99fd5fc7a5c7">
+        <DataType>WChar</DataType>
+        <DataSize>3</DataSize>
+        <Source xsi:type="ColumnBinding" dwd:design-time-name="f9257fb9-607e-4ab1-bc8e-366c355d4f77">
+          <TableID>dbo_DimOrganization</TableID>
+          <ColumnID>CurrencyAlternateKey</ColumnID>
+        </Source>
+      </NameColumn>
+      <Translations>
+        <Translation dwd:design-time-name="0aa43b40-b8e7-44b1-841e-d454b076f1e6">
+          <Language>3082</Language>
+          <Caption>Código de la Divisa</Caption>
+        </Translation>
+        <Translation dwd:design-time-name="c3671d2e-531b-4d7d-a0dc-8f8f31e06b49">
+          <Language>1036</Language>
+          <Caption>Code de Devises</Caption>
+        </Translation>
+      </Translations>
+      <InstanceSelection>DropDown</InstanceSelection>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+  </Attributes>
+  <AttributeAllMemberName>All Organizations</AttributeAllMemberName>
+  <AttributeAllMemberTranslations>
+    <AttributeAllMemberTranslation dwd:design-time-name="bbefdca8-cfd8-4eb7-b5b8-0651c35b3d64">
+      <Language>3082</Language>
+      <Caption>Todas las Organizaciones</Caption>
+    </AttributeAllMemberTranslation>
+    <AttributeAllMemberTranslation dwd:design-time-name="64bdfaad-6d20-48e7-8067-ee1412f4fef9">
+      <Language>1036</Language>
+      <Caption>Toues les Organisations</Caption>
+    </AttributeAllMemberTranslation>
+  </AttributeAllMemberTranslations>
+  <ddl300:ProcessingState>Unprocessed</ddl300:ProcessingState>
+</Dimension>

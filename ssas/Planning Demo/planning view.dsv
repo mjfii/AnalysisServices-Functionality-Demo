@@ -1,0 +1,418 @@
+﻿<DataSourceView xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="59c6fb26-318b-4c79-8470-8ffa540f8db2" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>planning_view</ID>
+  <Name>planning view</Name>
+  <CreatedTimestamp>0001-01-01T07:00:00Z</CreatedTimestamp>
+  <LastSchemaUpdate>0001-01-01T07:00:00Z</LastSchemaUpdate>
+  <Annotations>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowFriendlyNames</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:CurrentLayout</Name>
+      <Value>_ALL_TABLES_</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:SchemaRestriction</Name>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:RetrieveRelationships</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:Layouts</Name>
+      <Value>
+        <Layouts xmlns="">
+          <Diagram>
+            <Name>_ALL_TABLES_</Name>
+            <DiagramLayout>
+              <dds>
+                <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="26" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-10385" scrolltop="-1983" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="75" x="23442" y="18336" backcolor="15334399" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="0" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
+                  <font>
+                    <ddsxmlobjectstreamwrapper binary="01000000900144420100065461686f6d61" />
+                  </font>
+                  <mouseicon>
+                    <ddsxmlobjectstreamwrapper binary="6c74000000000000" />
+                  </mouseicon>
+                </diagram>
+                <layoutmanager>
+                  <ddsxmlobj />
+                </layoutmanager>
+                <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.3" tooltip="Territory" left="14721" top="12632" logicalid="13" controlid="1" masterid="0" hint1="0" hint2="0" width="3635" height="2725" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                  <control>
+                    <ddsxmlobjectstreaminitwrapper binary="00080000330e0000a50a0000" />
+                  </control>
+                  <layoutobject>
+                    <ddsxmlobj>
+                      <property name="LogicalObject" value="dbo_Territory" vartype="8" />
+                    </ddsxmlobj>
+                  </layoutobject>
+                  <shape groupshapeid="0" groupnode="0" />
+                </ddscontrol>
+                <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.3" tooltip="Period" left="7365" top="6484" logicalid="14" controlid="2" masterid="0" hint1="0" hint2="0" width="4428" height="7514" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                  <control>
+                    <ddsxmlobjectstreaminitwrapper binary="000800004c1100005a1d0000" />
+                  </control>
+                  <layoutobject>
+                    <ddsxmlobj>
+                      <property name="LogicalObject" value="dbo_PeriodView" vartype="8" />
+                    </ddsxmlobj>
+                  </layoutobject>
+                  <shape groupshapeid="0" groupnode="0" />
+                </ddscontrol>
+                <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.3" tooltip="Gross Profit Planning" left="14198" top="5125" logicalid="15" controlid="3" masterid="0" hint1="0" hint2="0" width="4683" height="5107" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                  <control>
+                    <ddsxmlobjectstreaminitwrapper binary="000800004b120000f3130000" />
+                  </control>
+                  <layoutobject>
+                    <ddsxmlobj>
+                      <property name="LogicalObject" value="dbo_SalesPlanningDirect" vartype="8" />
+                    </ddsxmlobj>
+                  </layoutobject>
+                  <shape groupshapeid="0" groupnode="0" />
+                </ddscontrol>
+                <ddscontrol controlprogid="MSDDS.Polyline" left="11493" top="7378" logicalid="16" controlid="4" masterid="0" hint1="0" hint2="0" width="3005" height="2163" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                  <control>
+                    <ddsxmlobj>
+                      <polyline endtypedst="6" endtypesrc="3" usercolor="0" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+                    </ddsxmlobj>
+                  </control>
+                  <layoutobject>
+                    <ddsxmlobj>
+                      <property name="LogicalObject" value="dataSet.Relations[SalesPlanningDirect-PeriodView]" vartype="8" />
+                      <property name="Virtual" value="0" vartype="11" />
+                      <property name="VisibleAP" value="0" vartype="3" />
+                    </ddsxmlobj>
+                  </layoutobject>
+                  <connector lineroutestyle="MSDDS.Rectilinear" sourceid="2" destid="3" sourceattachpoint="23" destattachpoint="26" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+                    <point x="11793" y="9141" />
+                    <point x="12995" y="9141" />
+                    <point x="12995" y="7678" />
+                    <point x="14198" y="7678" />
+                  </connector>
+                </ddscontrol>
+                <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.3" tooltip="Product Line" left="14705" top="0" logicalid="17" controlid="5" masterid="0" hint1="0" hint2="0" width="3669" height="2725" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                  <control>
+                    <ddsxmlobjectstreaminitwrapper binary="00080000550e0000a50a0000" />
+                  </control>
+                  <layoutobject>
+                    <ddsxmlobj>
+                      <property name="LogicalObject" value="dbo_ProductLine" vartype="8" />
+                    </ddsxmlobj>
+                  </layoutobject>
+                  <shape groupshapeid="0" groupnode="0" />
+                </ddscontrol>
+                <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.3" tooltip="Head Count Planning" left="14193" top="17757" logicalid="18" controlid="6" masterid="0" hint1="0" hint2="0" width="4692" height="2725" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                  <control>
+                    <ddsxmlobjectstreaminitwrapper binary="0008000054120000a50a0000" />
+                  </control>
+                  <layoutobject>
+                    <ddsxmlobj>
+                      <property name="LogicalObject" value="dbo_HeadCountPlanning" vartype="8" />
+                    </ddsxmlobj>
+                  </layoutobject>
+                  <shape groupshapeid="0" groupnode="0" />
+                </ddscontrol>
+                <ddscontrol controlprogid="MSDDS.Polyline" left="11493" top="10392" logicalid="19" controlid="7" masterid="0" hint1="0" hint2="0" width="3000" height="9027" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                  <control>
+                    <ddsxmlobj>
+                      <polyline endtypedst="6" endtypesrc="3" usercolor="0" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+                    </ddsxmlobj>
+                  </control>
+                  <layoutobject>
+                    <ddsxmlobj>
+                      <property name="LogicalObject" value="dataSet.Relations[HeadCountPlanning-PeriodView]" vartype="8" />
+                      <property name="Virtual" value="0" vartype="11" />
+                      <property name="VisibleAP" value="0" vartype="3" />
+                    </ddsxmlobj>
+                  </layoutobject>
+                  <connector lineroutestyle="MSDDS.Rectilinear" sourceid="2" destid="6" sourceattachpoint="29" destattachpoint="22" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+                    <point x="11793" y="10791" />
+                    <point x="12993" y="10791" />
+                    <point x="12993" y="19119" />
+                    <point x="14193" y="19119" />
+                  </connector>
+                </ddscontrol>
+                <ddscontrol controlprogid="MSDDS.Polyline" left="16139" top="14858" logicalid="20" controlid="8" masterid="0" hint1="0" hint2="0" width="799" height="3199" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                  <control>
+                    <ddsxmlobj>
+                      <polyline endtypedst="6" endtypesrc="3" usercolor="0" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+                    </ddsxmlobj>
+                  </control>
+                  <layoutobject>
+                    <ddsxmlobj>
+                      <property name="LogicalObject" value="dataSet.Relations[FK_HeadCountPlanning_Territory1]" vartype="8" />
+                      <property name="Virtual" value="0" vartype="11" />
+                      <property name="VisibleAP" value="0" vartype="3" />
+                    </ddsxmlobj>
+                  </layoutobject>
+                  <connector lineroutestyle="MSDDS.Rectilinear" sourceid="1" destid="6" sourceattachpoint="7" destattachpoint="8" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+                    <point x="16538" y="15357" />
+                    <point x="16538" y="16557" />
+                    <point x="16539" y="16557" />
+                    <point x="16539" y="17757" />
+                  </connector>
+                </ddscontrol>
+                <ddscontrol controlprogid="MSDDS.Polyline" left="16139" top="9932" logicalid="21" controlid="9" masterid="0" hint1="0" hint2="0" width="799" height="3200" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                  <control>
+                    <ddsxmlobj>
+                      <polyline endtypedst="6" endtypesrc="3" usercolor="0" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+                    </ddsxmlobj>
+                  </control>
+                  <layoutobject>
+                    <ddsxmlobj>
+                      <property name="LogicalObject" value="dataSet.Relations[FK_GrossProfitPlanning_Territory]" vartype="8" />
+                      <property name="Virtual" value="0" vartype="11" />
+                      <property name="VisibleAP" value="0" vartype="3" />
+                    </ddsxmlobj>
+                  </layoutobject>
+                  <connector lineroutestyle="MSDDS.Rectilinear" sourceid="1" destid="3" sourceattachpoint="6" destattachpoint="9" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+                    <point x="16538" y="12632" />
+                    <point x="16538" y="11432" />
+                    <point x="16539" y="11432" />
+                    <point x="16539" y="10232" />
+                  </connector>
+                </ddscontrol>
+                <ddscontrol controlprogid="MSDDS.Polyline" left="16140" top="2226" logicalid="22" controlid="10" masterid="0" hint1="0" hint2="0" width="799" height="3199" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                  <control>
+                    <ddsxmlobj>
+                      <polyline endtypedst="6" endtypesrc="3" usercolor="0" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+                    </ddsxmlobj>
+                  </control>
+                  <layoutobject>
+                    <ddsxmlobj>
+                      <property name="LogicalObject" value="dataSet.Relations[FK_GrossProfitPlanning_ProductLine]" vartype="8" />
+                      <property name="Virtual" value="0" vartype="11" />
+                      <property name="VisibleAP" value="0" vartype="3" />
+                    </ddsxmlobj>
+                  </layoutobject>
+                  <connector lineroutestyle="MSDDS.Rectilinear" sourceid="5" destid="3" sourceattachpoint="7" destattachpoint="8" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+                    <point x="16539" y="2725" />
+                    <point x="16539" y="5125" />
+                  </connector>
+                </ddscontrol>
+                <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.3" tooltip="Seasonality Planning" left="0" top="8003" logicalid="23" controlid="11" masterid="0" hint1="0" hint2="0" width="5019" height="2302" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                  <control>
+                    <ddsxmlobjectstreaminitwrapper binary="000800009b130000fe080000" />
+                  </control>
+                  <layoutobject>
+                    <ddsxmlobj>
+                      <property name="LogicalObject" value="dbo_SeasonalityPlanning" vartype="8" />
+                    </ddsxmlobj>
+                  </layoutobject>
+                  <shape groupshapeid="0" groupnode="0" />
+                </ddscontrol>
+                <ddscontrol controlprogid="MSDDS.Polyline" left="4719" top="8742" logicalid="24" controlid="12" masterid="0" hint1="0" hint2="0" width="2946" height="799" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                  <control>
+                    <ddsxmlobj>
+                      <polyline endtypedst="6" endtypesrc="3" usercolor="0" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+                    </ddsxmlobj>
+                  </control>
+                  <layoutobject>
+                    <ddsxmlobj>
+                      <property name="LogicalObject" value="dataSet.Relations[SeasonalityPlanning-PeriodView]" vartype="8" />
+                      <property name="Virtual" value="0" vartype="11" />
+                      <property name="VisibleAP" value="0" vartype="3" />
+                    </ddsxmlobj>
+                  </layoutobject>
+                  <connector lineroutestyle="MSDDS.Rectilinear" sourceid="2" destid="11" sourceattachpoint="22" destattachpoint="21" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+                    <point x="7365" y="9141" />
+                    <point x="6210" y="9141" />
+                    <point x="6210" y="9154" />
+                    <point x="5019" y="9154" />
+                  </connector>
+                </ddscontrol>
+              </dds>
+</DiagramLayout>
+            <ShowRelationshipNames>False</ShowRelationshipNames>
+            <UseDiagramDefaultLayout>True</UseDiagramDefaultLayout>
+            <DiagramViewPortLeft>-10385</DiagramViewPortLeft>
+            <DiagramViewPortTop>-1983</DiagramViewPortTop>
+            <DiagramBoundingLeft>0</DiagramBoundingLeft>
+            <DiagramBoundingTop>0</DiagramBoundingTop>
+            <DiagramZoom>75</DiagramZoom>
+          </Diagram>
+        </Layouts>
+      </Value>
+    </Annotation>
+  </Annotations>
+  <DataSourceID>planning_source</DataSourceID>
+  <Schema>
+    <xs:schema id="planning_view" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop">
+      <xs:element name="planning_view" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:design-time-name="9e33bd2e-6a34-4d8d-a223-ed381c78c4b0">
+        <xs:complexType>
+          <xs:choice minOccurs="0" maxOccurs="unbounded">
+            <xs:element name="dbo_Territory" msprop:design-time-name="02d69179-f2bd-4d8b-bd96-370e35dfea09" msprop:FriendlyName="Territory" msprop:DbSchemaName="dbo" msprop:DbTableName="Territory" msprop:TableType="Table">
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element name="TerritoryKey" msprop:design-time-name="e6807d6e-b2f2-4282-b645-32cc87346a89" msprop:DbColumnName="TerritoryKey" msprop:FriendlyName="TerritoryKey" type="xs:int" />
+                  <xs:element name="Region" msprop:design-time-name="c8bc3aab-35cc-4908-9c51-07e0603ab77c" msprop:DbColumnName="Region" msprop:FriendlyName="Region">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="50" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="Country" msprop:design-time-name="5afc5fc6-2424-4a55-8b27-62061fd06be3" msprop:DbColumnName="Country" msprop:FriendlyName="Country">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="50" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="CountryGroup" msprop:design-time-name="cfa9af27-27c9-49d5-a12b-807f3a373369" msprop:DbColumnName="CountryGroup" msprop:FriendlyName="CountryGroup">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="50" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                </xs:sequence>
+              </xs:complexType>
+            </xs:element>
+            <xs:element name="dbo_PeriodView" msprop:design-time-name="57869c19-1a77-4a41-be2b-e96187c62505" msprop:FriendlyName="Period" msprop:DbSchemaName="dbo" msprop:DbTableName="PeriodView" msprop:TableType="View">
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element name="PeriodKey" msprop:design-time-name="75c32981-f1ef-4a7e-ad9b-a95e0af65b5d" msprop:DbColumnName="PeriodKey" msprop:FriendlyName="PeriodKey" type="xs:int" />
+                  <xs:element name="Period" msprop:design-time-name="e37b07be-24ec-4519-bcfc-1b36392ac2da" msprop:DbColumnName="Period" msprop:FriendlyName="Period" type="xs:dateTime" />
+                  <xs:element name="PeriodName" msdata:ReadOnly="true" msprop:design-time-name="ee95c18f-8c4b-48b0-a4a5-67931b0a7182" msprop:DbColumnName="PeriodName" msprop:FriendlyName="PeriodName" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="10" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="DayNumberOfWeek" msdata:ReadOnly="true" msprop:design-time-name="bdfb32c0-68aa-48cd-a8ba-f63a7ca26b4c" msprop:DbColumnName="DayNumberOfWeek" msprop:FriendlyName="DayNumberOfWeek" type="xs:int" minOccurs="0" />
+                  <xs:element name="DayNumberOfMonth" msdata:ReadOnly="true" msprop:design-time-name="d1e30017-09a1-4e8a-a931-165c2f0d4158" msprop:DbColumnName="DayNumberOfMonth" msprop:FriendlyName="DayNumberOfMonth" type="xs:int" minOccurs="0" />
+                  <xs:element name="DayNumberOfYear" msdata:ReadOnly="true" msprop:design-time-name="05ffe369-e245-4bcd-91b0-a0900ec629ea" msprop:DbColumnName="DayNumberOfYear" msprop:FriendlyName="DayNumberOfYear" type="xs:int" minOccurs="0" />
+                  <xs:element name="WeekNumberOfYear" msdata:ReadOnly="true" msprop:design-time-name="f7a5fcbb-3175-4d52-bbd0-e7f327cb22c0" msprop:DbColumnName="WeekNumberOfYear" msprop:FriendlyName="WeekNumberOfYear" type="xs:int" minOccurs="0" />
+                  <xs:element name="MonthNumberOfYear" msdata:ReadOnly="true" msprop:design-time-name="2a5119df-6110-4777-a30b-9fa7c97c853b" msprop:DbColumnName="MonthNumberOfYear" msprop:FriendlyName="MonthNumberOfYear" type="xs:int" minOccurs="0" />
+                  <xs:element name="CalendarQuarter" msdata:ReadOnly="true" msprop:design-time-name="52a02f7b-04e9-4ae0-80a8-2597579f5f14" msprop:DbColumnName="CalendarQuarter" msprop:FriendlyName="CalendarQuarter" type="xs:int" minOccurs="0" />
+                  <xs:element name="CalendarYear" msdata:ReadOnly="true" msprop:design-time-name="4eb37f82-ccb3-49d4-9655-8d91815332b7" msprop:DbColumnName="CalendarYear" msprop:FriendlyName="CalendarYear" type="xs:int" minOccurs="0" />
+                  <xs:element name="CalendarSemester" msdata:ReadOnly="true" msprop:design-time-name="d557bb05-93d8-489f-bdbc-55a862fba049" msprop:DbColumnName="CalendarSemester" msprop:FriendlyName="CalendarSemester" type="xs:int" />
+                  <xs:element name="FiscalQuarter" msdata:ReadOnly="true" msprop:design-time-name="634266aa-b6e4-4ec7-b340-bbd7cd511570" msprop:DbColumnName="FiscalQuarter" msprop:FriendlyName="FiscalQuarter" type="xs:int" minOccurs="0" />
+                  <xs:element name="FiscalYear" msdata:ReadOnly="true" msprop:design-time-name="785b3455-79a9-49e4-a047-1435bbc2c849" msprop:DbColumnName="FiscalYear" msprop:FriendlyName="FiscalYear" type="xs:int" minOccurs="0" />
+                  <xs:element name="FiscalSemester" msdata:ReadOnly="true" msprop:design-time-name="ee221085-d60d-4133-8bba-db40f0151630" msprop:DbColumnName="FiscalSemester" msprop:FriendlyName="FiscalSemester" type="xs:int" />
+                  <xs:element name="MonthName" msprop:design-time-name="683d66ed-77db-41f7-913d-806cedd2f460" msprop:DbColumnName="MonthName" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="13" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="QuarterName" msprop:design-time-name="c1569e7b-a3d4-4f89-8072-169d8b593878" msprop:DbColumnName="QuarterName" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="22" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                </xs:sequence>
+              </xs:complexType>
+            </xs:element>
+            <xs:element name="dbo_SalesPlanningDirect" msprop:design-time-name="acbe06ea-b323-420b-834e-ca00dd767957" msprop:FriendlyName="Gross Profit Planning" msprop:DbSchemaName="dbo" msprop:DbTableName="GrossProfitPlanning" msprop:TableType="Table" msprop:QueryBuilder="SpecificQueryBuilder">
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element name="TerritoryKey" msprop:design-time-name="ece844fe-f010-48b9-8644-2aa31acb2aa0" msprop:DbColumnName="TerritoryKey" msprop:FriendlyName="TerritoryKey" type="xs:int" minOccurs="0" />
+                  <xs:element name="PeriodKey" msprop:design-time-name="5e948fd8-6e63-42c5-b7cb-03c2f76c6d75" msprop:DbColumnName="PeriodKey" msprop:FriendlyName="PeriodKey" type="xs:int" minOccurs="0" />
+                  <xs:element name="QuantityQuota" msprop:design-time-name="bc23b096-b956-4033-9930-b46e5981492c" msprop:DbColumnName="QuantityQuota" msprop:FriendlyName="QuantityQuota" type="xs:int" minOccurs="0" />
+                  <xs:element name="UnitPriceQuota" msprop:design-time-name="0ed1bad2-4069-49c8-b268-4adfff26a652" msprop:DbColumnName="UnitPriceQuota" msprop:FriendlyName="UnitPriceQuota" type="xs:decimal" minOccurs="0" />
+                  <xs:element name="ProductLineKey" msprop:design-time-name="6f6f6b04-26f1-4895-b678-e0bb11126393" msprop:DbColumnName="ProductLineKey" type="xs:int" minOccurs="0" />
+                  <xs:element name="ExtPriceQuota" msprop:design-time-name="17f68390-1b39-411b-9f94-4413441a1870" msprop:DbColumnName="ExtPriceQuota" type="xs:decimal" minOccurs="0" />
+                  <xs:element name="UnitCostQuota" msprop:design-time-name="f31abedc-047e-438f-808e-6ac548844822" msprop:DbColumnName="UnitCostQuota" type="xs:decimal" minOccurs="0" />
+                  <xs:element name="ExtCostQuota" msprop:design-time-name="5e333abf-0f0a-4e2c-87c0-301ab3774fa1" msprop:DbColumnName="ExtCostQuota" type="xs:decimal" minOccurs="0" />
+                  <xs:element name="GrossProfitPlanningKey" msprop:design-time-name="71eeaddc-f89a-4cea-9d96-e2d440244974" msprop:DbColumnName="GrossProfitPlanningKey" type="xs:int" />
+                </xs:sequence>
+              </xs:complexType>
+            </xs:element>
+            <xs:element name="dbo_ProductLine" msprop:design-time-name="e1cbfd68-d5e5-4d7e-aa83-ff8b8f2a35be" msprop:FriendlyName="Product Line" msprop:DbSchemaName="dbo" msprop:DbTableName="ProductLine" msprop:TableType="Table">
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element name="ProductLineKey" msprop:design-time-name="d3377879-ed3c-45ff-8c6f-5ceccc07decf" msprop:DbColumnName="ProductLineKey" msprop:FriendlyName="ProductLineKey" type="xs:int" />
+                  <xs:element name="Name" msprop:design-time-name="97b995b4-3b0c-43ef-9214-723fc0c5d95f" msprop:DbColumnName="Name" msprop:FriendlyName="Name">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="25" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="PerformanceClass" msprop:design-time-name="4a25d40c-a523-4be0-943c-5fae1b764158" msprop:DbColumnName="PerformanceClass" msprop:FriendlyName="PerformanceClass">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="10" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="StandardCost" msprop:design-time-name="2e011f66-0e7a-4beb-8bce-fe45edb8575d" msprop:DbColumnName="StandardCost" msprop:FriendlyName="StandardCost" type="xs:decimal" />
+                </xs:sequence>
+              </xs:complexType>
+            </xs:element>
+            <xs:element name="dbo_HeadCountPlanning" msprop:design-time-name="2ac1ff5d-0c15-4599-9b2e-0d40ec03b490" msprop:FriendlyName="Head Count Planning" msprop:DbSchemaName="dbo" msprop:DbTableName="HeadCountPlanning" msprop:TableType="Table">
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element name="HeadcountPlanningKey" msprop:design-time-name="03dd2546-00eb-4740-999e-ae4754d1ae33" msprop:DbColumnName="HeadcountPlanningKey" msprop:FriendlyName="HeadcountPlanningKey" type="xs:int" />
+                  <xs:element name="PeriodKey" msprop:design-time-name="7a5204e9-fe2c-4403-8e05-ee07784a3486" msprop:DbColumnName="PeriodKey" msprop:FriendlyName="PeriodKey" type="xs:int" />
+                  <xs:element name="TerritoryKey" msprop:design-time-name="d063f1f8-7c43-4385-be9f-b7cc3a374b88" msprop:DbColumnName="TerritoryKey" msprop:FriendlyName="TerritoryKey" type="xs:int" />
+                  <xs:element name="HeadCount" msprop:design-time-name="d31956e0-2c83-4707-95ed-3f365f47fb35" msprop:DbColumnName="HeadCount" msprop:FriendlyName="HeadCount" type="xs:int" />
+                </xs:sequence>
+              </xs:complexType>
+            </xs:element>
+            <xs:element name="dbo_SeasonalityPlanning" msprop:design-time-name="fe0ca0fa-114f-4ddd-a400-3c180f436707" msprop:FriendlyName="Seasonality Planning" msprop:DbSchemaName="dbo" msprop:DbTableName="SeasonalityPlanning" msprop:TableType="Table">
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element name="SeasonalityPlanningKey" msdata:ReadOnly="true" msdata:AutoIncrement="true" msprop:design-time-name="d9fc967e-da89-4bef-a46d-5981d33aed3d" msprop:DbColumnName="SeasonalityPlanningKey" msprop:FriendlyName="SeasonalityPlanningKey" type="xs:int" />
+                  <xs:element name="PeriodKey" msprop:design-time-name="1d9f292b-4836-4a9a-ac04-c545dca4906e" msprop:DbColumnName="PeriodKey" msprop:FriendlyName="PeriodKey" type="xs:int" />
+                  <xs:element name="SeasonalityValue" msprop:design-time-name="75c54d7f-7be0-4d96-abce-40b19c6ffd5a" msprop:DbColumnName="SeasonalityValue" msprop:FriendlyName="SeasonalityValue" type="xs:int" minOccurs="0" />
+                </xs:sequence>
+              </xs:complexType>
+            </xs:element>
+          </xs:choice>
+        </xs:complexType>
+        <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+          <xs:selector xpath=".//dbo_Territory" />
+          <xs:field xpath="TerritoryKey" />
+        </xs:unique>
+        <xs:unique name="dbo_PeriodView_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+          <xs:selector xpath=".//dbo_PeriodView" />
+          <xs:field xpath="PeriodKey" />
+        </xs:unique>
+        <xs:unique name="dbo_SalesPlanningDirect_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+          <xs:selector xpath=".//dbo_SalesPlanningDirect" />
+          <xs:field xpath="GrossProfitPlanningKey" />
+        </xs:unique>
+        <xs:unique name="dbo_ProductLine_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+          <xs:selector xpath=".//dbo_ProductLine" />
+          <xs:field xpath="ProductLineKey" />
+        </xs:unique>
+        <xs:unique name="dbo_HeadCountPlanning_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+          <xs:selector xpath=".//dbo_HeadCountPlanning" />
+          <xs:field xpath="HeadcountPlanningKey" />
+        </xs:unique>
+        <xs:unique name="dbo_SeasonalityPlanning_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+          <xs:selector xpath=".//dbo_SeasonalityPlanning" />
+          <xs:field xpath="SeasonalityPlanningKey" />
+        </xs:unique>
+        <xs:keyref name="FK_HeadCountPlanning_Territory1" refer="Constraint1">
+          <xs:selector xpath=".//dbo_HeadCountPlanning" />
+          <xs:field xpath="TerritoryKey" />
+        </xs:keyref>
+        <xs:keyref name="FK_GrossProfitPlanning_Territory" refer="Constraint1">
+          <xs:selector xpath=".//dbo_SalesPlanningDirect" />
+          <xs:field xpath="TerritoryKey" />
+        </xs:keyref>
+        <xs:keyref name="FK_GrossProfitPlanning_ProductLine" refer="dbo_ProductLine_Constraint1">
+          <xs:selector xpath=".//dbo_SalesPlanningDirect" />
+          <xs:field xpath="ProductLineKey" />
+        </xs:keyref>
+      </xs:element>
+      <xs:annotation>
+        <xs:appinfo>
+          <msdata:Relationship name="SalesPlanningDirect-PeriodView" msdata:parent="dbo_PeriodView" msdata:child="dbo_SalesPlanningDirect" msdata:parentkey="PeriodKey" msdata:childkey="PeriodKey" msprop:IsLogical="True" msprop:Description="" />
+          <msdata:Relationship name="HeadCountPlanning-PeriodView" msdata:parent="dbo_PeriodView" msdata:child="dbo_HeadCountPlanning" msdata:parentkey="PeriodKey" msdata:childkey="PeriodKey" msprop:IsLogical="True" msprop:Description="" />
+          <msdata:Relationship name="SeasonalityPlanning-PeriodView" msdata:parent="dbo_PeriodView" msdata:child="dbo_SeasonalityPlanning" msdata:parentkey="PeriodKey" msdata:childkey="PeriodKey" msprop:IsLogical="True" msprop:Description="" />
+        </xs:appinfo>
+      </xs:annotation>
+    </xs:schema>
+    <planning_view xmlns="" />
+  </Schema>
+</DataSourceView>

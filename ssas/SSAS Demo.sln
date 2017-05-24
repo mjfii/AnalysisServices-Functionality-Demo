@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.40629.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{D2ABAB84-BF74-430A-B69E-9DC6D40DDA17}") = "Financial Demo", "Financial Demo\Financial Demo.dwproj", "{8EA13642-19B4-4913-A82F-AC064C93F7A8}"
+EndProject
+Project("{D2ABAB84-BF74-430A-B69E-9DC6D40DDA17}") = "Planning Demo", "Planning Demo\Planning Demo.dwproj", "{605579B1-6136-4833-976A-AA3417500DF3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Development|Default = Development|Default
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8EA13642-19B4-4913-A82F-AC064C93F7A8}.Development|Default.ActiveCfg = Development
+		{8EA13642-19B4-4913-A82F-AC064C93F7A8}.Development|Default.Build.0 = Development
+		{8EA13642-19B4-4913-A82F-AC064C93F7A8}.Development|Default.Deploy.0 = Development
+		{605579B1-6136-4833-976A-AA3417500DF3}.Development|Default.ActiveCfg = Development
+		{605579B1-6136-4833-976A-AA3417500DF3}.Development|Default.Build.0 = Development
+		{605579B1-6136-4833-976A-AA3417500DF3}.Development|Default.Deploy.0 = Development
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

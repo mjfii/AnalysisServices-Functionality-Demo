@@ -1,0 +1,248 @@
+﻿<Dimension xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="05caf24f-20d7-440d-bde5-78e9a87c877e" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>Dim Destination Currency</ID>
+  <Name>Destination Currency</Name>
+  <CreatedTimestamp>0001-01-01T08:00:00Z</CreatedTimestamp>
+  <LastSchemaUpdate>0001-01-01T08:00:00Z</LastSchemaUpdate>
+  <Annotations>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
+      <Value>
+        <dds xmlns="">
+          <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="3" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-2202" scrolltop="-9260" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="100" x="7885" y="17013" backcolor="15334399" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="0" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
+            <font>
+              <ddsxmlobjectstreamwrapper binary="01000000900144420100065461686f6d61" />
+            </font>
+            <mouseicon>
+              <ddsxmlobjectstreamwrapper binary="6c74000000000000" />
+            </mouseicon>
+          </diagram>
+          <layoutmanager>
+            <ddsxmlobj />
+          </layoutmanager>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.3" tooltip="Destination Currency" left="-536" top="-8308" logicalid="2" controlid="1" masterid="0" hint1="0" hint2="0" width="5531" height="2645" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000800009b150000550a0000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="DimDestinationCurrency" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+        </dds>
+      </Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowFriendlyNames</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowRelationshipNames</Name>
+      <Value>false</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:UseDiagramDefaultLayout</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortLeft</Name>
+      <Value>-2202</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortTop</Name>
+      <Value>-9260</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingLeft</Name>
+      <Value>-536</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingTop</Name>
+      <Value>-8308</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramZoom</Name>
+      <Value>100</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ARDiagramLayout</Name>
+      <Value>
+        <DiagramLayout ZoomPercent="100" ViewPortX="0" ViewPortY="0" xmlns="">
+          <Shapes NodeWidth="205">
+            <Shape Id="Currency Alternate Key" Expanded="true">
+              <Attributes>
+                <Attribute Id="Currency Alternate Key" />
+              </Attributes>
+              <Position x="20" y="20" />
+            </Shape>
+            <Shape Id="Dim Destination Currency" Expanded="true">
+              <Attributes>
+                <Attribute Id="Dim Destination Currency" />
+                <Attribute Id="LCID" />
+              </Attributes>
+              <Position x="281" y="20" />
+            </Shape>
+          </Shapes>
+        </DiagramLayout>
+      </Value>
+    </Annotation>
+  </Annotations>
+  <LastProcessed>0001-01-01T08:00:00Z</LastProcessed>
+  <State>Unprocessed</State>
+  <Source xsi:type="DataSourceViewBinding" dwd:design-time-name="8e0aa25b-08e6-466e-9640-5a31a8dd38cc">
+    <DataSourceViewID>Adventure Works DW</DataSourceViewID>
+  </Source>
+  <Type>Currency</Type>
+  <ErrorConfiguration dwd:design-time-name="f8ee4713-180f-4f37-9a11-a750f1cb9a5e">
+    <KeyDuplicate>ReportAndStop</KeyDuplicate>
+  </ErrorConfiguration>
+  <CurrentStorageMode>Molap</CurrentStorageMode>
+  <DimensionPermissions>
+    <DimensionPermission dwd:design-time-name="5ffebd1e-926e-4ed1-b590-916e157ab568">
+      <ID>DimensionPermission</ID>
+      <Name>DimensionPermission</Name>
+      <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+      <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+      <RoleID>Role</RoleID>
+      <ReadDefinition>Allowed</ReadDefinition>
+      <Read>Allowed</Read>
+    </DimensionPermission>
+  </DimensionPermissions>
+  <UnknownMemberName></UnknownMemberName>
+  <Translations>
+    <Translation dwd:design-time-name="c47e06b4-b2e6-475d-8f00-17d966efe964">
+      <Language>3082</Language>
+      <Caption>Divisa de Destino</Caption>
+    </Translation>
+    <Translation dwd:design-time-name="e5b975d4-2d3d-4a0f-a123-b305be25ab6c">
+      <Language>1036</Language>
+      <Caption>Devise de Conversion</Caption>
+    </Translation>
+  </Translations>
+  <Attributes>
+    <Attribute dwd:design-time-name="420b9dd1-3925-4782-91a9-8b766169f1d2">
+      <ID>Dim Destination Currency</ID>
+      <Name>Destination Currency</Name>
+      <Type>CurrencyDestination</Type>
+      <EstimatedCount>14</EstimatedCount>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="23ca9568-f532-4183-8a9d-c8fc79959824">
+          <DataType>WChar</DataType>
+          <DataSize>50</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="18b4ce6e-38b6-45bb-af2b-9b5d82c24023">
+            <TableID>DimDestinationCurrency</TableID>
+            <ColumnID>CurrencyName</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <Translations>
+        <Translation dwd:design-time-name="54d1643b-0eb3-4442-8fbe-ffe1f86f84d2">
+          <Language>3082</Language>
+          <Caption>Divisa de Destino</Caption>
+        </Translation>
+        <Translation dwd:design-time-name="7f09f0bc-2e82-4f97-ba54-c6bb56ce97f8">
+          <Language>1036</Language>
+          <Caption>Devise de Conversion</Caption>
+        </Translation>
+      </Translations>
+      <AttributeRelationships>
+        <AttributeRelationship dwd:design-time-name="0df090fd-7b1c-4428-984d-c2fb5ae56bea">
+          <AttributeID>LCID</AttributeID>
+          <Name>Locale</Name>
+        </AttributeRelationship>
+      </AttributeRelationships>
+      <IsAggregatable>false</IsAggregatable>
+      <GroupingBehavior>DiscourageGrouping</GroupingBehavior>
+      <InstanceSelection>DropDown</InstanceSelection>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="40adb39e-be7f-4c27-913c-16f901b1cd2f">
+      <ID>Currency Alternate Key</ID>
+      <Name>Destination Currency Code</Name>
+      <Type>CurrencyIsoCode</Type>
+      <Usage>Key</Usage>
+      <EstimatedCount>14</EstimatedCount>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="421f160c-ab14-45e8-9d03-3fb84432a24b">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="17924e7b-a309-4437-8aec-d2ec8e5855c6">
+            <TableID>DimDestinationCurrency</TableID>
+            <ColumnID>CurrencyKey</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <NameColumn dwd:design-time-name="da1af938-84b3-4bd5-84d1-7338b9bb8fb2">
+        <DataType>WChar</DataType>
+        <DataSize>3</DataSize>
+        <Source xsi:type="ColumnBinding" dwd:design-time-name="4415ad18-9a1e-4cca-9360-97d2bd3cf912">
+          <TableID>DimDestinationCurrency</TableID>
+          <ColumnID>CurrencyAlternateKey</ColumnID>
+        </Source>
+      </NameColumn>
+      <Translations>
+        <Translation dwd:design-time-name="7b1e4566-1bd7-4a01-b86d-858274a97b83">
+          <Language>3082</Language>
+          <Caption>Código de Divisa de Destino</Caption>
+        </Translation>
+        <Translation dwd:design-time-name="54d6a259-c052-474c-a1f3-a6d6bd91e7bf">
+          <Language>1036</Language>
+          <Caption>Code Devise de Conversion</Caption>
+        </Translation>
+      </Translations>
+      <AttributeRelationships>
+        <AttributeRelationship dwd:design-time-name="c43ca294-280c-4a76-b84f-2a66c2487e4e">
+          <AttributeID>Dim Destination Currency</AttributeID>
+          <RelationshipType>Rigid</RelationshipType>
+          <Name>Destination Currency</Name>
+        </AttributeRelationship>
+      </AttributeRelationships>
+      <OrderBy>Key</OrderBy>
+      <GroupingBehavior>DiscourageGrouping</GroupingBehavior>
+      <InstanceSelection>DropDown</InstanceSelection>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="48fb109c-9754-411e-a2be-5018842670ce">
+      <ID>LCID</ID>
+      <Name>Locale</Name>
+      <EstimatedCount>14</EstimatedCount>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="f7be4e69-6ad5-423a-a959-b094a1e1ba1b">
+          <DataType>WChar</DataType>
+          <DataSize>5</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="5ba1e43f-c7e0-47d4-b245-ee8fb72bbc93">
+            <TableID>DimDestinationCurrency</TableID>
+            <ColumnID>LCID</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <Translations>
+        <Translation dwd:design-time-name="0dd15fbb-101a-43f1-ba67-03741df8f15e">
+          <Language>3082</Language>
+          <Caption>Origen</Caption>
+        </Translation>
+        <Translation dwd:design-time-name="b20589d2-89fd-46d7-b0e8-edbd509e59cf">
+          <Language>1036</Language>
+          <Caption>Origine</Caption>
+        </Translation>
+      </Translations>
+      <AttributeHierarchyEnabled>false</AttributeHierarchyEnabled>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+  </Attributes>
+  <AttributeAllMemberName>All Destination Currencies</AttributeAllMemberName>
+  <AttributeAllMemberTranslations>
+    <AttributeAllMemberTranslation dwd:design-time-name="ffd2c0dd-b8c3-4252-b24c-29f709bf3de4">
+      <Language>1036</Language>
+      <Caption>Toutes les Devises de Conversion</Caption>
+    </AttributeAllMemberTranslation>
+    <AttributeAllMemberTranslation dwd:design-time-name="959be7d1-346b-4952-aae0-d44f0e00c3bd">
+      <Language>3082</Language>
+      <Caption>Todas las Divisas de Destino</Caption>
+    </AttributeAllMemberTranslation>
+  </AttributeAllMemberTranslations>
+  <ddl300:ProcessingState>Unprocessed</ddl300:ProcessingState>
+</Dimension>

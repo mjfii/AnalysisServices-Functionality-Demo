@@ -1,0 +1,742 @@
+﻿<Cube xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="3d2bb440-1fdd-4b27-acde-529b43c6b9fa" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>Planning</ID>
+  <Name>Planning</Name>
+  <CreatedTimestamp>0001-01-01T07:00:00Z</CreatedTimestamp>
+  <LastSchemaUpdate>0001-01-01T07:00:00Z</LastSchemaUpdate>
+  <Annotations>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
+      <Value>
+        <dds xmlns="">
+          <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="26" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-10790" scrolltop="2656" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="75" x="17657" y="12488" backcolor="16777215" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="1" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
+            <font>
+              <ddsxmlobjectstreamwrapper binary="01000000900180380100065461686f6d61" />
+            </font>
+            <mouseicon>
+              <ddsxmlobjectstreamwrapper binary="6c74000000000000" />
+            </mouseicon>
+          </diagram>
+          <layoutmanager>
+            <ddsxmlobj />
+          </layoutmanager>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.3" tooltip="Territory" left="5883" top="20067" logicalid="13" controlid="1" masterid="0" hint1="0" hint2="0" width="3423" height="2725" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000a00005f0d0000a50a0000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_Territory" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.3" tooltip="Period" left="5222" top="4764" logicalid="14" controlid="2" masterid="0" hint1="0" hint2="0" width="4745" height="7716" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000a000089120000241e0000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_PeriodView" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.3" tooltip="Gross Profit Planning" left="-1764" top="8957" logicalid="15" controlid="3" masterid="0" hint1="0" hint2="0" width="4560" height="4878" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000a0000d01100000e130000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_SalesPlanningDirect" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+          <ddscontrol controlprogid="MSDDS.Polyline" left="2496" top="8223" logicalid="16" controlid="4" masterid="0" hint1="0" hint2="0" width="3026" height="2373" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobj>
+                <polyline endtypedst="6" endtypesrc="3" usercolor="0" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+              </ddsxmlobj>
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dataSet.Relations[SalesPlanningDirect-PeriodView]" vartype="8" />
+                <property name="Virtual" value="0" vartype="11" />
+                <property name="VisibleAP" value="0" vartype="3" />
+              </ddsxmlobj>
+            </layoutobject>
+            <connector lineroutestyle="MSDDS.Rectilinear" sourceid="2" destid="3" sourceattachpoint="30" destattachpoint="19" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+              <point x="5222" y="8622" />
+              <point x="4009" y="8622" />
+              <point x="4009" y="10296" />
+              <point x="2796" y="10296" />
+            </connector>
+          </ddscontrol>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.3" tooltip="Product Line" left="-1424" top="16235" logicalid="17" controlid="5" masterid="0" hint1="0" hint2="0" width="3880" height="2787" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000a0000280f0000e30a0000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_ProductLine" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+          <ddscontrol controlprogid="MSDDS.Polyline" left="2496" top="11646" logicalid="18" controlid="6" masterid="0" hint1="0" hint2="0" width="3687" height="10183" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobj>
+                <polyline endtypedst="6" endtypesrc="3" usercolor="0" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+              </ddsxmlobj>
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dataSet.Relations[FK_GrossProfitPlanning_Territory]" vartype="8" />
+                <property name="Virtual" value="0" vartype="11" />
+                <property name="VisibleAP" value="0" vartype="3" />
+              </ddsxmlobj>
+            </layoutobject>
+            <connector lineroutestyle="MSDDS.Rectilinear" sourceid="1" destid="3" sourceattachpoint="14" destattachpoint="25" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+              <point x="5883" y="21429" />
+              <point x="4340" y="21429" />
+              <point x="4340" y="11946" />
+              <point x="2796" y="11946" />
+            </connector>
+          </ddscontrol>
+          <ddscontrol controlprogid="MSDDS.Polyline" left="117" top="13535" logicalid="19" controlid="7" masterid="0" hint1="0" hint2="0" width="799" height="3200" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobj>
+                <polyline endtypedst="6" endtypesrc="3" usercolor="0" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+              </ddsxmlobj>
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dataSet.Relations[FK_GrossProfitPlanning_ProductLine]" vartype="8" />
+                <property name="Virtual" value="0" vartype="11" />
+                <property name="VisibleAP" value="0" vartype="3" />
+              </ddsxmlobj>
+            </layoutobject>
+            <connector lineroutestyle="MSDDS.Rectilinear" sourceid="5" destid="3" sourceattachpoint="6" destattachpoint="7" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+              <point x="516" y="16235" />
+              <point x="516" y="13835" />
+            </connector>
+          </ddscontrol>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.3" tooltip="Head Count Planning" left="5266" top="14880" logicalid="20" controlid="8" masterid="0" hint1="0" hint2="0" width="4657" height="2787" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000a000031120000e30a0000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_HeadCountPlanning" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+          <ddscontrol controlprogid="MSDDS.Polyline" left="7195" top="11981" logicalid="21" controlid="9" masterid="0" hint1="0" hint2="0" width="799" height="3199" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobj>
+                <polyline endtypedst="6" endtypesrc="3" usercolor="0" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+              </ddsxmlobj>
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dataSet.Relations[HeadCountPlanning-PeriodView]" vartype="8" />
+                <property name="Virtual" value="0" vartype="11" />
+                <property name="VisibleAP" value="0" vartype="3" />
+              </ddsxmlobj>
+            </layoutobject>
+            <connector lineroutestyle="MSDDS.Rectilinear" sourceid="2" destid="8" sourceattachpoint="9" destattachpoint="8" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+              <point x="7594" y="12480" />
+              <point x="7594" y="14880" />
+            </connector>
+          </ddscontrol>
+          <ddscontrol controlprogid="MSDDS.Polyline" left="7195" top="17367" logicalid="22" controlid="10" masterid="0" hint1="0" hint2="0" width="799" height="3200" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobj>
+                <polyline endtypedst="6" endtypesrc="3" usercolor="0" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+              </ddsxmlobj>
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dataSet.Relations[FK_HeadCountPlanning_Territory1]" vartype="8" />
+                <property name="Virtual" value="0" vartype="11" />
+                <property name="VisibleAP" value="0" vartype="3" />
+              </ddsxmlobj>
+            </layoutobject>
+            <connector lineroutestyle="MSDDS.Rectilinear" sourceid="1" destid="8" sourceattachpoint="4" destattachpoint="9" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+              <point x="7594" y="20067" />
+              <point x="7594" y="17667" />
+            </connector>
+          </ddscontrol>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.3" tooltip="Seasonality Planning" left="12463" top="7973" logicalid="23" controlid="11" masterid="0" hint1="0" hint2="0" width="4797" height="2364" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000a0000bd1200003c090000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_SeasonalityPlanning" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+          <ddscontrol controlprogid="MSDDS.Polyline" left="9667" top="8223" logicalid="24" controlid="12" masterid="0" hint1="0" hint2="0" width="3096" height="799" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobj>
+                <polyline endtypedst="6" endtypesrc="3" usercolor="0" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+              </ddsxmlobj>
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dataSet.Relations[SeasonalityPlanning-PeriodView]" vartype="8" />
+                <property name="Virtual" value="0" vartype="11" />
+                <property name="VisibleAP" value="0" vartype="3" />
+              </ddsxmlobj>
+            </layoutobject>
+            <connector lineroutestyle="MSDDS.Rectilinear" sourceid="2" destid="11" sourceattachpoint="31" destattachpoint="18" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+              <point x="9967" y="8622" />
+              <point x="11215" y="8622" />
+              <point x="11215" y="8605" />
+              <point x="12463" y="8605" />
+            </connector>
+          </ddscontrol>
+        </dds>
+      </Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowFriendlyNames</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowRelationshipNames</Name>
+      <Value>false</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:UseDiagramDefaultLayout</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortLeft</Name>
+      <Value>-10790</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortTop</Name>
+      <Value>2656</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingLeft</Name>
+      <Value>-1764</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingTop</Name>
+      <Value>4764</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramZoom</Name>
+      <Value>75</Value>
+    </Annotation>
+  </Annotations>
+  <LastProcessed>0001-01-01T07:00:00Z</LastProcessed>
+  <State>Unprocessed</State>
+  <Dimensions>
+    <Dimension dwd:design-time-name="8c33469d-7913-4fe9-a95a-c06d9ca99397">
+      <ID>Territory</ID>
+      <Name>Territory</Name>
+      <DimensionID>Territory</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="229d9272-adab-4d1c-bfaf-0d3cc85eeb77">
+          <AttributeID>Region</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="504bb523-ae88-4d47-b68a-88c090629d13">
+          <AttributeID>Country</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="aadb8187-8b63-4f57-b0d5-b49c033ffd5d">
+          <AttributeID>Country Group</AttributeID>
+        </Attribute>
+      </Attributes>
+      <Hierarchies>
+        <Hierarchy dwd:design-time-name="541746d5-3d3d-4f6d-8c2c-369f7b7181b9">
+          <HierarchyID>Hierarchy</HierarchyID>
+        </Hierarchy>
+      </Hierarchies>
+    </Dimension>
+    <Dimension dwd:design-time-name="0088a43e-0bc3-4aa2-9ef9-728661e12661">
+      <ID>Period</ID>
+      <Name>Period</Name>
+      <DimensionID>Period</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="5b21cff1-fb9e-4ac3-b315-3e09f1f1eb4f">
+          <AttributeID>Period Key</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="683ba759-8078-4541-914f-499e9c527a11">
+          <AttributeID>Month Name</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="39a671a3-3404-4bac-bf79-50f6b0c5d9d4">
+          <AttributeID>Quarter Name</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="0e0b053c-2470-45d6-9a68-149a26b45304">
+          <AttributeID>Calendar Year</AttributeID>
+        </Attribute>
+      </Attributes>
+      <Hierarchies>
+        <Hierarchy dwd:design-time-name="e8243ef9-1a28-4ce6-8bc5-d875459eaeaf">
+          <HierarchyID>Hierarchy</HierarchyID>
+        </Hierarchy>
+      </Hierarchies>
+    </Dimension>
+    <Dimension dwd:design-time-name="3b4ca74a-cfa0-40e9-9900-5599ff2cd0b1">
+      <ID>Product Line</ID>
+      <Name>Product Line</Name>
+      <DimensionID>Product Line</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="438a3b25-4a26-4ae6-ab61-b98821178a1e">
+          <AttributeID>Product Line</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="ebdd87fe-205d-4134-bc6f-80c11c29fdd8">
+          <AttributeID>Performance Class</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="e3b37d50-fc08-4531-9781-c4e085fb2543">
+          <AttributeID>Standard Cost</AttributeID>
+          <AttributeHierarchyEnabled>false</AttributeHierarchyEnabled>
+        </Attribute>
+      </Attributes>
+    </Dimension>
+  </Dimensions>
+  <MeasureGroups>
+    <MeasureGroup dwd:design-time-name="0d92bfa7-7d9c-482b-9398-47ad2a33c343">
+      <ID>Sales Planning</ID>
+      <Name>Gross Profit Planning</Name>
+      <CreatedTimestamp>0001-01-01T07:00:00Z</CreatedTimestamp>
+      <LastSchemaUpdate>0001-01-01T07:00:00Z</LastSchemaUpdate>
+      <LastProcessed>0001-01-01T07:00:00Z</LastProcessed>
+      <State>Unprocessed</State>
+      <Measures>
+        <Measure dwd:design-time-name="3557ab1c-9139-47ec-8c14-2a1757bd9a44">
+          <ID>Quantity Quota</ID>
+          <Name>Quantity Quota</Name>
+          <Source dwd:design-time-name="8af7d418-f4c6-4994-bfe1-b65f7b25c1f8">
+            <DataType>Integer</DataType>
+            <NullProcessing>Preserve</NullProcessing>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="2b43e7ff-51d2-4868-9823-b563144be555">
+              <TableID>dbo_SalesPlanningDirect</TableID>
+              <ColumnID>QuantityQuota</ColumnID>
+            </Source>
+          </Source>
+          <FormatString>#,##0;-#,##0</FormatString>
+        </Measure>
+        <Measure dwd:design-time-name="3a4815f6-3802-4cd2-88fa-0fa92d6a1c71">
+          <ID>Unit Price Quota</ID>
+          <Name>Unit Price Quota</Name>
+          <Source dwd:design-time-name="a4dd5d8c-1215-4234-b6c2-496b916579ba">
+            <DataType>Currency</DataType>
+            <NullProcessing>Preserve</NullProcessing>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="4d4b1f94-a746-4170-a637-83c3f5451d74">
+              <TableID>dbo_SalesPlanningDirect</TableID>
+              <ColumnID>UnitPriceQuota</ColumnID>
+            </Source>
+          </Source>
+          <FormatString>#,##0.00;-#,##0.00</FormatString>
+        </Measure>
+        <Measure dwd:design-time-name="aaa666e4-5e43-42ac-b328-1bd68e316bd7">
+          <ID>Ext Sales Amount</ID>
+          <Name>Projected Sales Amount</Name>
+          <Source dwd:design-time-name="b0a4ccbb-aaee-4d45-930a-cb5708dd3948">
+            <DataType>Currency</DataType>
+            <NullProcessing>Preserve</NullProcessing>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="58e3f36c-cbdb-4d3e-b20b-9408c17af95a">
+              <TableID>dbo_SalesPlanningDirect</TableID>
+              <ColumnID>ExtPriceQuota</ColumnID>
+            </Source>
+          </Source>
+          <FormatString>#,##0;-#,##0</FormatString>
+        </Measure>
+        <Measure dwd:design-time-name="06d9259a-6f33-4305-af98-67fb9d46ef9a">
+          <ID>Unit Cost Quota</ID>
+          <Name>Unit Cost Quota</Name>
+          <Source dwd:design-time-name="ea6acae4-62fc-4d07-a1f8-f36a4fddcd7e">
+            <DataType>Currency</DataType>
+            <NullProcessing>Preserve</NullProcessing>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="52b26029-b9c7-4446-a7e8-e0aacf323628">
+              <TableID>dbo_SalesPlanningDirect</TableID>
+              <ColumnID>UnitCostQuota</ColumnID>
+            </Source>
+          </Source>
+          <FormatString>#,##0.00;-#,##0.00</FormatString>
+        </Measure>
+        <Measure dwd:design-time-name="6990bbc7-a396-4da3-92ab-69e4a20a7218">
+          <ID>Ext Cost Quota</ID>
+          <Name>Projected Cost Amount</Name>
+          <Source dwd:design-time-name="d7da62e6-80d9-4c3c-a12c-d9a9dcc6d686">
+            <DataType>Currency</DataType>
+            <NullProcessing>Preserve</NullProcessing>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="babaa11f-ebd8-4044-8e5f-386f9085abef">
+              <TableID>dbo_SalesPlanningDirect</TableID>
+              <ColumnID>ExtCostQuota</ColumnID>
+            </Source>
+          </Source>
+          <FormatString>#,##0;-#,##0</FormatString>
+        </Measure>
+      </Measures>
+      <StorageMode>Molap</StorageMode>
+      <EstimatedRows>100000</EstimatedRows>
+      <ProcessingMode>Regular</ProcessingMode>
+      <Dimensions>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="252ec114-53aa-4094-98bc-d62fa49eae7d">
+          <CubeDimensionID>Period</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="aedcdd32-418f-49e5-ab3f-e92f5e09fef4">
+              <AttributeID>Period Key</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="1c5baab1-3a84-49e3-a0e5-8d6d5bd11d32">
+                  <DataType>Integer</DataType>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="9c6c5881-93c6-42f3-a305-5fd4129a8542">
+                    <TableID>dbo_SalesPlanningDirect</TableID>
+                    <ColumnID>PeriodKey</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="a9de4417-0e20-4d3f-ab1e-70f9d8824ba7">
+          <CubeDimensionID>Territory</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="fa96fa58-e04c-46c4-84ef-f8ebee5326cb">
+              <AttributeID>Region</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="050f8e54-3624-41fe-ac54-d86fb8cdb67e">
+                  <DataType>Integer</DataType>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="4b7a2d2f-4233-4153-8fa1-e77e01b241bc">
+                    <TableID>dbo_SalesPlanningDirect</TableID>
+                    <ColumnID>TerritoryKey</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="e7420057-4fd2-4410-96f4-f17f4ede7607">
+          <CubeDimensionID>Product Line</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="529d109b-b7e0-4f38-986e-e79d70197420">
+              <AttributeID>Product Line</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="1591956f-e278-4578-b14f-342f54623195">
+                  <DataType>Integer</DataType>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="837b1a09-23ff-47f4-8e5d-3678a814ed2a">
+                    <TableID>dbo_SalesPlanningDirect</TableID>
+                    <ColumnID>ProductLineKey</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+      </Dimensions>
+      <Partitions />
+      <AggregationDesigns />
+    </MeasureGroup>
+    <MeasureGroup dwd:design-time-name="36216f35-b384-4089-ac62-d61433198b18">
+      <ID>Head Count Planning</ID>
+      <Name>Head Count Planning</Name>
+      <CreatedTimestamp>0001-01-01T07:00:00Z</CreatedTimestamp>
+      <LastSchemaUpdate>0001-01-01T07:00:00Z</LastSchemaUpdate>
+      <LastProcessed>0001-01-01T07:00:00Z</LastProcessed>
+      <State>Unprocessed</State>
+      <Measures>
+        <Measure dwd:design-time-name="d9beeea3-ae49-456a-8c61-fe5f752a92b1">
+          <ID>Head Count</ID>
+          <Name>Head Count</Name>
+          <Source dwd:design-time-name="c88dd79b-6af2-4841-a47a-1d7a39e2231f">
+            <DataType>Integer</DataType>
+            <NullProcessing>Preserve</NullProcessing>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="c3db5d41-3388-49be-85f9-e7824f97665d">
+              <TableID>dbo_HeadCountPlanning</TableID>
+              <ColumnID>HeadCount</ColumnID>
+            </Source>
+          </Source>
+          <FormatString>#,##0;-#,##0</FormatString>
+        </Measure>
+      </Measures>
+      <StorageMode>Molap</StorageMode>
+      <ProcessingMode>Regular</ProcessingMode>
+      <Dimensions>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="3ba4c873-c45d-4020-b2f4-e2180ea8d647">
+          <CubeDimensionID>Period</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="ad833e87-1c01-4e71-ba23-3233e61dcf2d">
+              <AttributeID>Period Key</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="5fd7b052-9f7a-4931-93d1-d9faa8c51292">
+                  <DataType>Integer</DataType>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="9cc88c98-7f1f-40ae-b3fc-3e2c11de0d7c">
+                    <TableID>dbo_HeadCountPlanning</TableID>
+                    <ColumnID>PeriodKey</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="c93ac05c-bfa4-4e59-8650-618af47e7bf3">
+          <CubeDimensionID>Territory</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="9c5208d5-ce55-4d6a-8172-9324e27eade9">
+              <AttributeID>Region</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="c4f2b79a-744f-4676-b6ba-52c81de7a87f">
+                  <DataType>Integer</DataType>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="d69ad5ba-a3e6-44ae-b4af-213d03f8b918">
+                    <TableID>dbo_HeadCountPlanning</TableID>
+                    <ColumnID>TerritoryKey</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+      </Dimensions>
+      <Partitions />
+    </MeasureGroup>
+    <MeasureGroup dwd:design-time-name="87248805-fffa-407c-a23f-bcea23141577">
+      <ID>Seasonality Planning</ID>
+      <Name>Seasonality Planning</Name>
+      <CreatedTimestamp>0001-01-01T07:00:00Z</CreatedTimestamp>
+      <LastSchemaUpdate>0001-01-01T07:00:00Z</LastSchemaUpdate>
+      <LastProcessed>0001-01-01T07:00:00Z</LastProcessed>
+      <State>Unprocessed</State>
+      <Measures>
+        <Measure dwd:design-time-name="95a18b49-1884-4d91-ba14-0d3ea916a2ff">
+          <ID>Seasonality Value</ID>
+          <Name>Seasonality Value</Name>
+          <Source dwd:design-time-name="fcb7d2bf-ee83-4247-9938-3e1ab8af12bc">
+            <DataType>Integer</DataType>
+            <NullProcessing>Preserve</NullProcessing>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="0d9f0980-37f1-4645-901d-e323bb68ad44">
+              <TableID>dbo_SeasonalityPlanning</TableID>
+              <ColumnID>SeasonalityValue</ColumnID>
+            </Source>
+          </Source>
+          <FormatString>#,##0;-#,##0</FormatString>
+        </Measure>
+      </Measures>
+      <StorageMode>Molap</StorageMode>
+      <ProcessingMode>Regular</ProcessingMode>
+      <Dimensions>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="00e2b1a4-94fa-4fdf-ab9c-d5fddf620ce9">
+          <CubeDimensionID>Period</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="76339c77-e94f-4f5e-a0dd-530e335a6542">
+              <AttributeID>Period Key</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="2bfd60ee-0ee6-4e2d-a573-d9ae92c9e452">
+                  <DataType>Integer</DataType>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="0ed20d97-2144-44f9-b8c0-5e993c3260dd">
+                    <TableID>dbo_SeasonalityPlanning</TableID>
+                    <ColumnID>PeriodKey</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+      </Dimensions>
+      <Partitions />
+    </MeasureGroup>
+  </MeasureGroups>
+  <Source dwd:design-time-name="b638e243-22c8-414a-84b8-7ab7b06b5fed">
+    <DataSourceViewID>planning_view</DataSourceViewID>
+  </Source>
+  <MdxScripts>
+    <MdxScript dwd:design-time-name="1a83285b-f80f-410c-9543-0c10e889a568">
+      <ID>MdxScript</ID>
+      <Name>MdxScript</Name>
+      <CreatedTimestamp>0001-01-01T07:00:00Z</CreatedTimestamp>
+      <LastSchemaUpdate>0001-01-01T07:00:00Z</LastSchemaUpdate>
+      <Commands>
+        <Command>
+          <Text>calculate;
+
+// define sales extension rolled up from leaf level
+scope (Leaves(),[Measures].[Projected Sales Amount]);            
+  this = [Measures].[Quantity Quota] * [Measures].[Unit Price Quota];            
+end scope;  
+ 
+// define cost extension rolled up from leaf level
+scope (Leaves(),[Measures].[Projected Cost Amount]);            
+  this = [Measures].[Quantity Quota] * [Measures].[Unit Cost Quota];            
+end scope;  
+
+// define quantity colors
+scope ([Measures].[Quantity Quota]);
+    back_color(this)= 11206655;   /*R=255, G=255, B=170*/
+end scope;  
+
+// define unit price quota colors
+scope ([Measures].[Unit Price Quota]);                 
+    back_color(this)=case 
+                        when IsLeaf([Period].[YQM].CurrentMember) and
+                             IsLeaf([Product Line].[Product Line].CurrentMember) and
+                             IsLeaf([Territory].[Territories].CurrentMember)
+                        then 11206655 /*R=255, G=255, B=170*/
+                        else 16777215 /*White*/
+                     end;           
+end scope;  
+
+// define unit price value at non-leaf levels
+scope ([Measures].[Unit Price Quota]);                 
+    this=case 
+            when IsLeaf([Period].[YQM].CurrentMember) and
+                 IsLeaf([Product Line].[Product Line].CurrentMember) and
+                 IsLeaf([Territory].[Territories].CurrentMember)
+             then [Measures].[Unit Price Quota]
+             else sum([Measures].[Projected Sales Amount])
+                  /
+                  sum([Measures].[Quantity Quota])
+          end;           
+end scope;  
+
+// define unit cost quota colors
+scope ([Measures].[Unit cost Quota]);                 
+    back_color(this)=case 
+                        when IsLeaf([Period].[YQM].CurrentMember) and
+                             IsLeaf([Product Line].[Product Line].CurrentMember) and
+                             IsLeaf([Territory].[Territories].CurrentMember)
+                        then 11206655 /*R=255, G=255, B=170*/
+                        else 16777215 /*White*/
+                     end;  
+end scope;  
+
+
+// define unit price value at non-leaf levels
+scope ([Measures].[Unit Cost Quota]);                 
+    this=case 
+            when IsLeaf([Period].[YQM].CurrentMember) and
+                 IsLeaf([Product Line].[Product Line].CurrentMember) and
+                 IsLeaf([Territory].[Territories].CurrentMember)
+             then [Measures].[Unit Cost Quota]
+             else sum([Measures].[Projected Cost Amount])
+                  /
+                  sum([Measures].[Quantity Quota])
+          end;           
+end scope;              
+
+
+
+// get last non-empty for semi-additive
+scope ([Measures].[Head Count]);                 
+    this=case 
+            when IsLeaf([Period].[YQM].CurrentMember) and
+                 IsLeaf([Territory].[Territories].CurrentMember)
+             then [Measures].[Head Count]
+             else sum
+                   (
+                    Tail
+                     (
+                       Descendants([Period].[YQM].CurrentMember,[Period].[YQM].[Month])
+                     ),
+                    [Measures].[Head Count]
+                   )
+          end;  
+end scope;  
+
+// alter back color on headcount
+scope ([Measures].[Head Count]);              
+    back_color(this)=case 
+                        when IsLeaf([Period].[YQM].CurrentMember) and
+                             IsLeaf([Territory].[Territories].CurrentMember)
+                        then 11206655 /*R=255, G=255, B=170*/
+                        else 16777215 /*White*/
+                     end;           
+end scope;  
+
+
+
+// alter back color on seasonality
+scope ([Measures].[Seasonality Value]);              
+    back_color(this)=case
+                        when IsLeaf([Period].[YQM].CurrentMember)
+                        then 11206655 /*R=255, G=255, B=170*/
+                        else 16777215 /*White*/
+                     end;           
+end scope;  
+
+
+
+
+CREATE MEMBER CURRENTCUBE.[Measures].[Unit Margin $]
+ AS [Measures].[Unit Price Quota]-[Measures].[Unit Cost Quota], 
+FORMAT_STRING = "#,##0.00;-#,##0.00", 
+VISIBLE = 1 ,  
+ASSOCIATED_MEASURE_GROUP = 'Gross Profit Planning';        
+
+CREATE MEMBER CURRENTCUBE.[Measures].[Unit Margin %]
+ AS [Measures].[Unit Margin $]/[Measures].[Unit Price Quota], 
+FORMAT_STRING = "#,##0.0 %;-#,##0.0 %", 
+BACK_COLOR = case
+    when [Unit Margin %]&gt;0.4 then 32768 /*Green*/
+    when [Unit Margin %]&lt;0.4 then 255 /*Red*/
+    else 16777215 /*White*/
+end, 
+FORE_COLOR = case
+    when [Unit Margin %]&gt;0.4 then 16777215 /*White*/
+    when [Unit Margin %]&lt;0.4 then 16777215 /*White*/
+    else 0 /*Black*/
+end, 
+VISIBLE = 1 ,  ASSOCIATED_MEASURE_GROUP = 'Gross Profit Planning';        
+
+CREATE MEMBER CURRENTCUBE.[Measures].[Unit Markup %]
+ AS [Measures].[Unit Margin $]/[Measures].[Unit Cost Quota], 
+FORMAT_STRING = "#,##0.0 %;-#,##0.0 %", 
+VISIBLE = 1 ,  ASSOCIATED_MEASURE_GROUP = 'Gross Profit Planning';     
+
+CREATE MEMBER CURRENTCUBE.[Measures].[Projected Margin Amount]
+ AS [Measures].[Projected Sales Amount]-[Measures].[Projected Cost Amount], 
+FORMAT_STRING = "#,##0;-#,##0", 
+VISIBLE = 1 ,  ASSOCIATED_MEASURE_GROUP = 'Gross Profit Planning';  
+
+CREATE MEMBER CURRENTCUBE.[Measures].[Annual Seasonaility Total]
+ AS Sum
+ (
+    Ancestor([Period].[YQM].CURRENTMEMBER,[Period].[YQM].[Year]),
+    [Measures].[Seasonality Value]
+ ), 
+FORMAT_STRING = "#,##0;-#,##0", 
+NON_EMPTY_BEHAVIOR = { [Seasonality Value] }, 
+VISIBLE = 0 ,  ASSOCIATED_MEASURE_GROUP = 'Seasonality Planning'  ; 
+
+CREATE MEMBER CURRENTCUBE.[Measures].[Seasonality Percentage]
+ AS case
+    when IsEmpty([Measures].[Annual Seasonaility Total])
+    then "n/a"
+    when [Measures].[Annual Seasonaility Total]=0
+    then "n/a"
+    else [Measures].[Seasonality Value]/[Measures].[Annual Seasonaility Total]
+end, 
+FORMAT_STRING = "#,##0.0 %;-#,##0.0 %", 
+NON_EMPTY_BEHAVIOR = { [Seasonality Value] }, 
+VISIBLE = 1 ,  ASSOCIATED_MEASURE_GROUP = 'Seasonality Planning'  ; 
+
+CREATE MEMBER CURRENTCUBE.[Measures].[Seasonality Comparitive]
+ AS case
+    when IsEmpty([Measures].[Annual Seasonaility Total])
+    then "n/a"
+    when [Measures].[Annual Seasonaility Total]=0
+    then "n/a"
+    else [Measures].[Seasonality Value]/([Measures].[Annual Seasonaility Total]/12)
+end, 
+FORMAT_STRING = "#,##0.0 %;-#,##0.0 %", 
+NON_EMPTY_BEHAVIOR = { [Seasonality Value] }, 
+VISIBLE = 1 ,  ASSOCIATED_MEASURE_GROUP = 'Seasonality Planning'  ;
+
+</Text>
+        </Command>
+      </Commands>
+    </MdxScript>
+  </MdxScripts>
+</Cube>
