@@ -3,12 +3,11 @@
   <Name>planning source</Name>
   <CreatedTimestamp>0001-01-01T07:00:00Z</CreatedTimestamp>
   <LastSchemaUpdate>0001-01-01T07:00:00Z</LastSchemaUpdate>
-  <ConnectionString>Provider=SQLNCLI11.1;Data Source=localhost;Integrated Security=SSPI;Initial Catalog=demo_planning;Application Name=Slalom Planning Demo</ConnectionString>
-  <ConnectionStringSecurity>Unchanged</ConnectionStringSecurity>
+  <ConnectionString>Provider=SQLNCLI11.1;Data Source=localhost;Persist Security Info=True;Password=;User ID=;Initial Catalog=demo_planning;Application Name=mjfii was here</ConnectionString>
+  <ConnectionStringSecurity>PasswordRemoved</ConnectionStringSecurity>
   <ImpersonationInfo>
-    <ImpersonationMode>ImpersonateAccount</ImpersonationMode>
-    <Account>WORLDFOODS\mflanigan</Account>
-    <ImpersonationInfoSecurity>PasswordRemoved</ImpersonationInfoSecurity>
+    <ImpersonationMode>Default</ImpersonationMode>
+    <ImpersonationInfoSecurity>Unchanged</ImpersonationInfoSecurity>
   </ImpersonationInfo>
   <Timeout>PT0S</Timeout>
 </DataSource>

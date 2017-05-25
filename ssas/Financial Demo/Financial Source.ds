@@ -3,11 +3,10 @@
   <Name>Financial Source</Name>
   <CreatedTimestamp>0001-01-01T08:00:00Z</CreatedTimestamp>
   <LastSchemaUpdate>0001-01-01T08:00:00Z</LastSchemaUpdate>
-  <ConnectionString>Provider=SQLOLEDB.1;Data Source=mjfii\demo;Integrated Security=SSPI;Initial Catalog=demo_financial</ConnectionString>
-  <ConnectionStringSecurity>Unchanged</ConnectionStringSecurity>
+  <ConnectionString>Provider=SQLOLEDB.1;Data Source=localhost;Persist Security Info=True;Password=;User ID=;Initial Catalog=demo_financial</ConnectionString>
+  <ConnectionStringSecurity>PasswordRemoved</ConnectionStringSecurity>
   <ImpersonationInfo>
-    <ImpersonationMode>ImpersonateAccount</ImpersonationMode>
-    <Account>mick</Account>
+    <ImpersonationMode>Default</ImpersonationMode>
     <ImpersonationInfoSecurity>Unchanged</ImpersonationInfoSecurity>
   </ImpersonationInfo>
   <Timeout>PT0S</Timeout>
