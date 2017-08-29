@@ -26,7 +26,6 @@ If you do not want to run the below script, you can use the SSMS IDE, under the 
 # alter the three variables below as necessary
 $databases = @('demo_planning','demo_financial')
 $instance = "localhost"
-$catalog = "master"
 $dir = '...\GitHub\Analysis-Services-Demo\'
 
 # do not alter these variables
