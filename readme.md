@@ -16,28 +16,42 @@ set-executionpolicy remotesigned
 ## Installation
 
 The following Powershell script will build the database from the `bacpac` files in this repository.  Below are the only variables that [probably] should be altered:
-- `$databases`: the `bacpac` file names and in turn the database names,
-- `$bacpac`: the file location of the `bacpac` files (location of the forked repository), and
-- `$cnn`: the connection string of the instance where the databases should be installed.
+- `$databases`: the `bacpac` file names and, in turn, the database names,
+- `$instance`: the name of the SQL Server instance to deploy to, and
+- `$dir`: the location of the forked repository.
 
-If you do not want to run the below script, you can use the SSMS IDE, under the context `Databases\Import Data-tier Application`, and following the wizard.
+If you do not want to run the below script, you can use the SSMS IDE, under the context `Databases\Import Data-tier Application`, and following the wizard - note that you will need to manually configure the security if this method is used.
 
 ```powershell
 # alter the three variables below as necessary
 $databases = @('demo_planning','demo_financial')
-$bacpac = "...\GitHub\Analysis-Services-Demo\data\"
-$cnn = "Data Source=localhost;Initial Catalog=master;Integrated Security=True;Connection Timeout=0;"
+$instance = "localhost"
+$catalog = "master"
+$dir = '...\GitHub\Analysis-Services-Demo\'
+
+# do not alter these variables
+$bacpac = "$dir\data\"
+$loginSecurity = "$dir\security\login.sql"
+$userSecurity = "$dir\security\user.sql"
+$cnn = "Data Source=$instance;Initial Catalog=$master;Integrated Security=True;Connection Timeout=0;"
 
 # location / version dependent, make sure to check this
 Add-Type -path "C:\Program Files (x86)\Microsoft SQL Server\120\DAC\bin\Microsoft.SqlServer.Dac.dll" 
 
+# create the demo login
+Invoke-SqlCmd -InputFile $loginSecurity -ServerInstance $instance -Database "master" -Verbose
+
 # build the databases
 foreach ($database in $databases) {
     Write-Output "Building $database database..."
+    
     $load = [Microsoft.SqlServer.Dac.BacPackage]::Load("$bacpac$database.bacpac")
     $import = New-Object Microsoft.SqlServer.Dac.DacServices $cnn
     $import.ImportBacpac($load, $database)
     $load.Dispose()
+
+    Invoke-SqlCmd -InputFile $userSecurity -ServerInstance $instance -Database $database -Verbose
+
 }
 ```
 
