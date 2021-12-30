@@ -1,7 +1,7 @@
 [//]: # (need to add repository contents to the readme)
 
 # AnalysisServices-Functionality-Demo  
----  
+
 A fully functional demo of capabilities of SQL Server Analysis Services, including multidimensional, tabular, CPM / writeback, and various MDX / DAX examples.
 
 ## Prerequisites
