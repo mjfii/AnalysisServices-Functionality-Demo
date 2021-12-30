@@ -1,0 +1,4 @@
+tsql/*.sql linguist-language=TSQL
+*.tsql linguist-language=TSQL
+*.sql linguist-language=TSQL
+*.dim linguist-language=MDX
