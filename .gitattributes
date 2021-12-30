@@ -1,4 +1,5 @@
 tsql/*.sql linguist-language=TSQL
 *.tsql linguist-language=TSQL
 *.sql linguist-language=TSQL
-*.dim linguist-language=MDX
+*.dim linguist-language=Microsoft Visual Studio Solution
+*.cube linguist-language=Microsoft Visual Studio Solution
