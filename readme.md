@@ -117,7 +117,6 @@ foreach ($database in $databases) {
 
 Michael Flanigan  
 email: [mick.flanigan@gmail.com](mick.flanigan@gmail.com)  
-twitter: [@mjfii](https://twitter.com/mjfii)  
 
 ## Versioning
 
